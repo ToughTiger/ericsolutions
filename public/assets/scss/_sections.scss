@@ -1,0 +1,70 @@
+/*--------------------------------------------------------------
+# Global Sections
+--------------------------------------------------------------*/
+section,
+.section {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  padding: 60px 0;
+  scroll-margin-top: 77px;
+  overflow: clip;
+}
+
+/*--------------------------------------------------------------
+# Global Section Titles
+--------------------------------------------------------------*/
+.section-title {
+  padding-bottom: 60px;
+  position: relative;
+
+  h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: color-mix(in srgb, var(--default-color), transparent 50%);
+    position: relative;
+
+    &::after {
+      content: "";
+      width: 120px;
+      height: 1px;
+      display: inline-block;
+      background: var(--accent-color);
+      margin: 4px 10px;
+    }
+  }
+
+  p {
+    color: var(--heading-color);
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: var(--heading-font);
+  }
+}
+
+@import 'sections/hero';
+@import 'sections/about';
+@import 'sections/features';
+@import 'sections/call-to-action';
+@import 'sections/services';
+@import 'sections/portfolio';
+@import 'sections/testimonials';
+@import 'sections/pricing';
+@import 'sections/faq';
+@import 'sections/team';
+@import 'sections/recent-posts';
+@import 'sections/contact';
+@import 'sections/portfolio-details';
+@import 'sections/service-details';
+@import 'sections/starter-section';
+@import 'sections/blog-posts';
+@import 'sections/blog-pagination';
+@import 'sections/blog-details';
+@import 'sections/blog-comments';
+@import 'sections/comment-form';
