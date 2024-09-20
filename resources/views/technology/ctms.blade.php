@@ -145,7 +145,7 @@
 
 
         </section><!-- /Portfolio Details Section -->
-        <section class="container tech-feature">
+        <section class="container service-details section tech-feature">
             <h2 class="mt-lg-3 text-center tech-feature_heading">ERIC CTMS FEATURES:</h2>
             <p class="service_offer">
                 A Clinical Trial Management System (CTMS) is a software solution targeted for the Life
@@ -163,7 +163,7 @@
                 Product Overview
             </h2>
 
-            <ul class="services_offer">
+            <ul class="services_offe r">
                 <li><i class="bi bi-check-circle "></i> <span>Easy to use, flexible, customizable</span>
                 </li>
                 <li><i class="bi bi-check-circle "></i> <span>Runs in standard web browsers</span></li>
@@ -187,7 +187,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <h2 class="mb-3">Portfolio and Study Management</h2>
                     <hr>
-                    <ul>
+                    <ul class="tech_feature_table_list">
                         <li>Consolidated views across studies with data import support for investigators,
                             sites, and contacts
                         </li>

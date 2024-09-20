@@ -85,10 +85,10 @@
                 <li class="dropdown"><a href="/#technology"><span>Technology</span> <i
                             class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
-                        <li><a href="#"><span>Electronic Data Capture</span></a></li>
+                        <li><a href="/edc"><span>Electronic Data Capture</span></a></li>
                         <li><a href="/ctms"><span>Clinical Trail Management Software</span></a></li>
-                        <li><a href="#"><span>Electronic Trail Master File</span></a></li>
-                        <li><a href="#"><span>Interactive Response technology</span></a></li>
+                        <li><a href="/etmf_tech"><span>Electronic Trail Master File</span></a></li>
+                        <li><a href="/irt"><span>Interactive Response technology</span></a></li>
 
 
                     </ul>

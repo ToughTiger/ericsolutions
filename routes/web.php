@@ -38,6 +38,7 @@ route::get('/cookies',[IndexController::class,'cookies']);
 route::get('/edc',[TechnologyController::class,'edc']);
 Route::get('/etmf_tech',[TechnologyController::class,'etmf_tech']);
 Route::get('/ctms',[TechnologyController::class,'ctms']);
+Route::get('/irt',[TechnologyController::class,'irt']);
 
 
 

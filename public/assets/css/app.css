@@ -101,7 +101,7 @@ tech_feature h2 {
 
 }
 .tech_feature_table {
-    border:solid 2px #3535da;
+    border-top:solid 2px #3535da;
     padding: 1rem 2rem;
     text-align: justify;
 
@@ -114,4 +114,14 @@ tech_feature h2 {
     padding: 0;
 }
 
-
+.iwrs_features {
+    display: block;
+    margin: 1rem auto;
+}
+.iwrs_features span {
+    padding:1rem;
+    border: 1px solid #3535da;
+    margin: 0 1rem;
+    padding: 0 1rem;
+    background: #18af3c;
+}

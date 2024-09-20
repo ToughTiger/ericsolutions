@@ -5,7 +5,7 @@
         <!-- Page Title -->
         <div class="page-title dark-background">
             <div class="container position-relative">
-                <h1>ERIC’s electronic data capture </h1>
+                <h1>ERIC Interactive Response Technology (IRT)</h1>
                 {{--                <p>Our core competency, project management includes comprehensive and consistent processes, which conform to global regulatory requirements. From start-up to completion, performance is monitored and measured against contractual timelines and project costs are tracked to ensure adherence to agreed budgets</p>--}}
                 {{--                <nav class="breadcrumbs">--}}
                 {{--                    <ol>--}}
@@ -26,84 +26,90 @@
                         <div class="portfolio-description">
 
                             <p>
-                                <strong>Eric</strong>Eric Solutions offers Regulatory and GDPR compliant technologies with GenAI enhancements.
+                                ERIC Interactive Response Technology (IRT), offers Interactive Web Response System.
                             </p>
                             <p>
-                                ERIC’s electronic data capture (EDC) makes it easier to capture your trial data and integrate it seamlessly with other data in your clinical trial ecosystem. ERIC EDC has one of the shortest build time, with more than 90% of our studies being deployed within the first 3 weeks.
+                                It is a full fledged RTSM (Randomization and Trial Supply Management) solution that tracks your product throughout the entire clinical trial (including dispensing!). The IWRS can be used in any type of clinical trial, including medical devices.
+                                As a simple tool that serves the purpose of randomize patients, it is a cost-effective alternative that can be used independently or in integration with EDC. The optional stock management module can be used to manage the location of the clinical trial medication or medical device.
+
                             </p>
 
 
                         </div>
-                        <h3>Capture and Re-use Research Data from anywhere and anytime</h3>
-                        <p class="service_offer">
-                            Explore ERIC EDC, our most robust module, and how it can help you capture and manage all your study data in one centralized hub. And if your needs go beyond, easily layer in ERIC eConsent and ePRO to build a full ecosystem of research tools.
-                        </p>
+                        <h2>Features of Eric IRT</h2>
 
-                        <h3>
-                            Deploy Studies Faster
-                        </h3>
-                        <p>ERIC EDC is designed with usability in-mind for all, regardless of technical expertise.</p>
                         <ul class="services_offer">
-                            <li><i class="bi bi-check-circle "></i> <span>Build advanced eCRFs in minutes.</span></li>
-                            <li><i class="bi bi-check-circle "></i> <span>Deploy your study in as little as 3 weeks.</span></li>
-                            <li><i class="bi bi-check-circle "></i> <span>Navigate study complexities with best-in-class support.</span></li>
+                            <li><i class="bi bi-check-circle "></i> <span>Centralizes patient enrolment</span></li>
+                            <li><i class="bi bi-check-circle "></i> <span>Improves medication/medical device traceability</span></li>
+                            <li><i class="bi bi-check-circle "></i> <span>Instant email notifications when a subject is enrolled</span></li>
+                            <li><i class="bi bi-check-circle "></i> <span>Multiple Randomisation Algorithms: Central, site, stratified, Minimisation (Pocock-Simon)</span></li>
+                            <li><i class="bi bi-check-circle "></i> <span>21 CFR Part 11 Compliance</span></li>
+                            <li><i class="bi bi-check-circle "></i> <span>Include your study's custom randomization algorithm</span></li>
+                            <li><i class="bi bi-check-circle "></i> <span>Communication with external tools</span></li>
+                            <li><i class="bi bi-check-circle "></i> <span>With 24/7 availability of the service, randomization can occur any time, anywhere!</span></li>
 
                         </ul>
-                        <h3>
-                            Decentralized Data Integration
-                        </h3>
-                        <p>Connect and manage all trial components and integrations, in one place.</p>
-                        <ul class="services_offer">
-                            <li><i class="bi bi-check-circle "></i> <span>Integrate data from EHR, eCRF, ePRO/eCOA, laboratory, wearables, and other devices.</span>span></li>
-                            <li><i class="bi bi-check-circle "></i> <span>Work with any software or database in your clinical trial ecosystem with ERIC’s open API</span>span></li>
-                        </ul>
 
-                        <h3>
-                            Realtime Visibility
-                        </h3>
-                        <p>Monitor study progress and outcomes in real-time with ERIC’s study health dashboard and Customized Reports:</p>
-                        <ul class="services_offer">
-                            <li>Get an overview of study statistics as your studies are ongoing.</li>
-                            <li>Track record data entry progress and outstanding queries.</li>
-                            <li>View Verification Status (SDV) for Steps</li>
-                            <li>Eric introduces enhanced analytical dashboards</li>
+                        <div class="tab_pan container mt-3">
+                            <ul class="nav nav-tabs mb-3" role="tablist">
+                                <li class="nav-item"><a href="#iwrs" class="nav-link active" data-bs-toggle="tab">IWRS</a></li>
+                                <li class="nav-item"><a href="#stock_management" class="nav-link text-decoration-none" data-bs-toggle="tab">Stock Management </a></li>
+                                <li class="nav-item"><a href="#regulatory_compliance" class="nav-link text-decoration-none" data-bs-toggle="tab">Regulatory Compliance</a></li>
 
-                        </ul>
-                        <div class="feature">
-                            <h2 class="text-center">Features of ERIC EDC:</h2>
-                            <h3>Build Advanced eCRF quickly</h3>
-                            <ul class="services_offer">
-                                <li>Start with one of our pre-built eCRF templates.</li>
-                                <li>Customize your form with 21 different field types.</li>
-                                <li>Clone and re-use forms as you build more studies.</li>
 
                             </ul>
+                            <div class="tab-content">
+                                <div id="iwrs" class="container tab-pane active">
+                                    <h2>IWRS-Interactive Web Response System</h2>
+                                    <p>Simple and intutive. The IWRS will allow subjects to be enrolled in your clinical trail 24/7 at an affordable price.</p>
 
-                            <h3>Store Data Securely</h3>
-                            <ul class="services_offer">
-                                <li>Save study data in real-time.</li>
-                                <li>Store it automatically on certified, compliant servers in any country.</li>
-                                <li>Protect your data with 25-year data retention, field-level encryption, and two-factor authentication.</li>
+                                    <p>The IWRS can also communicate with other systems automatically including our ETC system , allow you to use ITClinical's IWRS tool independently
+                                    while maintaining a communication with an external vendor's tool</p>
 
-                            </ul>
+                                    <h2>Features</h2>
+                                    <ul class="services_offer">
+                                        <li><i class="bi bi-check-circle "></i> <span>Enroll Patients in the clinical Trail</span></li>
+                                        <li><i class="bi bi-check-circle "></i> <span>Export PDF/Spreadsheet reports </span></li>
+                                        <li><i class="bi bi-check-circle "></i> <span>Multi-language support </span></li>
+                                        <li><i class="bi bi-check-circle "></i> <span>Real time trail and site enrolment progress</span></li>
+                                        <li><i class="bi bi-check-circle "></i> <span>Email notification on randomisation</span></li>
 
+                                    </ul>
+                                </div>
+                                <div id="stock_management" class="container tab-pane">
+                                    <h2>Stock management</h2>
+                                    <p>The stock management is an optional module that allows you to register and track the trail stock by registering movement
+                                    (Shipments and returns) and see movement history in the locations involved in the clinical trail( Global and regional depots and investigational sites. </p>
+                                    <p>Optional features within this module include the registration of orders to manufactures, shipments/return PDF forms and location re-supply triggers.</p>
+                                    <h2>Features</h2>
+                                    <ul class="services_offer">
+                                        <li><i class="bi bi-check-circle "></i> <span>Locate Medications and devices</span></li>
+                                        <li><i class="bi bi-check-circle "></i> <span>View their location history </span></li>
+                                    </ul>
+                                </div>
+                                <div id="regulatory_compliance" class="container tab-pane">
+                                    <h2>Regulatory Compliance</h2>
+                                    <p>
+                                        By complying with regulatory requirements of electronic systems, it replaces paper based records
+                                        which greatly assists you to access the product information and records a long time after the trail is closed
+                                        while avoiding manual searches.
+                                    </p>
+                                    <p>
+                                        A flexible authentication and authorization system allows restricting access to the system and to the functionalities
+                                        each user can perform.
 
-                            <h3>Amend Studies with Less Risk</h3>
-                            <ul class="services_offer">
-                                <li>•	Simplify protocol amendments by using a tool that’s secure, trackable, and easy-to-validate.</li>
-                                <li>•	Easily create test environments for each of your subsequent studies.</li>
+                                    </p>
+                                    <h2>Features</h2>
+                                    <ul class="services_offer">
+                                        <li><i class="bi bi-check-circle "></i> <span>21 CFR para compliant</span></li>
+                                        <li><i class="bi bi-check-circle "></i> <span>Exportable audit trail </span></li>
+                                        <li><i class="bi bi-check-circle "></i> <span>Several user access levels </span></li>
+                                    </ul>
+                                </div>
 
-                            </ul>
-
-                            <h3>Achieve Global Compliance</h3>
-                            <ul class="services_offer">
-                                <li>Meet compliance requirements worldwide such as FDA CFR Part 11, GDPR (EU), ICH GCP (HIPAA, US), ISO 27001, and ISO 9001.</li>
-                                <li>Align with GCP, HL7 FHIR, and other regulatory guidelines</li>
-                                <li class="text-bold">Align with GCP, HL7 FHIR, and other regulatory guidelines</li>
-
-                            </ul>
-
+                            </div>
                         </div>
+
                     </div>
 
                     <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">

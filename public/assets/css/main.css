@@ -2568,6 +2568,6 @@ section,
 .tech-feature h1,h2, h3, i {
     color: #ef6603!important;
 }
-.tech-feature ul {
-    list-style: nonn;
+.tech_feature_table_list {
+    list-style: disc!important;
 }

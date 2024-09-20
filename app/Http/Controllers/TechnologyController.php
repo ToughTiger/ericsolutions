@@ -16,4 +16,8 @@ class TechnologyController extends Controller
         return view('technology/etmf');
     }
 
+    public function irt(){
+        return view('technology/irt');
+    }
+
 }
