@@ -97,10 +97,21 @@ image {
 
 
 }
+tech_feature h2 {
 
-/*.tech-feature h1, h2, h3,i {*/
-/*    color: #ef6603!important;*/
-/*}*/
-/*.tech-feature ul {*/
-/*    list-style: none;*/
-/*}*/
+}
+.tech_feature_table {
+    border:solid 2px #3535da;
+    padding: 1rem 2rem;
+    text-align: justify;
+
+}
+.tech_feature_table hr {
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #3535da;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
