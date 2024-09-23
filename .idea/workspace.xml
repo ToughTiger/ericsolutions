@@ -5,14 +5,332 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a68b87a-472b-4d42-a5c2-4607f8dca7d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Enums/PostStatusEnum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/blog/singleBlog.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TechnologyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TechnologyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Employee.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/Filament/AdminPanelProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Http/Controllers/EmployeeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Http/Controllers/IndexController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Http/Controllers/ServiceController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Http/Controllers/TechnologyController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Http/Controllers/TestimoniaController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Http/Controllers/VisitorController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Http/Middleware/PreventRequestsDuringMaintenance.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Http/Middleware/TrustHosts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Http/Middleware/ValidateSignature.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Mail/ContactEmail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Models/Employee.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Models/Service.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Models/Testimonia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Models/Visitor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Providers/Filament/AdminPanelProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/Eric_logo_Dense.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/Eric_no_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/Logo Animation.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/Sachin_Bidani.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/blog/blog-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/blog/blog-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/blog/blog-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/blog/blog-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/blog/blog-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/blog/blog-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/blog/blog-author-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/blog/blog-author-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/blog/blog-author-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/blog/blog-author-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/blog/blog-author-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/blog/blog-author.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/blog/blog-inside-post.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/blog/comments-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/blog/comments-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/blog/comments-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/blog/comments-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/blog/comments-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/blog/comments-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/logo-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/masonry-portfolio/masonry-portfolio-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/masonry-portfolio/masonry-portfolio-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/masonry-portfolio/masonry-portfolio-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/masonry-portfolio/masonry-portfolio-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/masonry-portfolio/masonry-portfolio-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/masonry-portfolio/masonry-portfolio-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/masonry-portfolio/masonry-portfolio-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/masonry-portfolio/masonry-portfolio-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/masonry-portfolio/masonry-portfolio-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/portfolio/app-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/portfolio/books-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/portfolio/branding-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/portfolio/product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/services.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/team/Deepak_prabhu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/team/Yessenia_Rincon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/team/kenneth_Duchin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/team/sachin-trans.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/team/sachin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/team/team-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/team/team-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/team/team-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/team/team-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/testimonials/testimonials-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/testimonials/testimonials-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/testimonials/testimonials-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/testimonials/testimonials-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/testimonials/testimonials-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/working-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/working-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/working-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/img/working-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/_sections.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/_widgets.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/layouts/_aos.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/layouts/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/layouts/_general.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/layouts/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/layouts/_navmenu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/layouts/_page-titles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/layouts/_preloader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/layouts/_scrolltop.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/sections/_about.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/sections/_blog-comments.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/sections/_blog-details.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/sections/_blog-pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/sections/_blog-posts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/sections/_call-to-action.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/sections/_comment-form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/sections/_contact.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/sections/_faq.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/sections/_features.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/sections/_hero.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/sections/_portfolio-details.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/sections/_portfolio.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/sections/_pricing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/sections/_recent-posts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/sections/_service-details.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/sections/_services.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/sections/_starter-section.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/sections/_team.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/sections/_testimonials.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/widgets/_blog-author.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/widgets/_categories.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/widgets/_recent-posts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/widgets/_search.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/scss/widgets/_tags.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/animate.css/animate.compat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/animate.css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/animate.css/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/aos/aos.cjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/aos/aos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/aos/aos.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/aos/aos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/aos/aos.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap-icons/bootstrap-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap-icons/bootstrap-icons.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap-icons/bootstrap-icons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap-icons/bootstrap-icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap-utilities.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap-utilities.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/css/prb.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/js/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/js/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/js/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/js/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/glightbox/css/glightbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/glightbox/css/glightbox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/glightbox/js/glightbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/glightbox/js/glightbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/isotope-layout/isotope.pkgd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/isotope-layout/isotope.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/php-email-form/php-email-form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/php-email-form/validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/swiper/swiper-bundle.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/swiper/swiper-bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/assets/vendor/swiper/swiper-bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/config/cors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/config/sanctum.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/database/migrations/2014_10_12_100000_create_password_reset_tokens_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/database/migrations/2024_09_13_121757_create_services_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/database/migrations/2024_09_13_121815_create_testimonias_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/database/migrations/2024_09_13_122059_create_employees_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/database/migrations/2024_09_13_122138_create_visitors_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/database/seeders/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/app/Enums/UserRoleEnum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/views/backup.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/views/components/footer.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/views/components/layout.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/views/components/mobile-nav.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/views/components/page_layout.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/views/contact.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/views/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/views/legal/cookies.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/views/legal/gdpr.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/views/legal/privacy_policy.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/views/legal/terms.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/blogPost.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/views/services.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/views/services/biostatistics.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/views/services/clinical_data.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/views/services/clinical_operation.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/views/services/data_management.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/views/services/etmf.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/views/services/medical_writing.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/views/services/pharmacovigilance.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/views/technology/ctms.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/views/technology/edc.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/views/technology/etmf.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/views/technology/irt.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/resources/views/test.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2024_09_13_122059_create_employees_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2024_09_13_122138_create_visitors_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backup.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/components/page_layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/page_layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/services/biostatistics.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services/biostatistics.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/services/clinical_data.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services/clinical_data.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/services/clinical_operation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services/clinical_operation.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/services/data_management.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services/data_management.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/services/etmf.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services/etmf.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/services/medical_writing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services/medical_writing.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/services/pharmacovigilance.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services/pharmacovigilance.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/technology/ctms.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/technology/ctms.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/technology/edc.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/technology/edc.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/technology/etmf.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/technology/etmf.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/technology/irt.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/technology/irt.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/test.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -150,35 +468,6 @@
       <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
       <path value="$PROJECT_DIR$/vendor/psr/log" />
       <path value="$PROJECT_DIR$/vendor/livewire/livewire" />
-      <path value="$PROJECT_DIR$/vendor/masterminds/html5" />
-      <path value="$PROJECT_DIR$/vendor/anourvalar/eloquent-serialize" />
-      <path value="$PROJECT_DIR$/vendor/psr/cache" />
-      <path value="$PROJECT_DIR$/vendor/symfony/html-sanitizer" />
-      <path value="$PROJECT_DIR$/vendor/league/uri-interfaces" />
-      <path value="$PROJECT_DIR$/vendor/league/csv" />
-      <path value="$PROJECT_DIR$/vendor/league/uri" />
-      <path value="$PROJECT_DIR$/vendor/spatie/invade" />
-      <path value="$PROJECT_DIR$/vendor/spatie/color" />
-      <path value="$PROJECT_DIR$/vendor/spatie/laravel-package-tools" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
-      <path value="$PROJECT_DIR$/vendor/openspout/openspout" />
-      <path value="$PROJECT_DIR$/vendor/danharrin/date-format-converter" />
-      <path value="$PROJECT_DIR$/vendor/danharrin/livewire-rate-limiting" />
-      <path value="$PROJECT_DIR$/vendor/ryangjchandler/blade-capture-directive" />
-      <path value="$PROJECT_DIR$/vendor/kirschbaum-development/eloquent-power-joins" />
-      <path value="$PROJECT_DIR$/vendor/filament/actions" />
-      <path value="$PROJECT_DIR$/vendor/filament/filament" />
-      <path value="$PROJECT_DIR$/vendor/filament/forms" />
-      <path value="$PROJECT_DIR$/vendor/filament/infolists" />
-      <path value="$PROJECT_DIR$/vendor/filament/notifications" />
-      <path value="$PROJECT_DIR$/vendor/filament/support" />
-      <path value="$PROJECT_DIR$/vendor/filament/tables" />
-      <path value="$PROJECT_DIR$/vendor/filament/widgets" />
-      <path value="$PROJECT_DIR$/vendor/blade-ui-kit/blade-heroicons" />
-      <path value="$PROJECT_DIR$/vendor/blade-ui-kit/blade-icons" />
       <path value="$PROJECT_DIR$/backup/backup/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/backup/backup/vendor/dflydev/dot-access-data" />
       <path value="$PROJECT_DIR$/backup/backup/vendor/laravel/tinker" />
@@ -321,6 +610,38 @@
       <path value="$PROJECT_DIR$/backup/backup/vendor/theseer/tokenizer" />
       <path value="$PROJECT_DIR$/backup/backup/vendor/symfony/service-contracts" />
       <path value="$PROJECT_DIR$/backup/backup/vendor/filament/actions" />
+      <path value="$PROJECT_DIR$/vendor/laravel/breeze" />
+      <path value="$PROJECT_DIR$/vendor/masterminds/html5" />
+      <path value="$PROJECT_DIR$/vendor/danharrin/date-format-converter" />
+      <path value="$PROJECT_DIR$/vendor/anourvalar/eloquent-serialize" />
+      <path value="$PROJECT_DIR$/vendor/danharrin/livewire-rate-limiting" />
+      <path value="$PROJECT_DIR$/vendor/ryangjchandler/blade-capture-directive" />
+      <path value="$PROJECT_DIR$/vendor/kirschbaum-development/eloquent-power-joins" />
+      <path value="$PROJECT_DIR$/vendor/league/uri-interfaces" />
+      <path value="$PROJECT_DIR$/vendor/league/uri" />
+      <path value="$PROJECT_DIR$/vendor/league/csv" />
+      <path value="$PROJECT_DIR$/vendor/openspout/openspout" />
+      <path value="$PROJECT_DIR$/vendor/filament/actions" />
+      <path value="$PROJECT_DIR$/vendor/filament/forms" />
+      <path value="$PROJECT_DIR$/vendor/filament/filament" />
+      <path value="$PROJECT_DIR$/vendor/filament/notifications" />
+      <path value="$PROJECT_DIR$/vendor/filament/infolists" />
+      <path value="$PROJECT_DIR$/vendor/filament/tables" />
+      <path value="$PROJECT_DIR$/vendor/filament/support" />
+      <path value="$PROJECT_DIR$/vendor/filament/widgets" />
+      <path value="$PROJECT_DIR$/vendor/spatie/color" />
+      <path value="$PROJECT_DIR$/vendor/spatie/invade" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-package-tools" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/vendor/symfony/html-sanitizer" />
+      <path value="$PROJECT_DIR$/vendor/blade-ui-kit/blade-heroicons" />
+      <path value="$PROJECT_DIR$/vendor/blade-ui-kit/blade-icons" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-permission" />
+      <path value="$PROJECT_DIR$/vendor/bezhansalleh/filament-shield" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -410,7 +731,15 @@
       <workItem from="1726759575146" duration="9028000" />
       <workItem from="1726793316924" duration="111000" />
       <workItem from="1726838539680" duration="6783000" />
-      <workItem from="1726851112772" duration="358000" />
+      <workItem from="1726851112772" duration="1619000" />
+      <workItem from="1726901625576" duration="19876000" />
+      <workItem from="1726937955240" duration="6122000" />
+      <workItem from="1726964419921" duration="5298000" />
+      <workItem from="1726997220731" duration="8796000" />
+      <workItem from="1727014562604" duration="5893000" />
+      <workItem from="1727046569111" duration="5171000" />
+      <workItem from="1727095718149" duration="602000" />
+      <workItem from="1727108787154" duration="3478000" />
     </task>
     <servers />
   </component>

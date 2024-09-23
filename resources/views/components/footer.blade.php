@@ -9,6 +9,7 @@
 
                     <p>621 E Tropical Way Plantation FL 33317</p>
                     <p>Tel: +1-786-636-5556</p>
+                    <p>Email: Info@ericsolutions.com</p>
                 </div>
                 {{--    Address Div Ends        --}}
                 {{--   company Div starts--}}

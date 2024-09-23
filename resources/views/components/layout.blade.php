@@ -35,7 +35,7 @@
     <link href="{{URL::asset('assets/css/main.css')}}" rel="stylesheet">
 
 
-{{--    @vite('resources/css/app.css')--}}
+    @vite('resources/css/app.css')
     <!-- =======================================================
     * Template Name: Selecao
     * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
@@ -73,10 +73,10 @@
                             class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
                         <li><a href="/clinical_operation"><span>Clinical Operation & Project Management</span></a></li>
-                        <li><a href="/data_management"><span>Data Management</span></a></li>
                         <li><a href="/biostatistics"><span>Biostatistics</span></a></li>
                         <li><a href="/pharmacovigilance"><span>Pharmacovigilance</span></a></li>
-                        <li><a href="/clinical_data"><span>Clinical Data Standerd</span></a></li>
+                        <li><a href="/clinical_data"><span>Clinical Data Standard</span></a></li>
+                        <li><a href="/data_management"><span>Data Management</span></a></li>
                         <li><a href="/medical_writing"><span>Medical Writing</span></a></li>
                         <li><a href="/etmf"><span>eTMF Services</span></a></li>
 

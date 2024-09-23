@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\IndexController;
+use App\Http\Controllers\PostController;
+use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\TechnologyController;
 use Illuminate\Support\Facades\Route;
@@ -19,6 +21,18 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+});
+
+require __DIR__.'/auth.php';
 
 Route::get('/clinical_operation',[ServiceController::class,'clinical_operation']);
 Route::get('/biostatistics',[ServiceController::class,'biostatistics']);
@@ -40,7 +54,6 @@ Route::get('/etmf_tech',[TechnologyController::class,'etmf_tech']);
 Route::get('/ctms',[TechnologyController::class,'ctms']);
 Route::get('/irt',[TechnologyController::class,'irt']);
 
+//Post Routes
 
-
-Route::get('/services/{id}',[ServiceController::class,'findById']);
-
+route::get('/posts',[PostController::class,'index']);

@@ -9,7 +9,7 @@
                 <div class="carousel-container">
                     <h2 class="animate__animated animate__fadeInDown">One Stop Solution</h2>
                     <p class="animate__animated animate__fadeInUp">
-                        Eric Offers both services and Proprietary Technologies. Less Vendor Management means Less Risk of Operations.</p>
+                        Eric Offers both Services and Proprietary Technologies. Less Vendor Management means Less Risk of Operations.</p>
                     <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
                 </div>
             </div>
@@ -27,8 +27,7 @@
             <div class="carousel-item">
                 <div class="carousel-container">
                     <h2 class="animate__animated animate__fadeInDown">Quality Optimization</h2>
-                    <p class="animate__animated animate__fadeInUp">Highly qualified team offers dedicated services to each project
-                        4.	Regulatory Compliant Technologies enhanced by GenAI capabilities
+                    <p class="animate__animated animate__fadeInUp">Highly qualified team offers dedicated services to each project. Regulatory Compliant Technologies enhanced by GenAI capabilities
                         .</p>
                     <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
                 </div>
