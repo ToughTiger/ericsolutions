@@ -22,7 +22,8 @@ return new class extends Migration
             $table->string('image')->nullable();
             $table->string('alt');
             $table->boolean('is_featured')->default(false);
-            $table->enum('status', ['draft', 'published'])->default('draft');
+            $table->boolean('is_verified')->default(false);
+            $table->boolean('is_published')->default(false);
             $table->timestamp('published_at')->nullable();
             $table->timestamps();
         });

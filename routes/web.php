@@ -1,9 +1,11 @@
 <?php
 
 use App\Http\Controllers\IndexController;
+use App\Http\Controllers\MapController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\TagController;
 use App\Http\Controllers\TechnologyController;
 use Illuminate\Support\Facades\Route;
 
@@ -57,3 +59,6 @@ Route::get('/irt',[TechnologyController::class,'irt']);
 //Post Routes
 
 route::get('/posts',[PostController::class,'index']);
+route::get('/posts/{id}',[PostController::class,'singlePost']);
+
+//route::get('/tags',[TagController::class,'index']);

@@ -24,15 +24,15 @@
              @foreach($posts as $post)
                     <div class="col-lg-4">
                         <article>
-{{--    @dd($post)--}}
+{{--    @dd($posts);--}}
                             <div class="post-img">
-                                <img src="{{$post->image}}" alt="{{ $post->alt }}" class="img-fluid">
+                                <img src="{{URL::asset('storage/'.$post->image)}}" alt="{{ $post->alt }}" class="img-fluid">
                             </div>
-
-                            <p class="post-category">Politics</p>
-
+                                @foreach($post->categories as $category)
+                            <p class="post-category">{{$category->name}}</p>
+                            @endforeach
                             <h2 class="title">
-                                <a href="blog-details.html">{{$post->title}}</a>
+                                <a href="/posts/{{$post->id}}">{{$post->title}}</a>
                             </h2>
 
                             <div class="d-flex align-items-center">

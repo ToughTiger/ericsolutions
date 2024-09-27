@@ -22,7 +22,7 @@ class UserResource extends Resource
     protected static ?string $model = User::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-user-group';
-    protected static ?string $navigationGroup = 'Users';
+    protected static ?string $navigationGroup = 'Admin';
 
     public static function form(Form $form): Form
     {
@@ -40,6 +40,7 @@ class UserResource extends Resource
                                 TextInput::make('password_confirmation'),
                             ])->columns(2)
                     ]),
+
                 Group::make()
                     ->schema([
                         Section::make('Permissions')

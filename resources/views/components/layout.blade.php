@@ -94,7 +94,7 @@
                     </ul>
                 </li>
 
-                <li><a href="#">Blog</a></li>
+                <li><a href="/posts">Blog</a></li>
 
                 <li><a href="#location">Contact</a></li>
             </ul>

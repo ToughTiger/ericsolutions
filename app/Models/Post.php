@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-use App\Enums\PostStatusEnum;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -19,7 +18,8 @@ class Post extends Model
         'image',
         'alt',
         'is_featured',
-        'status',
+        'is_published',
+        'is_verified',
         'published_at',
     ];
     public function author(): \Illuminate\Database\Eloquent\Relations\BelongsTo
@@ -48,7 +48,7 @@ class Post extends Model
 
 //    casting Enums
     protected $casts = [
-        'status' => PostStatusEnum::class,
+       //
         ];
 
 }

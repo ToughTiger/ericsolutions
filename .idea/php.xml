@@ -304,6 +304,8 @@
       <path value="$PROJECT_DIR$/vendor/blade-ui-kit/blade-icons" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-permission" />
       <path value="$PROJECT_DIR$/vendor/bezhansalleh/filament-shield" />
+      <path value="$PROJECT_DIR$/vendor/eightynine/filament-approvals" />
+      <path value="$PROJECT_DIR$/vendor/ringlesoft/laravel-process-approval" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />

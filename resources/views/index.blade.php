@@ -13,7 +13,9 @@
                     <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
                 </div>
             </div>
-
+<?php
+//dd(auth()->user()->is_admin);
+?>
             <!-- Slide 2 -->
             <div class="carousel-item">
                 <div class="carousel-container">
