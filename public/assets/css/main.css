@@ -157,7 +157,8 @@ h6 {
 }
 
 .header .logo img {
-    max-height: 32px;
+    max-height: 80px;
+    width: 100%;
     margin-right: 8px;
 }
 
@@ -2572,3 +2573,17 @@ section,
 .tech_feature_table_list {
     list-style: disc!important;
 }
+
+
+.feature h2{
+    font-size:2.5rem;
+    margin-top: 3rem;
+    color: #0a53be!important;
+}
+
+.feature li {
+    color: #858885 !important;
+    font-size: 1.1rem;
+
+}
+

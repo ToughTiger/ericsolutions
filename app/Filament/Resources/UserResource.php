@@ -6,6 +6,7 @@ use App\Filament\Resources\UserResource\Pages;
 use App\Filament\Resources\UserResource\RelationManagers;
 use App\Models\User;
 use Filament\Forms;
+use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Group;
 use Filament\Forms\Components\Section;
 use Filament\Forms\Components\TextInput;
@@ -36,22 +37,38 @@ class UserResource extends Resource
                                 TextInput::make('name'),
                                 TextInput::make('phone'),
                                 TextInput::make('email'),
+                                TextInput::make('social'),
                                 TextInput::make('password'),
                                 TextInput::make('password_confirmation'),
+                                Forms\Components\MarkdownEditor::make('bio')
+                                    ->columnSpan('full')
+                                ->helperText('Brief Bio of User for SEO'),
+                                TextInput::make('address'),
+                                TextInput::make('city'),
+                                TextInput::make('state'),
+                                TextInput::make('country'),
+                                TextInput::make('zipcode'),
+                                Forms\Components\Select::make('roles')
+                                    ->relationship('roles', 'name')
+                                    ->multiple()
+                                    ->preload()
+                                    ->searchable(),
                             ])->columns(2)
                     ]),
 
                 Group::make()
                     ->schema([
-                        Section::make('Permissions')
-                            ->description('Assign Permissions to User')
+                        Section::make('Image Upload')
+                            ->description('Upload photo User')
                             ->schema([
-                                Forms\Components\Select::make('roles')
-                                    ->relationship('roles', 'name')
-                                    ->multiple()
-                                    ->preload()
-                                    ->searchable()
-                            ])->columns(2)
+                                FileUpload::make('image_url')
+                                    ->directory('form-attachments')
+                                    ->preserveFilenames()
+                                    ->image()
+                                    ->imageEditor(),
+                                TextInput::make('alt')
+                                ->helperText('Enter the name of user'),
+                            ])
                     ]),
 
             ]);

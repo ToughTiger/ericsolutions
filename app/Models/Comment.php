@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Comment extends Model
 {
     use HasFactory;
-    protected $fillable = ['comment', 'parent_comment'];
+    protected $fillable = ['comment', 'parent_comment', 'post_id', 'user_id'];
 
     // Relationships
     public function post(): \Illuminate\Database\Eloquent\Relations\BelongsTo

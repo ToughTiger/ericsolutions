@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Livewire\Attribute;
 
 class Post extends Model
 {
@@ -22,13 +23,15 @@ class Post extends Model
         'is_verified',
         'published_at',
     ];
+
+
     public function author(): \Illuminate\Database\Eloquent\Relations\BelongsTo
     {
         return $this->belongsTo(User::class);
     }
     public function comments(): \Illuminate\Database\Eloquent\Relations\HasMany
     {
-        return $this->hasMany(Comment::class);
+        return $this->hasMany(Comment::class)->whereNull('parent_comment'  );
     }
 
     public function categories(): \Illuminate\Database\Eloquent\Relations\BelongsToMany

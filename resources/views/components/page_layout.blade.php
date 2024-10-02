@@ -33,8 +33,6 @@
 
     <link href="{{URL::asset('assets/css/main.css')}}" rel="stylesheet">
     <link href="{{URL::asset('assets/css/app.css')}}" rel="stylesheet">
-
-{{--    @vite('resources/css/app.css')--}}
     <!-- =======================================================
     * Template Name: Selecao
     * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
@@ -93,7 +91,13 @@
 
                     </ul>
                 </li>
-
+                <li class="dropdown"><a href="/#technology"><span>A I Technology</span> <i
+                            class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    <ul>
+                        <li><a href="/protocol"><span>Protocol Writer</span></a></li>
+                        <li><a href="/csr"><span>CSR Writer</span></a></li>
+                    </ul>
+                </li>
                 <li><a href="#">Blog</a></li>
 
                 <li><a href="#">Contact</a></li>

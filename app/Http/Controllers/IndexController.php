@@ -20,4 +20,11 @@ public function gdpr(){
     public function cookies(){
         return view('legal/cookies');
     }
+
+    public function csr(){
+        return view('aitech/csr');
+    }
+    public function protocol(){
+        return view('aitech/protocol');
+    }
 }

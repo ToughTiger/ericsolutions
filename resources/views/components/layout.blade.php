@@ -35,7 +35,7 @@
     <link href="{{URL::asset('assets/css/main.css')}}" rel="stylesheet">
 
 
-    @vite('resources/css/app.css')
+
     <!-- =======================================================
     * Template Name: Selecao
     * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
@@ -51,7 +51,7 @@
 
         <a href="#" class="logo d-flex align-items-center">
             <!-- Uncomment the line below if you also wish to use an image logo -->
-            <img src="{{URL::asset('assets/img/logo-light.png')}}" width="100%" alt="">
+            <img src="{{URL::asset('assets/img/logo-light.png')}}" height="200px" width="300px" alt="">
             {{--            <h1 class="sitename">Selecao</h1>--}}
         </a>
 
@@ -94,7 +94,16 @@
                     </ul>
                 </li>
 
+                <li class="dropdown"><a href="/#technology"><span>A I Technology</span> <i
+                            class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    <ul>
+                        <li><a href="/protocol"><span>Protocol Writer</span></a></li>
+                        <li><a href="/csr"><span>CSR Writer</span></a></li>
+                    </ul>
+                </li>
+
                 <li><a href="/posts">Blog</a></li>
+
 
                 <li><a href="#location">Contact</a></li>
             </ul>
@@ -104,12 +113,12 @@
     </div>
 </header>
 
-<main class="main">
+    <main class="main">
 
-    {{ $slot }}
+        {{ $slot }}
 
 
-</main>
+    </main>
 
 <!-- Vendor JS Files -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>

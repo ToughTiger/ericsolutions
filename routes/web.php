@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CommentController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\MapController;
 use App\Http\Controllers\PostController;
@@ -60,5 +61,11 @@ Route::get('/irt',[TechnologyController::class,'irt']);
 
 route::get('/posts',[PostController::class,'index']);
 route::get('/posts/{id}',[PostController::class,'singlePost']);
+
+
+route::post('/comments',[CommentController::class,'store']);
+
+route::get('/protocol',[IndexController::class,'protocol']);
+route::get('/csr',[IndexController::class,'csr']);
 
 //route::get('/tags',[TagController::class,'index']);

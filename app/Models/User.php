@@ -23,7 +23,16 @@ class User extends Authenticatable
         'name',
         'email',
         'phone',
+        'image_url',
+        'bio',
+        'social',
+        'address',
+        'city',
+        'state',
+        'country',
+        'zipcode',
         'password',
+        'is_admin',
     ];
 
     // Relationships

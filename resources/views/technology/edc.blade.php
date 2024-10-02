@@ -19,7 +19,7 @@
         <!-- Portfolio Details Section -->
         <section id="service_details" class="service-details section">
 
-            <div class="container" data-aos="fade-up">
+            <div class="container" data-aos="fade-up" id="cookieAccordion">
                 <div class="row justify-content-between gy-4 mt-4">
 
                     <div class="col-lg-8" data-aos="fade-up">
@@ -39,70 +39,161 @@
                             Explore ERIC EDC, our most robust module, and how it can help you capture and manage all your study data in one centralized hub. And if your needs go beyond, easily layer in ERIC eConsent and ePRO to build a full ecosystem of research tools.
                         </p>
 
-                        <h3>
-                            Deploy Studies Faster
-                        </h3>
-                        <p>ERIC EDC is designed with usability in-mind for all, regardless of technical expertise.</p>
-                        <ul class="services_offer">
-                            <li><i class="bi bi-check-circle "></i> <span>Build advanced eCRFs in minutes.</span></li>
-                            <li><i class="bi bi-check-circle "></i> <span>Deploy your study in as little as 3 weeks.</span></li>
-                            <li><i class="bi bi-check-circle "></i> <span>Navigate study complexities with best-in-class support.</span></li>
+                        <div class="accordion" id="cookieAccordion">
+                            <!-- Introduction -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="deployheading">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDeploy" aria-expanded="true" aria-controls="collapseDeploy">
+                                        <h3>Deploy Studies Faster</h3>
+                                    </button>
+                                </h2>
+                                <div id="collapseDeploy" class="accordion-collapse collapse show" aria-labelledby="deployheading" data-bs-parent="#cookieAccordion">
+                                    <div class="accordion-body">
+                                        <p>ERIC EDC is designed with usability in-mind for all, regardless of technical expertise.</p>
+                                        <div class="accordion-body">
 
-                        </ul>
-                        <h3>
-                            Decentralized Data Integration
-                        </h3>
-                        <p>Connect and manage all trial components and integrations, in one place.</p>
-                        <ul class="services_offer">
-                            <li><i class="bi bi-check-circle "></i> <span>Integrate data from EHR, eCRF, ePRO/eCOA, laboratory, wearables, and other devices.</span>span></li>
-                            <li><i class="bi bi-check-circle "></i> <span>Work with any software or database in your clinical trial ecosystem with ERIC’s open API</span>span></li>
-                        </ul>
+                                            <ul class="services_offer">
+                                                <li><i class="bi bi-check-circle "></i><span>Build advanced eCRFs in minutes.</span></li>
+                                                <li><i class="bi bi-check-circle "></i><span>Deploy your study in as little as 3 weeks.</span></li>
+                                                <li><i class="bi bi-check-circle "></i> <span>Navigate study complexities with best-in-class support.</span></li>
 
-                        <h3>
-                            Realtime Visibility
-                        </h3>
-                        <p>Monitor study progress and outcomes in real-time with ERIC’s study health dashboard and Customized Reports:</p>
-                        <ul class="services_offer">
-                            <li>Get an overview of study statistics as your studies are ongoing.</li>
-                            <li>Track record data entry progress and outstanding queries.</li>
-                            <li>View Verification Status (SDV) for Steps</li>
-                            <li>Eric introduces enhanced analytical dashboards</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-                        </ul>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="decentraliseHeading">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDecentralise" aria-expanded="true" aria-controls="collapseDecentralise">
+                                        <h3>Decentralized Data Integration</h3>
+                                    </button>
+                                </h2>
+                                <div id="collapseDecentralise" class="accordion-collapse collapse" aria-labelledby="decentraliseHeading" data-bs-parent="#cookieAccordion">
+                                    <div class="accordion-body">
+                                        <p>Connect and manage all trial components and integrations, in one place.</p>
+                                        <div class="accordion-body">
+                                            <ul class="services_offer">
+                                                <li><i class="bi bi-check-circle "></i> <span>Integrate data from EHR, eCRF, ePRO/eCOA, laboratory, wearables, and other devices.</span></li>
+                                                <li><i class="bi bi-check-circle "></i><span>Work with any software or database in your clinical trial ecosystem with ERIC’s open API</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="visibilityHeading">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVisibility" aria-expanded="true" aria-controls="collapseVisibility">
+                                        <h3> Realtime Visibility</h3>
+                                    </button>
+                                </h2>
+                                <div id="collapseVisibility" class="accordion-collapse collapse" aria-labelledby="collapseVisibility" data-bs-parent="#cookieAccordion">
+                                    <div class="accordion-body">
+                                        <p>Monitor study progress and outcomes in real-time with ERIC’s study health dashboard and Customized Reports</p>
+                                        <div class="accordion-body">
+                                            <ul class="services_offer">
+                                                <li><i class="bi bi-check-circle "></i><span>Get an overview of study statistics as your studies are ongoing.</span></li>
+                                                <li><i class="bi bi-check-circle "></i><span>Track record data entry progress and outstanding queries.</span></li>
+                                                <li><i class="bi bi-check-circle "></i><span>View Verification Status (SDV) for Steps</span></li>
+                                                <li><i class="bi bi-check-circle "></i><span>Eric introduces enhanced analytical dashboards</span></li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
                         <div class="feature">
-                            <h2 class="text-center">Features of ERIC EDC:</h2>
-                            <h3>Build Advanced eCRF quickly</h3>
-                            <ul class="services_offer">
-                                <li>Start with one of our pre-built eCRF templates.</li>
-                                <li>Customize your form with 21 different field types.</li>
-                                <li>Clone and re-use forms as you build more studies.</li>
+                            <h2 class="text-center">Features of ERIC EDC</h2>
 
-                            </ul>
+                            <div class="accordion" id="featureAccordion">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="buildheading">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBuild" aria-expanded="true" aria-controls="collapseBuild">
+                                            <h3>Build Advanced eCRF quickly</h3>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseBuild" class="accordion-collapse collapse show" aria-labelledby="buildheading" data-bs-parent="#featureAccordion">
+                                        <div class="accordion-body">
 
-                            <h3>Store Data Securely</h3>
-                            <ul class="services_offer">
-                                <li>Save study data in real-time.</li>
-                                <li>Store it automatically on certified, compliant servers in any country.</li>
-                                <li>Protect your data with 25-year data retention, field-level encryption, and two-factor authentication.</li>
+                                            <div class="accordion-body">
 
-                            </ul>
+                                                <ul class="services_offer">
+                                                    <li><i class="bi bi-check-circle "></i><span>Start with one of our pre-built eCRF templates.</span></li>
+                                                    <li><i class="bi bi-check-circle "></i><span>Customize your form with 21 different field types.</span></li>
+                                                    <li><i class="bi bi-check-circle "></i><span>Clone and re-use forms as you build more studies.</span></li>
 
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="secureHeading">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSecure" aria-expanded="true" aria-controls="collapseSecure">
+                                            <h3> Store Data Securely</h3>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSecure" class="accordion-collapse collapse" aria-labelledby="secureHeading" data-bs-parent="#featureAccordion">
+                                        <div class="accordion-body">
 
-                            <h3>Amend Studies with Less Risk</h3>
-                            <ul class="services_offer">
-                                <li>•	Simplify protocol amendments by using a tool that’s secure, trackable, and easy-to-validate.</li>
-                                <li>•	Easily create test environments for each of your subsequent studies.</li>
+                                            <div class="accordion-body">
+                                                <ul class="services_offer">
+                                                    <li><i class="bi bi-check-circle "></i><span>Save study data in real-time.</span></li>
+                                                    <li><i class="bi bi-check-circle "></i><span>Store it automatically on certified, compliant servers in any country.</span></li>
+                                                    <li><i class="bi bi-check-circle "></i><span>Protect your data with 25-year data retention, field-level encryption, and two-factor authentication.</span></li>
 
-                            </ul>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-                            <h3>Achieve Global Compliance</h3>
-                            <ul class="services_offer">
-                                <li>Meet compliance requirements worldwide such as FDA CFR Part 11, GDPR (EU), ICH GCP (HIPAA, US), ISO 27001, and ISO 9001.</li>
-                                <li>Align with GCP, HL7 FHIR, and other regulatory guidelines</li>
-                                <li class="text-bold">Align with GCP, HL7 FHIR, and other regulatory guidelines</li>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="amendHeading">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAmend" aria-expanded="true" aria-controls="collapseAmend">
+                                            <h3> Amend Studies with Less Risk</h3>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseAmend" class="accordion-collapse collapse" aria-labelledby="amendHeading" data-bs-parent="#featureAccordion">
+                                        <div class="accordion-body">
 
-                            </ul>
+                                            <div class="accordion-body">
+                                                <ul class="services_offer">
+                                                    <li><i class="bi bi-check-circle "></i><span>Simplify protocol amendments by using a tool that’s secure, trackable, and easy-to-validate.</span></li>
+                                                    <li><i class="bi bi-check-circle "></i><span>Easily create test environments for each of your subsequent studies.</span></li>
 
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="complianceHeading">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCompliance" aria-expanded="true" aria-controls="collapseCompliance">
+                                            <h3> Achieve Global Compliance</h3>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseCompliance" class="accordion-collapse collapse" aria-labelledby="complianceHeading" data-bs-parent="#featureAccordion">
+                                        <div class="accordion-body">
+
+                                            <div class="accordion-body">
+                                                <ul class="services_offer">
+                                                    <li><i class="bi bi-check-circle "></i><span>Meet compliance requirements worldwide such as FDA CFR Part 11, GDPR (EU), ICH GCP (HIPAA, US), ISO 27001, and ISO 9001.</span></li>
+                                                    <li><i class="bi bi-check-circle "></i><span>Align with GCP, HL7 FHIR, and other regulatory guidelines</span></li>
+                                                    <li><i class="bi bi-check-circle "></i><span> class="text-bold">Align with GCP, HL7 FHIR, and other regulatory guidelines</span></li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
 

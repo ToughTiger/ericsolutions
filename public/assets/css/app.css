@@ -1,8 +1,4 @@
 
-
-
-
-
 .footer_box {
     background: #1a1d20;
     width: 100%;
@@ -15,8 +11,8 @@ image {
     margin: 10px 10px;
 }
 .address .logo{
-    height:120px !important;
-    width: 250px;
+    height:75px !important;
+    width: 160px;
     margin-bottom: 20px;
 }
 .address p {
@@ -25,7 +21,7 @@ image {
     color: #fff;
 }
 .company_links {
-    margin: 4rem 3rem;
+    margin: 3rem 3rem;
 }
  .company_links a, h3 {
     color: #fff;
@@ -45,7 +41,7 @@ image {
 .read-more_gen {
     background: var(--accent-color);
     color: var(--contrast-color);
-    font-family: var(--heading-font);
+    font-family: var(--heading-font), serif;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 1px;

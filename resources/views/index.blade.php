@@ -34,7 +34,18 @@
                     <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
                 </div>
             </div>
-            <!-- Slide  -->
+            <!-- Slide 4 -->
+            <div class="carousel-item">
+                <div class="carousel-container">
+                    <h2 class="animate__animated animate__fadeInDown">Artificial Intelligence</h2>
+                    <p class="animate__animated animate__fadeInUp">
+                        Eric Solutions is heavily invested in Artificial Intelligence based Innovations.
+                        </p>
+                    <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                </div>
+            </div>
+
+            <!-- Slide 5 -->
             <div class="carousel-item">
                 <div class="carousel-container">
                     <h2 class="animate__animated animate__fadeInDown">Regulatory Compliance</h2>
@@ -169,7 +180,19 @@
                         <a href="#about" class="read-more_gen">Read More</a>
                     </div>
                 </div><!-- End Service Item -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="bi bi-clock" style="color: #f3268c;"></i>
+                        </div>
+                        <a href="/services" class="stretched-link">
+                            <h3>Data Management</h3>
+                        </a>
+                        <p>Eric Solutions is heavily invested in Artificial Intelligence based Innovations </p>
+                        <a href="/services" class="read-more_gen">Read More</a>
+                    </div>
 
+                </div><!-- End Service Item -->
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                     <div class="service-item position-relative">
                         <div class="icon">
@@ -214,8 +237,32 @@
                     </div>
 
                 </div><!-- End Service Item -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="bi bi-clock" style="color: #f3268c;"></i>
+                        </div>
+                        <a href="/services" class="stretched-link">
+                            <h3>Artificial Intelligence</h3>
+                        </a>
+                        <p>Eric Solutions is heavily invested in Artificial Intelligence based Innovations </p>
+                        <a href="/services" class="read-more_gen">Read More</a>
+                    </div>
+                    <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="bi bi-clock" style="color: #f3268c;"></i>
+                        </div>
+                        <a href="/services" class="stretched-link">
+                            <h3>Data Management</h3>
+                        </a>
+                        <p>Eric Solutions is heavily invested in Artificial Intelligence based Innovations </p>
+                        <a href="/services" class="read-more_gen">Read More</a>
+                    </div>
+                </div><!-- End Service Item -->
 
             </div>
+
+
 
         </div>
 

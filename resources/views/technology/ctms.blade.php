@@ -25,8 +25,7 @@
                     <div class="col-lg-8" data-aos="fade-up">
                         <div class="portfolio-description">
 
-
-                            <h2 class="text-success-emphasis">Scalable and Cost Effective Clinical Study Solutions</h2>
+                            <h2 >Scalable and Cost Effective Clinical Study Solutions</h2>
                             <p>
                                 ERIC CTMS was designed and developed to offer the benefits of a CTMS (Clinical Trial
                                 Management System) without the extensive upfront financial and resource commitments
@@ -35,73 +34,134 @@
                             </p>
                             <p>ERIC CTMS provides drug developers a scalable and cost effective solution to improve the
                                 management, performance and study startup costs associated with clinical trials.</p>
-                            <table class="table table-bordered table-dark table-hover table-responsive">
-                                <thead>
-                                <tr>
-                                    <th scope="col">Eric CTMS Features</th>
-                                    <th scope="col">Eric CTMS Platform</th>
-                                    <th scope="col">Eric CTMS Support</th>
+{{--Accordian--}}
+                            <div class="accordion" id="cookieAccordion">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTables">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTables" aria-expanded="false" aria-controls="collapseTables">
+                                           <h3>An Overview</h3>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTables" class="accordion-collapse collapse show" aria-labelledby="headingTables" data-bs-parent="#cookieAccordion">
+                                        <div class="accordion-body">
+                                            <table class="table table-bordered table-dark table-hover table-responsive">
+                                                <thead>
+                                                <tr>
+                                                    <th scope="col">Eric CTMS Features</th>
+                                                    <th scope="col">Eric CTMS Platform</th>
+                                                    <th scope="col">Eric CTMS Support</th>
 
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td>Easy to use, flexible, customizable</td>
-                                    <td>Supports 21 Part 11</td>
-                                    <td>A dedicated client manager provides pro-active support and guidance</td>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>Easy to use, flexible, customizable</td>
+                                                    <td>Supports 21 Part 11</td>
+                                                    <td>A dedicated client manager provides pro-active support and guidance</td>
 
-                                </tr>
-                                <tr>
-                                    <td>Runs in standard web browsers</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Runs in standard web browsers</td>
 
-                                    <td>Secure cloud hosting available from a validated hosting provider</td>
-                                    <td>All users receive technical support from our team of clinical software
-                                        experts.
-                                    </td>
+                                                    <td>Secure cloud hosting available from a validated hosting provider</td>
+                                                    <td>All users receive technical support from our team of clinical software
+                                                        experts.
+                                                    </td>
 
-                                </tr>
-                                <tr>
-                                    <td>Supports large, interdisciplinary global teams or small studies and teams</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Supports large, interdisciplinary global teams or small studies and teams</td>
 
-                                    <td>Designed by clinical experts, built by technology experts.</td>
-                                    <td>Online video training.</td>
-                                </tr>
-                                <tr>
-                                    <td>Portable for future studies</td>
-                                    <td>Backed by a quality system using validated software processes.</td>
-                                    <td>Customized training and professional services are available at additional
-                                        cost.
-                                    </td>
-
-
-                                </tr>
-                                <tr>
-                                    <td>Well defined user groups</td>
-                                    <td>Software-as-a-Service model includes monitoring and maintenance.</td>
-                                    <td>System enhancements and updates are included.</td>
-
-                                </tr>
-                                <tr>
-                                    <td>One system for both blinded and un-blinded user types</td>
-                                    <td></td>
-                                    <td></td>
+                                                    <td>Designed by clinical experts, built by technology experts.</td>
+                                                    <td>Online video training.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Portable for future studies</td>
+                                                    <td>Backed by a quality system using validated software processes.</td>
+                                                    <td>Customized training and professional services are available at additional
+                                                        cost.
+                                                    </td>
 
 
-                                </tr>
-                                <tr>
-                                    <td>Multi-study and portfolio management</td>
-                                    <td></td>
-                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Well defined user groups</td>
+                                                    <td>Software-as-a-Service model includes monitoring and maintenance.</td>
+                                                    <td>System enhancements and updates are included.</td>
+
+                                                </tr>
+                                                <tr>
+                                                    <td>One system for both blinded and un-blinded user types</td>
+                                                    <td></td>
+                                                    <td></td>
 
 
-                                </tr>
-                                <tr>
-                                    {{--                                    <td><a href="#" ><span class="read-more_gen">Read More</span></a></td>--}}
-                                    {{--                                    <td><a href="#" class="read-more_gen"><span>Read More</span></a></td>--}}
-                                    {{--                                    <td><a href="#" class="read-more_gen"><span>Read More</span></a></td>--}}
-                                </tr>
-                                </tbody>
-                            </table>
+                                                </tr>
+                                                <tr>
+                                                    <td>Multi-study and portfolio management</td>
+                                                    <td></td>
+                                                    <td></td>
+
+
+                                                </tr>
+                                                <tr>
+                                                    {{--                                    <td><a href="#" ><span class="read-more_gen">Read More</span></a></td>--}}
+                                                    {{--                                    <td><a href="#" class="read-more_gen"><span>Read More</span></a></td>--}}
+                                                    {{--                                    <td><a href="#" class="read-more_gen"><span>Read More</span></a></td>--}}
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingfeatures">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFeatures" aria-expanded="false" aria-controls="collapseFeatures">
+                                            <h3 class="text-center">Eric CTMS Features</h3>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFeatures" class="accordion-collapse collapse" aria-labelledby="headingfeatures" data-bs-parent="#cookieAccordion">
+                                        <div class="accordion-body">
+
+                                            <p class="service_offer">
+                                                A Clinical Trial Management System (CTMS) is a software solution targeted for the Life
+                                                Science industry. CTMS is commonly used to manage processes and
+                                                large amounts of data involved with clinical trial management and clinical study management
+                                            </p>
+                                            <p class="service_offer">A typical CTMS maintains and manages the planning, preparation,
+                                                performance, and reporting of clinical trials, with an emphasis on keeping up-to-date
+                                                contact information for participants and tracking deadlines and milestones such as those for
+                                                regulatory approval or the issue of progress reports. </p>
+                                            <p class="service_offer">In some cases, a CTMS may also provide data to a business intelligence
+                                                system, which acts as a digital dashboard for trial managers. </p>
+
+                                            <h2 class="tech-feature_heading">
+                                                Product Overview
+                                            </h2>
+
+                                            <ul class="services_offer">
+                                                <li><i class="bi bi-check-circle "></i> <span>Easy to use, flexible, customizable</span>
+                                                </li>
+                                                <li><i class="bi bi-check-circle "></i> <span>Runs in standard web browsers</span></li>
+                                                <li><i class="bi bi-check-circle "></i> <span>Supports large, interdisciplinary global teams or small studies and teams</span>
+                                                </li>
+                                                <li><i class="bi bi-check-circle "></i> <span>Portable for next study</span></li>
+                                                <li><i class="bi bi-check-circle "></i> <span>Information available 24/7</span></li>
+                                                <li><i class="bi bi-check-circle "></i> <span>Well defined user groups - includes internal and external users, multiple departments and external vendorsInformation available 24/7</span>
+                                                </li>
+                                                <li><i class="bi bi-check-circle "></i> <span>One system for both blinded and un-blinded user types</span>
+                                                </li>
+                                                <li><i class="bi bi-check-circle "></i> <span>Multi-study and portfolio management within one system</span>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
 
                         </div>
 
@@ -139,45 +199,14 @@
 
         </section><!-- /Portfolio Details Section -->
         <section class="container service-details section tech-feature">
-            <h2 class="mt-lg-3 text-center tech-feature_heading">ERIC CTMS FEATURES:</h2>
-            <p class="service_offer">
-                A Clinical Trial Management System (CTMS) is a software solution targeted for the Life
-                Science industry. CTMS is commonly used to manage processes and
-                large amounts of data involved with clinical trial management and clinical study management
-            </p>
-            <p class="service_offer">A typical CTMS maintains and manages the planning, preparation,
-                performance, and reporting of clinical trials, with an emphasis on keeping up-to-date
-                contact information for participants and tracking deadlines and milestones such as those for
-                regulatory approval or the issue of progress reports. </p>
-            <p class="service_offer">In some cases, a CTMS may also provide data to a business intelligence
-                system, which acts as a digital dashboard for trial managers. </p>
 
-            <h2 class="tech-feature_heading">
-                Product Overview
-            </h2>
-
-            <ul class="services_offer">
-                <li><i class="bi bi-check-circle "></i> <span>Easy to use, flexible, customizable</span>
-                </li>
-                <li><i class="bi bi-check-circle "></i> <span>Runs in standard web browsers</span></li>
-                <li><i class="bi bi-check-circle "></i> <span>Supports large, interdisciplinary global teams or small studies and teams</span>
-                </li>
-                <li><i class="bi bi-check-circle "></i> <span>Portable for next study</span></li>
-                <li><i class="bi bi-check-circle "></i> <span>Information available 24/7</span></li>
-                <li><i class="bi bi-check-circle "></i> <span>Well defined user groups - includes internal and external users, multiple departments and external vendorsInformation available 24/7</span>
-                </li>
-                <li><i class="bi bi-check-circle "></i> <span>One system for both blinded and un-blinded user types</span>
-                </li>
-                <li><i class="bi bi-check-circle "></i> <span>Multi-study and portfolio management within one system</span>
-                </li>
-
-            </ul>
             <h1 class="tech-feature_heading text-center">
                 Product Feature:
             </h1>
 
             <div class="row tech_feature_table">
                 <div class="col-lg-6 col-md-6 col-sm-6">
+
                     <h2 class="mb-3">Portfolio and Study Management</h2>
                     <hr>
                     <ul class="tech_feature_table_list">
