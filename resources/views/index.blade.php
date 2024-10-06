@@ -2,7 +2,7 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-        <div id="hero-carousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+        <div id="hero-carousel" data-bs-interval="3000" class="container carousel carousel-fade" data-bs-ride="carousel">
 
             <!-- Slide 1 -->
             <div class="carousel-item active">
@@ -136,10 +136,8 @@
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-item  position-relative">
-                        <div class="icon">
-                            <i class="bi bi-cash-stack" style="color: #0dcaf0;"></i>
-                        </div>
-                        <a href="/services" class="stretched-link">
+
+                        <a href="/clinical_operation" class="stretched-link">
                             <h3>CLINICAL OPERATIONS AND PROJECT MANAGEMENT</h3>
                         </a>
 
@@ -148,121 +146,104 @@
                         </p>
 
 
-                        <a href="/services" class="read-more_gen">Read More</a>
+                        <a href="/clinical_operation" class="read-more_gen">Read More</a>
                     </div>
                 </div><!-- End Service Item -->
-
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-item position-relative">
-                        <div class="icon">
-                            <i class="bi bi-calendar4-week" style="color: #fd7e14;"></i>
-                        </div>
-                        <a href="/services" class="stretched-link">
+
+                        <a href="/biostatistics" class="stretched-link">
                             <h3>BIOSTATISTICS</h3>
                         </a>
                         <p>ERIC is involved in the analysis of data from all clinical stages of clinical development with variety of designs
                             and statistical hypotheses, including interim analysis,
                             using adaptive, sequential and sample size adjustment designs.</p>
-                        <a href="/services" class="read-more_gen">Read More</a>
+                        <a href="/biostatistics" class="read-more_gen">Read More</a>
                     </div>
                 </div><!-- End Service Item -->
-
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-item position-relative">
-                        <div class="icon">
-                            <i class="bi bi-chat-text" style="color: #20c997;"></i>
-                        </div>
-                        <a href="/services" class="stretched-link">
+
+                        <a href="/pharmacovigilance" class="stretched-link">
+                            <h3>PHARMACOVIGILANCE</h3>
+                        </a>
+                        <p>ERIC caters to your changing pharmacovigilance / drug safety needs through our well defined processes originating across sources.We deliver this through the right mix of our proven technology and skilled resources, bringing in efficiency & compliance to meet the stringent regulatory needs.</p>
+                        <a href="/pharmacovigilance" class="read-more_gen">Read More</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-item position-relative">
+
+                        <a href="/clinical_data" class="stretched-link">
                             <h3>CLINICAL DATA STANDARDS</h3>
                         </a>
                         <p>We believe, the upfront implementation of the data standards in a sponsor’s data management and statistical environment enables
                             sponsors to mapped data specifications to their clients and agencies in a smooth way. </p>
-                        <a href="#about" class="read-more_gen">Read More</a>
+                        <a href="/clinical_data" class="read-more_gen">Read More</a>
                     </div>
                 </div><!-- End Service Item -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                     <div class="service-item position-relative">
-                        <div class="icon">
-                            <i class="bi bi-clock" style="color: #f3268c;"></i>
-                        </div>
-                        <a href="/services" class="stretched-link">
-                            <h3>Data Management</h3>
+
+                        <a href="/data_management" class="stretched-link">
+                            <h3>DATA MANAGEMENT</h3>
                         </a>
-                        <p>Eric Solutions is heavily invested in Artificial Intelligence based Innovations </p>
-                        <a href="/services" class="read-more_gen">Read More</a>
+                        <p>At ERIC we have implemented Industry Recognized and accepted data management systems, which enable us to deliver high quality outputs with confidence. </p>
+                        <a href="/data_management" class="read-more_gen">Read More</a>
                     </div>
 
                 </div><!-- End Service Item -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                     <div class="service-item position-relative">
-                        <div class="icon">
-                            <i class="bi bi-credit-card-2-front" style="color: #df1529;"></i>
-                        </div>
-                        <a href="/services" class="stretched-link">
+
+                        <a href="/medical_writing" class="stretched-link">
                             <h3>MEDICAL WRITING</h3>
                         </a>
                         <p>Clinical study reports are produced by the medical writers in collaboration with medical team and project statisticians,
                             ensuring a complete and accurate representation of all aspects of the study and its results, while respecting tight timelines.</p>
-                        <a href="/services" class="read-more_gen">Read More</a>
+                        <a href="/medical_writing" class="read-more_gen">Read More</a>
                     </div>
 
                 </div><!-- End Service Item -->
 
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
                     <div class="service-item position-relative">
-                        <div class="icon">
-                            <i class="bi bi-globe" style="color: #6610f2;"></i>
-                        </div>
-                        <a href="/services" class="stretched-link">
+
+                        <a href="/etmf" class="stretched-link">
                             <h3>eTMF SERVICES</h3>
                         </a>
                         <p>ERIC eTMF System / Services offer user-friendly, connected and flexible solutions that ensure holistic clinical
                             documentation and compliance with real-time data lineage and audit history. .</p>
-                        <a href="/services" class="read-more_gen">Read More</a>
+                        <a href="/etmf" class="read-more_gen">Read More</a>
 
                     </div>
 
                 </div><!-- End Service Item -->
-
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="800">
                     <div class="service-item position-relative">
-                        <div class="icon">
-                            <i class="bi bi-clock" style="color: #f3268c;"></i>
-                        </div>
-                        <a href="/services" class="stretched-link">
+
+                        <a href="/edc" class="stretched-link">
                             <h3>TECHNOLOGIES</h3>
                         </a>
                         <p>Eric Solutions offers Regulatory and GDPR compliant technologies with GenAI enhancements. </p>
-                        <a href="/services" class="read-more_gen">Read More</a>
+                        <a href="/edc" class="read-more_gen">Read More</a>
                     </div>
 
                 </div><!-- End Service Item -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="900">
                     <div class="service-item position-relative">
-                        <div class="icon">
-                            <i class="bi bi-clock" style="color: #f3268c;"></i>
-                        </div>
+
                         <a href="/services" class="stretched-link">
-                            <h3>Artificial Intelligence</h3>
+                            <h3>ARTIFICIAL INTELLIGENCE</h3>
                         </a>
                         <p>Eric Solutions is heavily invested in Artificial Intelligence based Innovations </p>
                         <a href="/services" class="read-more_gen">Read More</a>
                     </div>
-                    <div class="service-item position-relative">
-                        <div class="icon">
-                            <i class="bi bi-clock" style="color: #f3268c;"></i>
-                        </div>
-                        <a href="/services" class="stretched-link">
-                            <h3>Data Management</h3>
-                        </a>
-                        <p>Eric Solutions is heavily invested in Artificial Intelligence based Innovations </p>
-                        <a href="/services" class="read-more_gen">Read More</a>
-                    </div>
+
                 </div><!-- End Service Item -->
 
             </div>
-
-
 
         </div>
 

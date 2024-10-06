@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Comment extends Model
 {
     use HasFactory;
-    protected $fillable = ['comment', 'parent_comment', 'post_id', 'user_id'];
+    protected $fillable = ['comment', 'parent_comment', 'post_id', 'visitor_id'];
 
     // Relationships
     public function post(): \Illuminate\Database\Eloquent\Relations\BelongsTo
@@ -17,7 +17,12 @@ class Comment extends Model
     }
     public function user(): \Illuminate\Database\Eloquent\Relations\BelongsTo
     {
-        return $this->belongsTo(User::class, 'id');
+        return $this->belongsTo(User::class);
+    }
+
+    public function visitor(): \Illuminate\Database\Eloquent\Relations\BelongsTo
+    {
+        return $this->belongsTo(Visitor::class);
     }
 
     public function parent(): \Illuminate\Database\Eloquent\Relations\BelongsTo

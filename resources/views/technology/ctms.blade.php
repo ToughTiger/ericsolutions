@@ -159,6 +159,227 @@
                                     </div>
                                 </div>
 
+                                <h1 class="tech-feature_heading text-center">
+                                    Product Feature
+                                </h1>
+
+                                <div class="accordion" id="productAccordion">
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingPortfolio">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProduct" aria-expanded="true" aria-controls="collapseProduct">
+                                                <h3>Portfolio and Study Management</h3>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseProduct" class="accordion-collapse collapse " aria-labelledby="headingPortfolio" data-bs-parent="#productAccordion">
+                                            <div class="accordion-body">
+                                                <ul class="tech_feature_table_list">
+                                                    <li>Consolidated views across studies with data import support for investigators,
+                                                        sites, and contacts
+                                                    </li>
+                                                    <li>Calendar visibility for events scheduled within each study and by team member
+                                                    </li>
+                                                    <li>Dashboards show portfolio and summary data points and visualizations by study,
+                                                        region, country and monitor with download capability
+                                                    </li>
+                                                    <li>Critical information such as subject visit schedule, CRA monitoring frequency,
+                                                        study milestones, protocol violations and study documents defined at the study
+                                                        level.
+                                                    </li>
+                                                    <li>Outsourcing tab provides a simplistic yet comprehensive overview of study
+                                                        components and identifies external vendors by task, country and primary point of
+                                                        contact.
+                                                    </li>
+                                                    <li>Milestone management allows complete customization of the key dates for your
+                                                        study and country with visibility into at risk items, trending progress and date
+                                                        revisions.
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingCountries">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCountries" aria-expanded="true" aria-controls="collapseCountries">
+                                                <h3>Countries Planning and Management</h3>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseCountries" class="accordion-collapse collapse " aria-labelledby="headingCountries" data-bs-parent="#productAccordion">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>Manage key milestones and target site/enrollment metrics for each study country
+                                                        compared with overall study milestones
+                                                    </li>
+                                                    <li>Enrollment planning by country for target screening and enrollment as well as
+                                                        counts for actuals compared with subject screening and enrollment data.
+                                                    </li>
+                                                    <li>Planning of screening and enrollment targets by month and establish targets for
+                                                        subjects to complete treatment
+                                                    </li>
+                                                    <li>Data views allow quick comparison of target versus actuals and visualizations of
+                                                        differences with study planning metrics.
+                                                    </li>
+                                                    <li>Insight into country level planning and actuals vs study level expectations</li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingInvestigator">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInvestigator" aria-expanded="true" aria-controls="collapseInvestigator">
+                                                <h3>Site and Investigator Management</h3>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseInvestigator" class="accordion-collapse collapse " aria-labelledby="headingInvestigator" data-bs-parent="#productAccordion">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>Site contact management including primary, alternate and site-specific details
+                                                    </li>
+                                                    <li>Oversight of site selection and participation status across sites
+                                                    </li>
+                                                    <li>Detailed enrollment planning and sub-study participation </li>
+                                                    <li>Tracking of key milestones for study startup from CDA through enrollment </li>
+                                                    <li>Study document tracking and file uploading for site essential documents </li>
+                                                    <li>Detailed startup tracking for EC submissions, communications and site documents </li>
+                                                    <li>Contract and budget management including invoice generation, partial payments and histories </li>
+
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSubject">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSubject" aria-expanded="true" aria-controls="collapseSubject">
+                                                <h3>Subject Management</h3>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseSubject" class="accordion-collapse collapse " aria-labelledby="headingSubject" data-bs-parent="#productAccordion">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>Manage key milestones and target site/enrollment metrics for each study country
+                                                        compared with overall study milestones
+                                                    </li>
+                                                    <li>Enrollment planning by country for target screening and enrollment as well as
+                                                        counts for actuals compared with subject screening and enrollment data.
+                                                    </li>
+                                                    <li>Planning of screening and enrollment targets by month and establish targets for
+                                                        subjects to complete treatment
+                                                    </li>
+                                                    <li>Data views allow quick comparison of target versus actuals and visualizations of
+                                                        differences with study planning metrics.
+                                                    </li>
+                                                    <li>Insight into country level planning and actuals vs study level expectations</li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTeam">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTeam" aria-expanded="true" aria-controls="collapseTeam">
+                                                <h3>Study Team Management</h3>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTeam" class="accordion-collapse collapse " aria-labelledby="headingTeam" data-bs-parent="#productAccordion">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>Team roster with CRA-site assignments, start/stop dates on project, roles and titles
+                                                    </li>
+                                                    <li>Ability for authorized users to trigger team member account invitations
+                                                    </li>
+                                                    <li>Supports global team member collaboration with built in study view settings and country and site assignments appropriate to given person/team.</li>
+                                                    <li>Action item tracking by functional area with assignment to team members and ability to export </li>
+                                                    <li>Study document development tracking area for monitoring plans, AE plans, etc.</li>
+                                                    <li>Training status by team member for defined study and team procedures</li>
+
+
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingWorkspace">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWorkspace" aria-expanded="true" aria-controls="collapseWorkspace">
+                                                <h3>CRA Workspace</h3>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseWorkspace" class="accordion-collapse collapse " aria-labelledby="headingWorkspace" data-bs-parent="#productAccordion">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>Fully integrated site visit calendar for CRA visit planning and insight into visit report authoring progress
+                                                    </li>
+                                                    <li>eVisit Report (EVR) authoring and approval features directly in the system
+                                                    </li>
+                                                    <li>Supports site visit report tracking for EVRs and external reports with related visit letter and document upload features
+                                                    </li>
+                                                    <li>Cumulative action item views and tracking supports content from EVRs as well as items directly added via the tab
+                                                    </li>
+                                                    <li>Integrated alerts for action items and electronic visit reports</li>
+                                                    <li>Integrated TMF repository for approved EVRs and attachments</li>
+                                                    <li>Tools for CRA visits including interactive site map and shared repositories</li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSafety">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSafety" aria-expanded="true" aria-controls="collapseSafety">
+                                                <h3>Regulatory Affairs and Safety</h3>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseSafety" class="accordion-collapse collapse " aria-labelledby="headingSafety" data-bs-parent="#productAccordion">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>Define and plan submission timelines by country for up to 3 regulatory agencies and submission content
+                                                    </li>
+                                                    <li>Track expected regulatory agency approvals by country per defined submission timelines and submission actuals
+                                                    </li>
+                                                    <li>Define essential document package details by document including country-specific items and desired document numbering and folder structures</li>
+                                                    <li>View uploaded site essential document files in organized file folder structures per definitions</li>
+                                                    <li>File upload and tracking support for IND Safety reports, agency submission tracking and repositories for standard forms and progress reports</li>
+
+
+
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSafety">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSafety" aria-expanded="true" aria-controls="collapseSafety">
+                                                <h3>Additional Details</h3>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseSafety" class="accordion-collapse collapse" aria-labelledby="headingSafety" data-bs-parent="#productAccordion">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>Repositories: Limited access repositories throughout functional areas for files uploaded and content created within the application.
+                                                    </li>
+                                                    <li>Reports and Dashboards: SimpleCTMS supports a flexible reporting interface and dashboards to provide data summaries, charts and visualizations, and checklists. Ad hoc reports supported.
+                                                    </li>
+                                                    <li>Study Document bundle: Download all study level documents as a zip file with established folder structure
+                                                    </li>
+                                                    <li>Data Export: Data exports allow download or email delivery of tracking views in common formats
+                                                    </li>
+
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+
                             </div>
 
 
@@ -198,174 +419,7 @@
 
 
         </section><!-- /Portfolio Details Section -->
-        <section class="container service-details section tech-feature">
 
-            <h1 class="tech-feature_heading text-center">
-                Product Feature:
-            </h1>
-
-            <div class="row tech_feature_table">
-                <div class="col-lg-6 col-md-6 col-sm-6">
-
-                    <h2 class="mb-3">Portfolio and Study Management</h2>
-                    <hr>
-                    <ul class="tech_feature_table_list">
-                        <li>Consolidated views across studies with data import support for investigators,
-                            sites, and contacts
-                        </li>
-                        <li>Calendar visibility for events scheduled within each study and by team member
-                        </li>
-                        <li>Dashboards show portfolio and summary data points and visualizations by study,
-                            region, country and monitor with download capability
-                        </li>
-                        <li>Critical information such as subject visit schedule, CRA monitoring frequency,
-                            study milestones, protocol violations and study documents defined at the study
-                            level.
-                        </li>
-                        <li>Outsourcing tab provides a simplistic yet comprehensive overview of study
-                            components and identifies external vendors by task, country and primary point of
-                            contact.
-                        </li>
-                        <li>Milestone management allows complete customization of the key dates for your
-                            study and country with visibility into at risk items, trending progress and date
-                            revisions.
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-6 col-md-6 col-sm-6 ">
-                    <h2 class="mb-3">Countries Planning and Management</h2>
-                    <hr>
-                    <ul>
-                        <li>Manage key milestones and target site/enrollment metrics for each study country
-                            compared with overall study milestones
-                        </li>
-                        <li>Enrollment planning by country for target screening and enrollment as well as
-                            counts for actuals compared with subject screening and enrollment data.
-                        </li>
-                        <li>Planning of screening and enrollment targets by month and establish targets for
-                            subjects to complete treatment
-                        </li>
-                        <li>Data views allow quick comparison of target versus actuals and visualizations of
-                            differences with study planning metrics.
-                        </li>
-                        <li>Insight into country level planning and actuals vs study level expectations</li>
-
-                    </ul>
-                </div>
-
-            </div>
-            <div class="row tech_feature_table mt-2">
-                <div class="col-lg-6 col-md-6 col-sm-6 ">
-                    <h2 class="mb-3">Site and Investigator Management</h2>
-                    <hr>
-                    <ul>
-                        <li>Site contact management including primary, alternate and site-specific details
-                        </li>
-                        <li>Oversight of site selection and participation status across sites
-                        </li>
-                        <li>Detailed enrollment planning and sub-study participation </li>
-                        <li>Tracking of key milestones for study startup from CDA through enrollment </li>
-                        <li>Study document tracking and file uploading for site essential documents </li>
-                        <li>Detailed startup tracking for EC submissions, communications and site documents </li>
-                        <li>Contract and budget management including invoice generation, partial payments and histories </li>
-
-
-                    </ul>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 ">
-                    <h2 class="mb-3">Subject Management</h2>
-                    <hr>
-                    <ul>
-                        <li>Tracking of subject progress in screening, scheduled to screen, screen failures and enrolled
-                        </li>
-                        <li>Ability to support integration with external EDC/IWRS/IRT systems
-                        </li>
-                        <li>Dashboard metrics and visualizations with recruitment and screen failures by site, and subject visit progress and download capabilities
-                        </li>
-                        <li>Subject screening and enrollment tracking includes ICF date, protocol version, treatment status, and study status
-                        </li>
-                        <li>Visit level tracking includes visit window projections, visit status, and integration with subject payments</li>
-                        <li>Protocol deviations and exceptions tracking and trending</li>
-
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row tech_feature_table mt-2">
-                <div class="col-lg-6 col-md-6 col-sm-6 ">
-                    <h2 class="mb-3">Study Team Management</h2>
-                    <hr>
-                    <ul>
-                        <li>Team roster with CRA-site assignments, start/stop dates on project, roles and titles
-                        </li>
-                        <li>Ability for authorized users to trigger team member account invitations
-                        </li>
-                        <li>Supports global team member collaboration with built in study view settings and country and site assignments appropriate to given person/team.</li>
-                        <li>Action item tracking by functional area with assignment to team members and ability to export </li>
-                        <li>Study document development tracking area for monitoring plans, AE plans, etc.</li>
-                        <li>Training status by team member for defined study and team procedures</li>
-
-
-
-                    </ul>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 ">
-                    <h2 class="mb-3">CRA Workspace</h2>
-                    <hr>
-                    <ul>
-                        <li>Fully integrated site visit calendar for CRA visit planning and insight into visit report authoring progress
-                        </li>
-                        <li>eVisit Report (EVR) authoring and approval features directly in the system
-                        </li>
-                        <li>Supports site visit report tracking for EVRs and external reports with related visit letter and document upload features
-                        </li>
-                        <li>Cumulative action item views and tracking supports content from EVRs as well as items directly added via the tab
-                        </li>
-                        <li>Integrated alerts for action items and electronic visit reports</li>
-                        <li>Integrated TMF repository for approved EVRs and attachments</li>
-                        <li>Tools for CRA visits including interactive site map and shared repositories</li>
-
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row tech_feature_table mt-2">
-                <div class="col-lg-6 col-md-6 col-sm-6 ">
-                    <h2 class="mb-3">Regulatory Affairs and Safety</h2>
-                    <hr>
-                    <ul>
-                        <li>Define and plan submission timelines by country for up to 3 regulatory agencies and submission content
-                        </li>
-                        <li>Track expected regulatory agency approvals by country per defined submission timelines and submission actuals
-                        </li>
-                        <li>Define essential document package details by document including country-specific items and desired document numbering and folder structures</li>
-                        <li>View uploaded site essential document files in organized file folder structures per definitions</li>
-                        <li>File upload and tracking support for IND Safety reports, agency submission tracking and repositories for standard forms and progress reports</li>
-
-
-
-
-                    </ul>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 ">
-                    <h2 class="mb-3">Additional Details</h2>
-                    <hr>
-                    <ul>
-                        <li>Repositories: Limited access repositories throughout functional areas for files uploaded and content created within the application.
-                        </li>
-                        <li>Reports and Dashboards: SimpleCTMS supports a flexible reporting interface and dashboards to provide data summaries, charts and visualizations, and checklists. Ad hoc reports supported.
-                        </li>
-                        <li>Study Document bundle: Download all study level documents as a zip file with established folder structure
-                        </li>
-                        <li>Data Export: Data exports allow download or email delivery of tracking views in common formats
-                        </li>
-
-
-                    </ul>
-                </div>
-            </div>
-        </section>
     </main>
 
 </x-page_layout>

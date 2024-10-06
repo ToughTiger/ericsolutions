@@ -16,6 +16,7 @@ use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Illuminate\Support\Str;
 
 class CategoryResource extends Resource
 {
@@ -33,9 +34,14 @@ class CategoryResource extends Resource
                     Section::make()
                     ->schema([
                         TextInput::make('name')
-                        ->label('Name'),
+                        ->label('Name')
+                            ->live(onBlur: true)
+                            ->afterStateUpdated(function(string $operation, string $state, Forms\Set $set){
+                                $set('slug', Str::slug($state));
+                            }),
 
                         TextInput::make('slug')
+                            ->readOnly()
                         ->label('Slug')
 
                 ]),
@@ -49,7 +55,7 @@ class CategoryResource extends Resource
             ->columns([
                TextColumn::make('name'),
                TextColumn::make('slug'),
-            ])
+            ])->defaultSort('created_at', 'desc')
             ->filters([
                 //
             ])

@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('comments', function (Blueprint $table) {
             $table->id();
             $table->foreignId('post_id')->constrained('posts')->onDelete('cascade');  // Foreign key from posts
-            $table->foreignId('user_id')->constrained('users')->onDelete('cascade');  // Foreign key from users
+            $table->foreignId('visitor_id')->constrained('visitors')->onDelete('cascade');  // Foreign key from users
             $table->text('comment');
             $table->unsignedBigInteger('parent_comment')->nullable();  // For nested comments (threading)
             $table->foreign('parent_comment')->references('id')->on('comments')->onDelete('cascade');

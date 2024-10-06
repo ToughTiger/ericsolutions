@@ -26,6 +26,7 @@ use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Str;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 
 class PostResource extends Resource
@@ -45,8 +46,17 @@ class PostResource extends Resource
                         Section::make("Create Post")
                             ->description("Create a new post here.")
                             ->schema([//
-                                TextInput::make('title'),
-                                TextInput::make('slug'),
+                                TextInput::make('title')
+                                ->required()
+                                ->maxLength(55)
+                                ->live(onBlur: true)
+                                ->afterStateUpdated(function(string $operation, string $state, Forms\Set $set){
+                                    $set('slug', Str::slug($state));
+                                }),
+                                TextInput::make('slug')->unique(ignoreRecord: true)
+                                    ->minLength(1)
+                                    ->maxLength(55)
+                                    ->readOnly(),
                                 Forms\Components\MarkdownEditor::make('content')
                                     ->columnSpan('full')
                             ])->columns(2),
@@ -140,7 +150,7 @@ class PostResource extends Resource
                     ->sortable(),
 
 
-            ])
+            ])->defaultSort('created_at', 'desc')
             ->filters([
                 Tables\Filters\TernaryFilter::make('is_featured')
                     ->label('Featured')

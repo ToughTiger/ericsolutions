@@ -17,6 +17,7 @@ use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Illuminate\Support\Facades\Hash;
 
 class UserResource extends Resource
 {
@@ -38,8 +39,11 @@ class UserResource extends Resource
                                 TextInput::make('phone'),
                                 TextInput::make('email'),
                                 TextInput::make('social'),
-                                TextInput::make('password'),
-                                TextInput::make('password_confirmation'),
+                                TextInput::make('password')
+                                ->password()
+                                ->dehydrateStateUsing(fn ($state) => Hash::make($state))
+                                ->dehydrated(fn ($state) => filled($state)),
+//                                TextInput::make('password_confirmation'),
                                 Forms\Components\MarkdownEditor::make('bio')
                                     ->columnSpan('full')
                                 ->helperText('Brief Bio of User for SEO'),
@@ -81,7 +85,7 @@ class UserResource extends Resource
                 TextColumn::make('name'),
                 TextColumn::make('phone'),
                 TextColumn::make('email'),
-            ])
+            ])->defaultSort('created_at', 'desc')
             ->filters([
                 //
             ])

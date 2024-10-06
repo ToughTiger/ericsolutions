@@ -13,8 +13,8 @@
     <meta name="keywords" content="">
 
     <!-- Favicons -->
-    <link href="{{URL::asset('assets/img/favicon.png')}}" rel="icon">
-    <link href="{{URL::asset('assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+    <link href="{{URL::asset('assets/img/favicon.png')}}">
+    <link href="{{URL::asset('assets/img/favicon.png')}}" rel="apple-touch-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -30,7 +30,7 @@
     <link href="{{URL::asset('assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
 
     <!-- Main CSS File -->
-
+    <link rel="stylesheet" href="{{URL::asset('assets/css/contacts.css')}}">
     <link href="{{URL::asset('assets/css/main.css')}}" rel="stylesheet">
     <link href="{{URL::asset('assets/css/app.css')}}" rel="stylesheet">
     <!-- =======================================================
@@ -40,6 +40,8 @@
     * Author: BootstrapMade.com
     * License: https://bootstrapmade.com/license/
     ======================================================== -->
+
+    <link rel="stylesheet" href="http://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css">
 </head>
 
 <body class="index-page">
@@ -98,9 +100,9 @@
                         <li><a href="/csr"><span>CSR Writer</span></a></li>
                     </ul>
                 </li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="/posts">Blog</a></li>
 
-                <li><a href="#">Contact</a></li>
+                <li><a href="/contacts">Contact</a></li>
             </ul>
             <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>

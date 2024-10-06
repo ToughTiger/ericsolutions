@@ -8,6 +8,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\TagController;
 use App\Http\Controllers\TechnologyController;
+use App\Http\Controllers\VisitorController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,6 +25,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/contacts', function () {
+    return view('contacts');
+});
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -61,11 +67,13 @@ Route::get('/irt',[TechnologyController::class,'irt']);
 
 route::get('/posts',[PostController::class,'index']);
 route::get('/posts/{id}',[PostController::class,'singlePost']);
-
+Route::get('/social-share', [PostController::class, 'share']);
 
 route::post('/comments',[CommentController::class,'store']);
 
 route::get('/protocol',[IndexController::class,'protocol']);
 route::get('/csr',[IndexController::class,'csr']);
+
+route::post('/visitor', [VisitorController::class, 'store']);
 
 //route::get('/tags',[TagController::class,'index']);
