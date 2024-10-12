@@ -34,7 +34,9 @@
 
 
                         </div>
-                        <h3>Capture and Re-use Research Data from anywhere and anytime</h3>
+                        <br>
+                        <h4 class="my-lg-3">Capture and Re-use Research Data from anywhere and anytime</h4>
+{{--                        <br>--}}
                         <p class="service_offer">
                             Explore ERIC EDC, our most robust module, and how it can help you capture and manage all your study data in one centralized hub. And if your needs go beyond, easily layer in ERIC eConsent and ePRO to build a full ecosystem of research tools.
                         </p>
@@ -44,7 +46,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="deployheading">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDeploy" aria-expanded="true" aria-controls="collapseDeploy">
-                                        <h3>Deploy Studies Faster</h3>
+                                        <h6>Deploy Studies Faster</h6>
                                     </button>
                                 </h2>
                                 <div id="collapseDeploy" class="accordion-collapse collapse show" aria-labelledby="deployheading" data-bs-parent="#cookieAccordion">
@@ -66,7 +68,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="decentraliseHeading">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDecentralise" aria-expanded="true" aria-controls="collapseDecentralise">
-                                        <h3>Decentralized Data Integration</h3>
+                                        <h6>Decentralized Data Integration</h6>
                                     </button>
                                 </h2>
                                 <div id="collapseDecentralise" class="accordion-collapse collapse" aria-labelledby="decentraliseHeading" data-bs-parent="#cookieAccordion">
@@ -85,7 +87,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="visibilityHeading">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVisibility" aria-expanded="true" aria-controls="collapseVisibility">
-                                        <h3> Realtime Visibility</h3>
+                                        <h6> Realtime Visibility</h6>
                                     </button>
                                 </h2>
                                 <div id="collapseVisibility" class="accordion-collapse collapse" aria-labelledby="collapseVisibility" data-bs-parent="#cookieAccordion">
@@ -113,7 +115,7 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="buildheading">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBuild" aria-expanded="true" aria-controls="collapseBuild">
-                                            <h3>Build Advanced eCRF quickly</h3>
+                                            <h6>Build Advanced eCRF quickly</h6>
                                         </button>
                                     </h2>
                                     <div id="collapseBuild" class="accordion-collapse collapse show" aria-labelledby="buildheading" data-bs-parent="#featureAccordion">
@@ -134,7 +136,7 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="secureHeading">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSecure" aria-expanded="true" aria-controls="collapseSecure">
-                                            <h3> Store Data Securely</h3>
+                                            <h6> Store Data Securely</h6>
                                         </button>
                                     </h2>
                                     <div id="collapseSecure" class="accordion-collapse collapse" aria-labelledby="secureHeading" data-bs-parent="#featureAccordion">
@@ -155,7 +157,7 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="amendHeading">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAmend" aria-expanded="true" aria-controls="collapseAmend">
-                                            <h3> Amend Studies with Less Risk</h3>
+                                            <h6> Amend Studies with Less Risk</h6>
                                         </button>
                                     </h2>
                                     <div id="collapseAmend" class="accordion-collapse collapse" aria-labelledby="amendHeading" data-bs-parent="#featureAccordion">
@@ -175,7 +177,7 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="complianceHeading">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCompliance" aria-expanded="true" aria-controls="collapseCompliance">
-                                            <h3> Achieve Global Compliance</h3>
+                                            <h6> Achieve Global Compliance</h6>
                                         </button>
                                     </h2>
                                     <div id="collapseCompliance" class="accordion-collapse collapse" aria-labelledby="complianceHeading" data-bs-parent="#featureAccordion">

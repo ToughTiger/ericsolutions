@@ -47,23 +47,35 @@ image {
     letter-spacing: 1px;
     padding: 10px 28px;
     border-radius: 5px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .read-more_gen i {
     font-size: 18px;
     margin-left: 5px;
     line-height: 0;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
 }
 .read-more_gen:hover {
     background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 .read-more_gen:hover i {
-    transform: translate(5px, 0);
+    -webkit-transform: translate(5px, 0);
+        -ms-transform: translate(5px, 0);
+            transform: translate(5px, 0);
 }
 @media only screen and (max-width:600px){
     .address .logo{
@@ -119,4 +131,3 @@ image {
     background: #18af3c;
 }
 
-.innerwrap

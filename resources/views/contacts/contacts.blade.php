@@ -1,6 +1,6 @@
 
 <x-page_layout>
-
+<div class="main">
     <div class="section">
         <div class="innerwrap">
             <section class="section1 clearfix">
@@ -48,6 +48,7 @@
         </div>
         {!! Toastr::message() !!}
     </div>
+</div>
     <script src="{{URL::asset('assets/js/jquery.min.js')}}"></script>
     <script src="http://cdn.bootcss.com/toastr.js/latest/js/toastr.min.js"></script>
     <script>

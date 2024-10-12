@@ -40,6 +40,7 @@
     <!-- Main CSS File -->
     <link href="{{URL::asset('assets/css/app.css')}}" rel="stylesheet">
     <link href="{{URL::asset('assets/css/main.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/css/normalize.css')}}" rel="stylesheet">
 
 
     <!-- Google tag (gtag.js) -->

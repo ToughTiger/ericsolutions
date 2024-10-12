@@ -42,6 +42,7 @@
     <link rel="stylesheet" href="{{URL::asset('assets/css/contacts.css')}}">
     <link href="{{URL::asset('assets/css/main.css')}}" rel="stylesheet">
     <link href="{{URL::asset('assets/css/app.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/css/normalize.css')}}" rel="stylesheet">
     <!-- =======================================================
     * Template Name: Selecao
     * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/

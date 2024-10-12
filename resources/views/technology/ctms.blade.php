@@ -117,7 +117,7 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingfeatures">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFeatures" aria-expanded="false" aria-controls="collapseFeatures">
-                                            <h3 class="text-center">Eric CTMS Features</h3>
+                                            <h6 class="text-center">Eric CTMS Features</h6>
                                         </button>
                                     </h2>
                                     <div id="collapseFeatures" class="accordion-collapse collapse" aria-labelledby="headingfeatures" data-bs-parent="#cookieAccordion">
@@ -168,7 +168,7 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingPortfolio">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProduct" aria-expanded="true" aria-controls="collapseProduct">
-                                                <h3>Portfolio and Study Management</h3>
+                                                <h6>Portfolio and Study Management</h6>
                                             </button>
                                         </h2>
                                         <div id="collapseProduct" class="accordion-collapse collapse " aria-labelledby="headingPortfolio" data-bs-parent="#productAccordion">
@@ -202,7 +202,7 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingCountries">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCountries" aria-expanded="true" aria-controls="collapseCountries">
-                                                <h3>Countries Planning and Management</h3>
+                                                <h6>Countries Planning and Management</h6>
                                             </button>
                                         </h2>
                                         <div id="collapseCountries" class="accordion-collapse collapse " aria-labelledby="headingCountries" data-bs-parent="#productAccordion">
@@ -230,7 +230,7 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingInvestigator">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInvestigator" aria-expanded="true" aria-controls="collapseInvestigator">
-                                                <h3>Site and Investigator Management</h3>
+                                                <h6>Site and Investigator Management</h6>
                                             </button>
                                         </h2>
                                         <div id="collapseInvestigator" class="accordion-collapse collapse " aria-labelledby="headingInvestigator" data-bs-parent="#productAccordion">
@@ -255,7 +255,7 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingSubject">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSubject" aria-expanded="true" aria-controls="collapseSubject">
-                                                <h3>Subject Management</h3>
+                                                <h6>Subject Management</h6>
                                             </button>
                                         </h2>
                                         <div id="collapseSubject" class="accordion-collapse collapse " aria-labelledby="headingSubject" data-bs-parent="#productAccordion">
@@ -282,7 +282,7 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingTeam">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTeam" aria-expanded="true" aria-controls="collapseTeam">
-                                                <h3>Study Team Management</h3>
+                                                <h6>Study Team Management</h6>
                                             </button>
                                         </h2>
                                         <div id="collapseTeam" class="accordion-collapse collapse " aria-labelledby="headingTeam" data-bs-parent="#productAccordion">
@@ -306,7 +306,7 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingWorkspace">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWorkspace" aria-expanded="true" aria-controls="collapseWorkspace">
-                                                <h3>CRA Workspace</h3>
+                                                <h6>CRA Workspace</h6>
                                             </button>
                                         </h2>
                                         <div id="collapseWorkspace" class="accordion-collapse collapse " aria-labelledby="headingWorkspace" data-bs-parent="#productAccordion">
@@ -331,7 +331,7 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingSafety">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSafety" aria-expanded="true" aria-controls="collapseSafety">
-                                                <h3>Regulatory Affairs and Safety</h3>
+                                                <h6>Regulatory Affairs and Safety</h6>
                                             </button>
                                         </h2>
                                         <div id="collapseSafety" class="accordion-collapse collapse " aria-labelledby="headingSafety" data-bs-parent="#productAccordion">
@@ -355,7 +355,7 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingAdditional">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAdditional" aria-expanded="true" aria-controls="collapseAdditional">
-                                                <h3>Additional Details</h3>
+                                                <h6>Additional Details</h6>
                                             </button>
                                         </h2>
                                         <div id="collapseAdditional" class="accordion-collapse collapse" aria-labelledby="headingAdditional" data-bs-parent="#productAccordion">
