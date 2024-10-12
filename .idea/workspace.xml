@@ -5,28 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a68b87a-472b-4d42-a5c2-4607f8dca7d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/fontawesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/contacts/mail.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/VisitorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/VisitorController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog/blogPost.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/blogPost.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog/singlePost.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/singlePost.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/page_layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/page_layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contact.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contacts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contacts/contacts.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/technology/ctms.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/technology/ctms.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/Logo Animation.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/Logo_animation.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/contacts/mail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contacts/mail.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -482,7 +464,7 @@
       <workItem from="1728499546539" duration="2258000" />
       <workItem from="1728569575052" duration="7477000" />
       <workItem from="1728611202936" duration="1441000" />
-      <workItem from="1728693725794" duration="6746000" />
+      <workItem from="1728693725794" duration="15953000" />
     </task>
     <servers />
   </component>
