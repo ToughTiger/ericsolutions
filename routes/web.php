@@ -52,7 +52,7 @@ Route::get('/pharmacovigilance',[ServiceController::class,'pharmacovigilance']);
 Route::get('/etmf',[ServiceController::class,'etmf']);
 
 //Legal routes
-route::get('/contact',[IndexController::class,'contact']);
+route::get('/contacts',[IndexController::class,'contact']);
 route::get('/gdpr',[IndexController::class,'gdpr']);
 route::get('/privacy',[IndexController::class,'privacy']);
 route::get('/cookies',[IndexController::class,'cookies']);

@@ -48,7 +48,7 @@
         </div>
         {!! Toastr::message() !!}
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="{{URL::asset('assets/js/jquery.min.js')}}"></script>
     <script src="http://cdn.bootcss.com/toastr.js/latest/js/toastr.min.js"></script>
     <script>
         @if(Session::has('message'))

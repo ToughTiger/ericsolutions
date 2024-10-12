@@ -10,7 +10,7 @@
                     <h2 class="animate__animated animate__fadeInDown">One Stop Solution</h2>
                     <p class="animate__animated animate__fadeInUp">
                         Eric Offers both Services and Proprietary Technologies. Less Vendor Management means Less Risk of Operations.</p>
-                    <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+{{--                    <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>--}}
                 </div>
             </div>
 <?php
@@ -21,7 +21,7 @@
                 <div class="carousel-container">
                     <h2 class="animate__animated animate__fadeInDown">Cost Optimization</h2>
                     <p class="animate__animated animate__fadeInUp">As Eric offers proprietary technologies, Eric Solution can be highly cost optimized.</p>
-                    <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+{{--                    <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>--}}
                 </div>
             </div>
 
@@ -31,7 +31,7 @@
                     <h2 class="animate__animated animate__fadeInDown">Quality Optimization</h2>
                     <p class="animate__animated animate__fadeInUp">Highly qualified team offers dedicated services to each project. Regulatory Compliant Technologies enhanced by GenAI capabilities
                         .</p>
-                    <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+{{--                    <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>--}}
                 </div>
             </div>
             <!-- Slide 4 -->
@@ -41,7 +41,7 @@
                     <p class="animate__animated animate__fadeInUp">
                         Eric Solutions is heavily invested in Artificial Intelligence based Innovations.
                         </p>
-                    <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+{{--                    <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>--}}
                 </div>
             </div>
 
@@ -52,7 +52,7 @@
                     <p class="animate__animated animate__fadeInUp">
                         Regulatory Compliant Technologies enhanced by GenAI capabilities
                         .</p>
-                    <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+{{--                    <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>--}}
                 </div>
             </div>
 
@@ -99,7 +99,7 @@
 
                 <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
                     <p>
-                        Eric Solutions offers advantage of one stop solution by offering Management systems such as Clinical Trial Management Software. Since services and systems are offered by Eric Solutions, we provide solution with shorter timeline and better costing.
+                        <strong>Eric Solutions</strong> offers advantage of one stop solution by offering Management systems such as Clinical Trial Management Software. Since services and systems are offered by Eric Solutions, we provide solution with shorter timeline and better costing.
                     </p>
 {{--                    <p>Services on offer</p>--}}
                     <ul>
@@ -112,7 +112,7 @@
 
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                     <p>At eRIC Solutions, we are Committed to regulatory compliance, we also integrate GenAI technology, providing cutting-edge tools for data analysis and automation. Our dedicated, highly qualified team ensures each project is handled with precision and care, delivering exceptional results tailored to your specific needs. Trust Eric Solutions for innovative, efficient, and compliant healthcare technology solutions.. </p>
-                    <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+{{--                    <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>--}}
                 </div>
 
             </div>

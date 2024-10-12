@@ -9,6 +9,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.1",
+        "aws/aws-sdk-php": "^3.323",
         "bezhansalleh/filament-shield": "^3.2",
         "brian2694/laravel-toastr": "^5.59",
         "eightynine/filament-approvals": "^3.1",

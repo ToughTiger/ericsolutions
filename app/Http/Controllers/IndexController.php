@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class IndexController extends Controller
 {
     public function contact(){
-        return view('contact');
+        return view('contacts.contacts');
     }
 public function gdpr(){
         return view('legal/gdpr');

@@ -6,6 +6,15 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DG3HYM0N5T"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-DG3HYM0N5T');
+    </script>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>eRIC Solutions</title>
@@ -42,8 +51,17 @@
     ======================================================== -->
 
     <link rel="stylesheet" href="http://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css">
-</head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HTF35EC27F"></script>
 
+</head>
+<script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+<script>
+    var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"Chat with us","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"17866365556","welcomeMessage":"Welcome to Eric Solutions","zIndex":999999,"btnColorScheme":"light"};
+    window.onload = () => {
+        _waEmbed(wa_btnSetting);
+    };
+</script>
 <body class="index-page">
 <header id="header" class="header d-flex align-items-center fixed-top dark-background">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
@@ -57,7 +75,7 @@
 
         <nav id="navmenu" class="navmenu">
             <ul>
-                <li><a href="/" class="active">Home</a></li>
+                <li><a href="/" >Home</a></li>
                 <li class="dropdown"><a href="/"><span>Company</span> <i
                             class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
@@ -118,7 +136,8 @@
 </main>
 <x-footer></x-footer>
 <!-- Vendor JS Files -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script src="{{URL::asset('assets/js/jquery.min.js')}}"></script>
 <script src="{{URL::asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 <script src="{{URL::asset('assets/vendor/php-email-form/validate.js')}}"></script>
 <script src="{{URL::asset('assets/vendor/aos/aos.js')}}"></script>

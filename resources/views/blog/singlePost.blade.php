@@ -2,6 +2,14 @@
 <html lang="en">
 
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DG3HYM0N5T"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-DG3HYM0N5T');
+    </script>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -13,11 +21,10 @@
     <!-- Favicons -->
     <link href="{{URL::asset('assets/img/favicon.png')}}" rel="icon">
     <link href="{{URL::asset('assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-          integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <!-- Fonts -->
 
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
     <link
@@ -46,7 +53,13 @@
     * License: https://bootstrapmade.com/license/
     ======================================================== -->
 </head>
-
+<script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+<script>
+    var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"Chat with us","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"17866365556","welcomeMessage":"Welcome to Eric Solutions","zIndex":999999,"btnColorScheme":"light"};
+    window.onload = () => {
+        _waEmbed(wa_btnSetting);
+    };
+</script>
 <body class="index-page">
 <header id="header" class="header d-flex align-items-center fixed-top dark-background">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
@@ -59,7 +72,7 @@
 
         <nav id="navmenu" class="navmenu">
             <ul>
-                <li><a href="/" class="active">Home</a></li>
+                <li><a href="/" >Home</a></li>
                 <li class="dropdown"><a href="#"><span>Company</span> <i
                             class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
@@ -363,7 +376,7 @@
                     <ul>
                         <li><a href="/about">About</a></li>
                         <li><a href="/#services">Services</a></li>
-                        <li><a href="/technology">Technology</a></li>
+{{--                        <li><a href="/technology">Technology</a></li>--}}
                         <li><a href="">Blog</a></li>
                     </ul>
                 </div>
@@ -386,10 +399,10 @@
                 <div class="company_links">
                     <h3>Socials</h3>
                     <ul>
-                        <li><a href=""><i class="fa-brands fa-facebook fa-2x"></i></a></li>
-                        <li><a href=""></a><i class="fa-brands fa-square-x-twitter fa-2x"></i></li>
-                        <li><a href=""></a><i class="fa-brands fa-youtube fa-2x"></i></li>
-                        <li><a href=""></a><i class="fa-brands fa-instagram fa-2x"></i></li>
+                        <li><a href=""><i class="fa-brands fa-facebook "></i></a></li>
+                        <li><a href=""></a><i class="fa-brands fa-square-x-twitter "></i></li>
+                        <li><a href=""></a><i class="fa-brands fa-youtube "></i></li>
+                        <li><a href=""></a><i class="fa-brands fa-instagram "></i></li>
                     </ul>
                 </div>
 
@@ -404,8 +417,8 @@
 
 </footer>
 <!-- Vendor JS Files -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
+<script src="{{URL::asset('assets/js/jquery.min.js')}}"></script>
+<script src="http://cdn.bootcss.com/toastr.js/latest/js/toastr.min.js"></script>
 <script src="{{URL::asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 <script src="{{URL::asset('assets/vendor/php-email-form/validate.js')}}"></script>
 <script src="{{URL::asset('assets/vendor/aos/aos.js')}}"></script>

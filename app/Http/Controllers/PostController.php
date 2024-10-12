@@ -15,7 +15,8 @@ class PostController extends Controller
     {
         $posts = Post::orderBy('created_at', 'desc')
             ->with(['categories', 'tags'])->get()
-            ->where('is_published', '=', 1);;
+            ->where('is_published', '=', 1)
+            ->toQuery()->simplePaginate(6);
 
         return view('blog.blogPost', ['posts' => $posts, ]);
     }

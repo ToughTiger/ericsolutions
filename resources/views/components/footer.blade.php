@@ -19,10 +19,10 @@
                 <div class="company_links">
                     <h3>Company</h3>
                     <ul>
-                        <li><a href="/about">About</a></li>
+                        <li><a href="/#about">About</a></li>
                         <li><a href="/#services">Services</a></li>
-                        <li><a href="/technology">Technology</a></li>
-                        <li><a href="">Blog</a></li>
+{{--                        <li><a href="/edc">Technology</a></li>--}}
+                        <li><a href="/posts">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -44,10 +44,10 @@
                 <div class="company_links">
                     <h3>Socials</h3>
                     <ul>
-                        <li><a href=""><i class="fa-brands fa-facebook fa-2x"></i></a></li>
-                        <li><a href=""></a><i class="fa-brands fa-square-x-twitter fa-2x"></i></li>
-                        <li><a href=""></a><i class="fa-brands fa-youtube fa-2x"></i></li>
-                        <li><a href=""></a><i class="fa-brands fa-instagram fa-2x"></i></li>
+                        <li><a href=""><i class="fa-brands fa-facebook "></i></a></li>
+                        <li><a href=""></a><i class="fa-brands fa-square-x-twitter "></i></li>
+                        <li><a href=""></a><i class="fa-brands fa-youtube "></i></li>
+                        <li><a href=""></a><i class="fa-brands fa-instagram "></i></li>
                     </ul>
                 </div>
 

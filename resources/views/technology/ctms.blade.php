@@ -353,12 +353,12 @@
                                         </div>
                                     </div>
                                     <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingSafety">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSafety" aria-expanded="true" aria-controls="collapseSafety">
+                                        <h2 class="accordion-header" id="headingAdditional">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAdditional" aria-expanded="true" aria-controls="collapseAdditional">
                                                 <h3>Additional Details</h3>
                                             </button>
                                         </h2>
-                                        <div id="collapseSafety" class="accordion-collapse collapse" aria-labelledby="headingSafety" data-bs-parent="#productAccordion">
+                                        <div id="collapseAdditional" class="accordion-collapse collapse" aria-labelledby="headingAdditional" data-bs-parent="#productAccordion">
                                             <div class="accordion-body">
                                                 <ul>
                                                     <li>Repositories: Limited access repositories throughout functional areas for files uploaded and content created within the application.
