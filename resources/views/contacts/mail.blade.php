@@ -103,7 +103,7 @@
                                                 <td valign="top" align="center" class="es-m-p0r" style="padding:0;Margin:0;width:560px">
                                                     <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                                                         <tr style="border-collapse:collapse">
-                                                            <td align="left" style="padding:0;Margin:0;font-size:0px"><a target="_blank" href="https://viewstripo.email" style="mso-line-height-rule:exactly;text-decoration:underline;color:#293241;font-size:14px"><img src="{{URL::asset('assets/img/logo-light.png')}}" alt="eric_solutions" height="60" title="eric_solutions" style="display:block;font-size:16px;border:0;outline:none;text-decoration:none"></a></td>
+                                                            <td align="left" style="padding:0;Margin:0;font-size:0px"><a target="_blank" href="www.ericsolutions.com" style="mso-line-height-rule:exactly;text-decoration:underline;color:#293241;font-size:14px"><img src="{{URL::asset('assets/img/Eric_no_bg.png')}}" alt="eric_solutions" height="60" title="eric_solutions" style="display:block;font-size:16px;border:0;outline:none;text-decoration:none"></a></td>
                                                         </tr>
                                                     </table></td>
                                             </tr>
@@ -187,7 +187,7 @@
                                                         <tr style="border-collapse:collapse">
                                                             <td align="center" style="padding:0;Margin:0;font-size:0px">
 
-                                                                <img src="{{URL::asset('assets/img/Sachin_Bidani.png')}}" alt="Sachin Bidani" width="134" title="Sachin Bidani" style="display:block;font-size:12px;border:0;outline:none;text-decoration:none" type="image/png"></td>
+                                                                <img src="{{URL::asset('assets/img/team/sachin-trans.png')}}" alt="Sachin Bidani" width="134" title="Sachin Bidani" style="display:block;font-size:12px;border:0;outline:none;text-decoration:none" type="image/png"></td>
                                                         </tr>
                                                     </table></td>
                                             </tr>
@@ -208,7 +208,7 @@
                                                             <td style="padding:0;Margin:0">
                                                                 <table cellpadding="0" cellspacing="0" width="100%" class="es-menu" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                                                                     <tr class="links-images-left" style="border-collapse:collapse">
-                                                                        <td align="left" valign="top" width="100%" style="Margin:0;border:0;padding-top:10px;padding-bottom:10px;padding-right:5px;padding-left:5px"><a target="_blank" href="tel:+00012345678" style="mso-line-height-rule:exactly;text-decoration:none;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;display:block;color:#293241;font-size:14px"><img src="https://flhhwfd.stripocdn.email/content/guids/CABINET_640d26d5fc995bde0ccc46e783389f46/images/58631615375244812.png" alt="+ 000 123 456 78" title="+ 000 123 456 78" align="absmiddle" width="20" style="display:inline !important;font-size:16px;border:0;outline:none;text-decoration:none;vertical-align:middle;padding-right:15px">+1-786-636-5556</a></td>
+                                                                        <td align="left" valign="top" width="100%" style="Margin:0;border:0;padding-top:10px;padding-bottom:10px;padding-right:5px;padding-left:5px"><a target="_blank" href="tel:+1-786-636-5556" style="mso-line-height-rule:exactly;text-decoration:none;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;display:block;color:#293241;font-size:14px"><img src="https://flhhwfd.stripocdn.email/content/guids/CABINET_640d26d5fc995bde0ccc46e783389f46/images/58631615375244812.png" alt="+ 000 123 456 78" title="+ 000 123 456 78" align="absmiddle" width="20" style="display:inline !important;font-size:16px;border:0;outline:none;text-decoration:none;vertical-align:middle;padding-right:15px">+1-786-636-5556</a></td>
                                                                     </tr>
                                                                 </table></td>
                                                         </tr>
@@ -216,7 +216,7 @@
                                                             <td style="padding:0;Margin:0">
                                                                 <table cellpadding="0" cellspacing="0" width="100%" class="es-menu" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                                                                     <tr class="links-images-left" style="border-collapse:collapse">
-                                                                        <td align="left" valign="top" width="100%" style="Margin:0;border:0;padding-top:10px;padding-bottom:10px;padding-right:5px;padding-left:5px"><a target="_blank" href="mailto:ariana_rivera@email" style="mso-line-height-rule:exactly;text-decoration:none;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;display:block;color:#293241;font-size:14px"><img src="https://flhhwfd.stripocdn.email/content/guids/CABINET_640d26d5fc995bde0ccc46e783389f46/images/95111615375244881.png" alt="ariana_rivera@email" title="ariana_rivera@email" align="absmiddle" width="20" style="display:inline !important;font-size:16px;border:0;outline:none;text-decoration:none;vertical-align:middle;padding-right:15px">info@ericsolutions.com</a></td>
+                                                                        <td align="left" valign="top" width="100%" style="Margin:0;border:0;padding-top:10px;padding-bottom:10px;padding-right:5px;padding-left:5px"><a target="_blank" href="mailto:info@ericsolutions.com" style="mso-line-height-rule:exactly;text-decoration:none;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;display:block;color:#293241;font-size:14px"><img src="https://flhhwfd.stripocdn.email/content/guids/CABINET_640d26d5fc995bde0ccc46e783389f46/images/95111615375244881.png" alt="ariana_rivera@email" title="ariana_rivera@email" align="absmiddle" width="20" style="display:inline !important;font-size:16px;border:0;outline:none;text-decoration:none;vertical-align:middle;padding-right:15px">info@ericsolutions.com</a></td>
                                                                     </tr>
                                                                 </table></td>
                                                         </tr>
@@ -317,7 +317,7 @@
                                                 <td align="center" valign="top" style="padding:0;Margin:0;width:560px">
                                                     <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                                                         <tr style="border-collapse:collapse">
-                                                            <td align="center" class="es-infoblock made_with" style="padding:0;Margin:0;font-size:0"><a target="_blank" href="www.ericsolutions.com" style="mso-line-height-rule:exactly;text-decoration:underline;color:#CCCCCC;font-size:12px"><img src="{{URL::asset('assets/img/logo-light.png')}}" alt="" width="125" style="display:block;font-size:16px;border:0;outline:none;text-decoration:none"></a></td>
+                                                            <td align="center" class="es-infoblock made_with" style="padding:0;Margin:0;font-size:0"><a target="_blank" href="www.ericsolutions.com" style="mso-line-height-rule:exactly;text-decoration:underline;color:#CCCCCC;font-size:12px"><img src="{{URL::asset('assets/img/Eric_no_bg.png')}}" alt="" width="125" style="display:block;font-size:16px;border:0;outline:none;text-decoration:none"></a></td>
                                                         </tr>
                                                     </table></td>
                                             </tr>
