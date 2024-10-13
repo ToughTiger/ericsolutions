@@ -130,4 +130,13 @@ image {
     margin: 0 1rem;
     background: #18af3c;
 }
-
+@media only screen
+and (width: 393px)
+and (height: 852px)
+and (-webkit-device-pixel-ratio: 3) {
+    .header .logo img {
+        max-height: 80px;
+        width: 160px;
+        margin-right: 8px;
+    }
+}
