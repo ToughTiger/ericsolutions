@@ -9,6 +9,7 @@ use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\TagController;
 use App\Http\Controllers\TechnologyController;
 use App\Http\Controllers\VisitorController;
+use App\Http\Controllers\LikeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -75,5 +76,6 @@ route::get('/protocol',[IndexController::class,'protocol']);
 route::get('/csr',[IndexController::class,'csr']);
 
 route::post('/visitor', [VisitorController::class, 'store']);
+route::get('/testing', [LikeController::class, 'index']);
 
 //route::get('/tags',[TagController::class,'index']);

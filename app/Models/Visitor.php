@@ -20,6 +20,9 @@ class Visitor extends Model
     {
         return $this->belongsTo(Comment::class);
     }
+    public function messages(): \Illuminate\Database\Eloquent\Relations\HasMany {
+        return $this->hasMany(Message::class);
+    }
 
 
 }

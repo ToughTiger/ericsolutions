@@ -18,9 +18,10 @@
     <meta name="keywords" content="">
 
     <!-- Favicons -->
-    <link href="{{URL::asset('assets/img/favicon.png')}}" rel="icon">
-    <link href="{{URL::asset('assets/img/favicon.png')}}" rel="apple-touch-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/favicon.png" rel="apple-touch-icon">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+{{--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />--}}
     <!-- Fonts -->
 
     <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -30,17 +31,17 @@
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="{{URL::asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{URL::asset('assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
-    <link href="{{URL::asset('assets/vendor/aos/aos.css')}}" rel="stylesheet">
-    <link href="{{URL::asset('assets/vendor/animate.css/animate.min.css')}}" rel="stylesheet">
-    <link href="{{URL::asset('assets/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
-    <link href="{{URL::asset('assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Main CSS File -->
-    <link href="{{URL::asset('assets/css/app.css')}}" rel="stylesheet">
-    <link href="{{URL::asset('assets/css/main.css')}}" rel="stylesheet">
-    <link href="{{URL::asset('assets/css/normalize.css')}}" rel="stylesheet">
+    <link href="assets/css/app.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/normalize.css" rel="stylesheet">
 
 
     <!-- Google tag (gtag.js) -->
@@ -70,7 +71,7 @@
 
         <a href="#" class="logo d-flex align-items-center">
             <!-- Uncomment the line below if you also wish to use an image logo -->
-            <img src="{{URL::asset('assets/img/logo-light.png')}}" height="200px" width="300px" alt="">
+            <img src="assets/img/logo-light.png" height="200px" width="300px" alt="">
             {{--            <h1 class="sitename">Selecao</h1>--}}
         </a>
 
@@ -140,18 +141,18 @@
     </main>
 
 <!-- Vendor JS Files -->
-<script src="{{URL::asset('assets/js/jquery.min.js')}}"></script>
-<script src="{{URL::asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-<script src="{{URL::asset('assets/vendor/php-email-form/validate.js')}}"></script>
-<script src="{{URL::asset('assets/vendor/aos/aos.js')}}"></script>
-<script src="{{URL::asset('assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
-<script src="{{URL::asset('assets/vendor/imagesloaded/imagesloaded.pkgd.min.js')}}"></script>
-<script src="{{URL::asset('assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
-<script src="{{URL::asset('assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
 
 <!-- Main JS File -->
-<script src="{{URL::asset('assets/js/main.js')}}"></script>
+<script src="assets/js/main.js"></script>
 
 
 </body>

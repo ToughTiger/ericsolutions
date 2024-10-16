@@ -13,7 +13,7 @@
 
             <section class="section2 clearfix">
                 <div class="col2 column1 first">
-                    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div class="sec2map" style='overflow:hidden;height:550px;width:100%;'><div id='gmap_canvas' style='height:100%;width:100%;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">free web directories</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(19.075314480255834,72.88153973865361),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(19.075314480255834,72.88153973865361)});infowindow = new google.maps.InfoWindow({content:'<strong>My Location</strong><br>mumbai<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                    <img src="{{URL::asset('assets/img/Logo_animation.gif')}}" alt="eric_logo" style="object-fit: cover; width: 100%" height="100%">
                 </div>
                 <div class="col2 column2 last">
                     <div class="sec2innercont">
@@ -41,7 +41,9 @@
                             <div class="clearfix"><input type="submit" value="Send"></div>
                         </form>
                     </div>
-
+                        @foreach($errors->all() as $error)
+                            <ul><li class="text-danger">{{$error}}</li></ul>
+                        @endforeach
                 </div>
             </section>
 

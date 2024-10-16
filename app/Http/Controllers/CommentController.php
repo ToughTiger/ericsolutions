@@ -17,7 +17,14 @@ class CommentController extends Controller
     }
     public function store(Request $request)
     {
-//        dd($request->all());
+
+      $request->validate([
+            'first_name' => 'required|string|max:255',
+            'last_name' => 'required|string|max:255',
+            'email' => 'required|email',
+            'phone' => 'required|string|max:255',
+            'comment' => 'required|string',
+        ]);
         $existingVisitor = Visitor::where('email', $request->get('email') )->first();
 
 
