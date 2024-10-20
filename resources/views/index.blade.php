@@ -555,7 +555,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                     <div class="team-member">
                         <div class="member-img">
-                            <img src="assets/img/team/Deepak_prabhu.png'"  height="250px" width="100%" alt="">
+                            <img src="assets/img/team/Deepak_prabhu.png"  height="250px" width="100%" alt="">
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter-x"></i></a>
                                 <a href=""><i class="bi bi-facebook"></i></a>
