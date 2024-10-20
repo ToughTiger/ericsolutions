@@ -3139,6 +3139,9 @@ section,
 /*cookies contest box*/
 
 /* Base styles for cookie banner */
+#cookieConsentModal {
+    display: none;
+}
 .cookie-banner {
     position: fixed;
     bottom: 0;
