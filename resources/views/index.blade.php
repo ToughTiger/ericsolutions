@@ -595,6 +595,6 @@
         </div>
 
     </section><!-- /Team Section -->
-{{--    @include('cookie-consent::index')--}}
+    @include('cookie-consent::index')
     <x-footer></x-footer>
 </x-layout>
