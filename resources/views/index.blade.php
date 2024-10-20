@@ -595,6 +595,6 @@
         </div>
 
     </section><!-- /Team Section -->
-    @include('cookie-consent::dialogContents')
+
     <x-footer></x-footer>
 </x-layout>

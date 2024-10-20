@@ -24,7 +24,7 @@
                 <h4>Necessary Cookies</h4>
                 <p>These cookies are essential for the website to function and cannot be switched off.</p>
                 <label>
-                    <input type="checkbox" checked disabled> Necessary Cookies
+                    <input type="checkbox" id="neccessaryCookie" checked disabled> Necessary Cookies
                 </label>
             </div>
 
