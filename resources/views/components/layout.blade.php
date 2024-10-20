@@ -55,7 +55,7 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HTF35EC27F"></script>
 
-
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- =======================================================
     * Template Name: Selecao
     * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
@@ -165,5 +165,6 @@
 
 
 </body>
+
 
 </html>

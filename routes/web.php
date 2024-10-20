@@ -2,7 +2,6 @@
 
 use App\Http\Controllers\CommentController;
 use App\Http\Controllers\IndexController;
-use App\Http\Controllers\MapController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ServiceController;
@@ -10,6 +9,8 @@ use App\Http\Controllers\TagController;
 use App\Http\Controllers\TechnologyController;
 use App\Http\Controllers\VisitorController;
 use App\Http\Controllers\LikeController;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -79,3 +80,18 @@ route::post('/visitor', [VisitorController::class, 'store']);
 route::get('/testing', [LikeController::class, 'index']);
 
 //route::get('/tags',[TagController::class,'index']);
+
+// Coockeies Routes
+
+Route::post('/set-cookie-preferences', function (Request $request) {
+    // Get preferences from the request
+    $preferences = $request->input('preferences');
+
+    // Set cookies for 1 year (can be adjusted)
+    Cookie::queue('marketing_cookies', $preferences['marketing'], 60 * 24 * 365);
+    Cookie::queue('facebook_cookies', $preferences['facebook'], 60 * 24 * 365);
+    Cookie::queue('twitter_cookies', $preferences['twitter'], 60 * 24 * 365);
+    Cookie::queue('google_analytics_cookies', $preferences['google_analytics'], 60 * 24 * 365);
+
+    return response()->json(['message' => 'Preferences saved successfully']);
+});
