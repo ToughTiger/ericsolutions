@@ -59,5 +59,5 @@
             </div>
         </div>
     </div>
-
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="fa-solid fa-arrow-up text-white"></i></a>
 </footer>

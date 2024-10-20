@@ -136,6 +136,7 @@
 
 </main>
 <x-footer></x-footer>
+
 <!-- Vendor JS Files -->
 
 <script src="assets/js/jquery.min.js"></script>
