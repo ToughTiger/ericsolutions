@@ -69,7 +69,7 @@
 
         <a href="#" class="logo d-flex align-items-center">
             <!-- Uncomment the line below if you also wish to use an image logo -->
-            <img src="{{URL::asset('assets/img/logo-light.png')}}"  width="100%" alt="">
+            <img src="assets/img/logo-light.png"  width="100%" alt="">
             {{--            <h1 class="sitename">Selecao</h1>--}}
         </a>
 

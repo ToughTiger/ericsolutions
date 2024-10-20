@@ -517,7 +517,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                     <div class="team-member">
                         <div class="member-img">
-                            <img src="{{URL::asset('assets/img/team/sachin-trans.jpeg')}}"  height="250px" width="100%" alt="">
+                            <img src="assets/img/team/sachin-trans.jpeg"  height="250px" width="100%" alt="">
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter-x"></i></a>
                                 <a href=""><i class="bi bi-facebook"></i></a>
@@ -536,7 +536,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
                     <div class="team-member">
                         <div class="member-img">
-                            <img src="{{URL::asset('assets/img/team/kenneth_Duchin.png')}}" class="img-fluid" height="250px" width="100%" alt="">
+                            <img src="assets/img/team/kenneth_Duchin.png" class="img-fluid" height="250px" width="100%" alt="">
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter-x"></i></a>
                                 <a href=""><i class="bi bi-facebook"></i></a>
@@ -555,7 +555,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                     <div class="team-member">
                         <div class="member-img">
-                            <img src="{{URL::asset('assets/img/team/Deepak_prabhu.png')}}"  height="250px" width="100%" alt="">
+                            <img src="assets/img/team/Deepak_prabhu.png'"  height="250px" width="100%" alt="">
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter-x"></i></a>
                                 <a href=""><i class="bi bi-facebook"></i></a>
@@ -574,7 +574,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
                     <div class="team-member">
                         <div class="member-img">
-                            <img src="{{URL::asset('assets/img/team/Yessenia_Rincon.png')}}" height="250px" width="100%" alt="">
+                            <img src="assets/img/team/Yessenia_Rincon.png" height="250px" width="100%" alt="">
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter-x"></i></a>
                                 <a href=""><i class="bi bi-facebook"></i></a>
