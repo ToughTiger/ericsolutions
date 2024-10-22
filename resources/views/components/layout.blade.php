@@ -60,15 +60,6 @@
     * License: https://bootstrapmade.com/license/
     ======================================================== -->
 </head>
-<script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
-<script>
-    var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"Chat with us","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"17866365556","welcomeMessage":"Welcome to Eric Solutions","zIndex":999999,"btnColorScheme":"light"};
-    window.onload = () => {
-        _waEmbed(wa_btnSetting);
-    };
-</script>
-
-
 <body class="index-page">
 
 <header id="header" class="header d-flex align-items-center fixed-top dark-background">
