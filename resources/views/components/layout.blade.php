@@ -48,6 +48,9 @@
     <link href="{{URL::asset('assets/vendor/animate.css/animate.min.css')}}" rel="stylesheet">
     <link href="{{URL::asset('assets/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
