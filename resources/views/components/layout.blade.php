@@ -72,7 +72,10 @@
 
         <a href="#" class="logo d-flex align-items-center">
             <!-- Uncomment the line below if you also wish to use an image logo -->
-            <img src="assets/img/logo-light.png" height="200px" width="300px" alt="">
+            <img srcset="
+    assets/img/logo-light.png 300w,
+    assets/img/logo-light.png 900w,
+    assets/img/logo-light.png 1800w"  src="assets/img/logo-light.png" height="200px" width="300px" alt="">
             {{--            <h1 class="sitename">Selecao</h1>--}}
         </a>
 
