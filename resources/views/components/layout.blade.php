@@ -51,6 +51,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -61,6 +62,11 @@
 =======
 >>>>>>> Stashed changes
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+||||||| Stash base
+    <link href="{{URL::asset('assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
+=======
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+>>>>>>> Stashed changes
 
     <!-- Main CSS File -->
     <link href="assets/css/app.css" rel="stylesheet">
