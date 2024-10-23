@@ -52,10 +52,6 @@
     <link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/normalize.css" rel="stylesheet">
 
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HTF35EC27F"></script>
-
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- =======================================================
     * Template Name: Selecao
