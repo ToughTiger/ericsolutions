@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Routing\UrlGenerator;
+use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -24,5 +25,9 @@ class AppServiceProvider extends ServiceProvider
         {
             $url->forceScheme('https');
         }
+        $defaultTitle = "Home";
+        $defaultDescription = 'Eric Solutions offers advantage of one stop solution by offering Management systems such as Clinical Trial Management Software.';
+        View::share('title', $defaultTitle);
+        View::share('metaDescription', $defaultDescription);
     }
 }

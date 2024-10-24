@@ -8,7 +8,10 @@ use Illuminate\Http\Request;
 class IndexController extends Controller
 {
     public function contact(){
-        return view('contacts.contacts');
+        $title = 'Contact Us';
+        $metaDescription = 'This is our contact page';
+
+        return view('contacts.contacts', compact('title', 'metaDescription'));
     }
 public function gdpr(){
         return view('legal/gdpr');

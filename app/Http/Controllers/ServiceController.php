@@ -10,7 +10,9 @@ class ServiceController extends Controller
 {
     public function clinical_operation()
     {
-        return view('services/clinical_operation');
+        $title = 'Clinical Operations';
+        $metaDescription = 'ERIC Provides its Healthcare Partners, Clinical Data Standardization Services since inception';
+        return view('services/clinical_operation', compact('title', 'metaDescription'));
 
     }
 
