@@ -40,7 +40,7 @@ class User extends Authenticatable implements FilamentUser
 
     public function canAccessPanel(Panel $panel): bool
     {
-        return str_ends_with($this->email, '@ericsolution.com');
+        return str_ends_with($this->email, '@ericsolutions.com');
     }
     // Relationships
     public function posts(): \Illuminate\Database\Eloquent\Relations\HasMany
