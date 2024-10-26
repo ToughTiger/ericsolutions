@@ -52,54 +52,54 @@
     * Author: BootstrapMade.com
     * License: https://bootstrapmade.com/license/
     ======================================================== -->
+    <?php
+    $structuredData = [
+        "@context" => "https://schema.org",
+        "@type"=> "BlogPosting",
+        "mainEntityOfPage"=> [
+            "@type"=> "WebPage",
+            "@id"=> "https://www.ericsolutions.com/posts/@yield($post->title)"
+        ],
+        "headline"=> "$post->title",
+        "description"=> "$post->meta_description",
+        "datePublished"=> "$post->published_at",
+        "dateModified"=> "$post->updated_at",
+        "author"=> [
+            "@type"=> "Person",
+            "name"=> "$post->author->name",
+            "url"=> "https://www.ericsolutions.com/author/$post->author_id"
+        ],
+        "publisher"=> [
+            "@type"=> "Organization",
+            "name"=> "Eric Solutions",
+            "logo"=> [
+                "@type"=> "ImageObject",
+                "url"=> "https://www.ericsolutions.com/logo.png"
+            ]
+        ],
+        "articleBody"=> "As clinical trials continue to evolve, the way data is captured, managed, and analyzed is undergoing significant transformation...",
+        "image"=> "https://www.ericsolutions.com/images/clinical-trial-trends-2024.jpg",
+        "keywords"=> "clinical trial data management, AI in clinical trials, decentralized clinical trials, cloud-based CTMS, real-world data, data integration",
+        "articleSection"=> "Clinical Trial Data Management, Technology Trends"
 
+    ];
+
+
+    ?>
     <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.ericsolutions.com/posts/@yield($post->title)"
-          },
-          "headline": "@yield($post->title)",
-          "description": "@yield($post->meta_description)",
-          "datePublished": "@yield($post->published_at)",
-          "dateModified": "@yield($post->updated_at)",
-          "author": {
-            "@type": "Person",
-            "name": "@yield($post->author)",
-            "url": "https://www.ericsolutions.com/team"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Eric Solutions",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://www.ericsolutions.com/logo.png"
-            }
-          },
-          "articleBody": "As clinical trials continue to evolve, the way data is captured, managed, and analyzed is undergoing significant transformation...",
-          "image": "https://www.ericsolutions.com/images/clinical-trial-trends-2024.jpg",
-          "keywords": "clinical trial data management, AI in clinical trials, decentralized clinical trials, cloud-based CTMS, real-world data, data integration",
-          "articleSection": "Clinical Trial Data Management, Technology Trends"
-        }
+        {!! json_encode($structuredData, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) !!}
     </script>
 
 </head>
-<script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
-<script>
-    var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"Chat with us","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"17866365556","welcomeMessage":"Welcome to Eric Solutions","zIndex":999999,"btnColorScheme":"light"};
-    window.onload = () => {
-        _waEmbed(wa_btnSetting);
-    };
-</script>
+
 <body class="index-page">
+
 <header id="header" class="header d-flex align-items-center fixed-top dark-background">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
         <a href="#" class="logo d-flex align-items-center">
             <!-- Uncomment the line below if you also wish to use an image logo -->
-            <img src="{{URL::asset('assets/img/logo-light.png')}}" width="100%" alt="">
+            <img src="/assets/img/logo-light.png" width="100%" alt="">
             {{--            <h1 class="sitename">Selecao</h1>--}}
         </a>
 
@@ -451,7 +451,7 @@
 </footer>
 <!-- Vendor JS Files -->
 <script src="/assets/js/jquery.min.js"></script>
-<script src="http://cdn.bootcss.com/toastr.js/latest/js/toastr.min.js"></script>
+<script src="https://cdn.bootcss.com/toastr.js/latest/js/toastr.min.js"></script>
 <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="/assets/vendor/aos/aos.js"></script>
 <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>

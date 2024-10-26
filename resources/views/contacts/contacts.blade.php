@@ -51,8 +51,8 @@
         {!! Toastr::message() !!}
     </div>
 </div>
-    <script src="{{URL::asset('assets/js/jquery.min.js')}}"></script>
-    <script src="http://cdn.bootcss.com/toastr.js/latest/js/toastr.min.js"></script>
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/toastr.js/latest/js/toastr.min.js"></script>
     <script>
         @if(Session::has('message'))
             toastr.options =

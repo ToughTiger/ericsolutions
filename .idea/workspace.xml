@@ -6,31 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3a68b87a-472b-4d42-a5c2-4607f8dca7d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ServiceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ServiceController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TechnologyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TechnologyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/blog/singlePost.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/singlePost.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/layout.blade.php.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/page_layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/page_layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/contacts/contacts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contacts/contacts.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/legal/cookies.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/legal/cookies.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/legal/gdpr.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/legal/gdpr.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/legal/privacy_policy.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/legal/privacy_policy.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/legal/terms.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/services/biostatistics.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services/biostatistics.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/services/clinical_data.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services/clinical_data.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/services/clinical_operation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services/clinical_operation.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/services/data_management.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services/data_management.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/services/etmf.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services/etmf.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/services/medical_writing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services/medical_writing.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/services/pharmacovigilance.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services/pharmacovigilance.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/technology/ctms.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/technology/ctms.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/technology/edc.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/technology/edc.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/technology/etmf.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/technology/etmf.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/technology/irt.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/technology/irt.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -520,7 +497,7 @@
       <workItem from="1729603978490" duration="4755000" />
       <workItem from="1729701856230" duration="7849000" />
       <workItem from="1729779804058" duration="7606000" />
-      <workItem from="1729945151407" duration="9093000" />
+      <workItem from="1729945151407" duration="13378000" />
     </task>
     <servers />
   </component>
