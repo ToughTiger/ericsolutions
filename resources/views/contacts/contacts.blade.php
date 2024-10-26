@@ -1,5 +1,5 @@
 
-<x-page_layout>
+<x-page_layout :meta="$meta">
 <div class="main">
     <div class="section">
         <div class="innerwrap">

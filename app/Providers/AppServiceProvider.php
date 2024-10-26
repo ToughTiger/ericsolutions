@@ -24,10 +24,17 @@ class AppServiceProvider extends ServiceProvider
         if(env('APP_ENV') !== 'local')
         {
             $url->forceScheme('https');
-        }
-        $defaultTitle = "Home";
-        $defaultDescription = 'Eric Solutions offers advantage of one stop solution by offering Management systems such as Clinical Trial Management Software.';
-        View::share('title', $defaultTitle);
-        View::share('metaDescription', $defaultDescription);
+        };
+
+        View::composer('*', function ($view) {
+            if (!isset($view->getData()['meta'])) {
+                $view->with('meta', [
+                    'title' => 'Eric Solutions - Clinical Trial Experts',
+                    'keywords' => 'clinical trials, EDC, CTMS, eTMF, IRT, Eric Solutions',
+                    'description' => 'Eric Solutions offers advanced clinical trial management services like EDC, CTMS, eTMF, and IRT solutions for efficient trial execution.'
+                ]);
+            }
+        });
+
     }
 }

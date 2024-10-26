@@ -1,11 +1,15 @@
 
-<!-- /**
-*Using Props and attributes. Props declared will give a variable of the same name and is accessible
-*/ -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-WN9XWGKG');</script>
+    <!-- End Google Tag Manager -->
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DG3HYM0N5T"></script>
     <script>
@@ -15,17 +19,21 @@
 
         gtag('config', 'G-DG3HYM0N5T');
     </script>
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/44950087.js"></script>
+    <!-- End of HubSpot Embed Code -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    @section('title', $title)
-    @section('metaDescription', $metaDescription)
-    <meta name="keywords" content="">
 
+    <meta name="description" content="{{ $meta['description'] ?? 'Default description' }}">
+    <meta name="keywords" content="{{ $meta['keywords'] ?? 'Default keywords' }}">
+    <title> {{ $meta['title'] ?? 'Default Title' }}</title>
     <!-- Favicons -->
-    <link href="assets/img/favicon.png">
+    <link href="assets/img/favicon.png" rel="icon">
     <link href="assets/img/favicon.png" rel="apple-touch-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Fonts -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -43,6 +51,7 @@
     <link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/app.css" rel="stylesheet">
     <link href="assets/css/normalize.css" rel="stylesheet">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- =======================================================
     * Template Name: Selecao
     * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
@@ -56,21 +65,22 @@
 
 
 </head>
-<script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
-<script>
-    var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"Chat with us","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"17866365556","welcomeMessage":"Welcome to Eric Solutions","zIndex":999999,"btnColorScheme":"light"};
-    window.onload = () => {
-        _waEmbed(wa_btnSetting);
-    };
-</script>
+
 <body class="index-page">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WN9XWGKG"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <header id="header" class="header d-flex align-items-center fixed-top dark-background">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-        <a href="#" class="logo d-flex align-items-center">
-            <!-- Uncomment the line below if you also wish to use an image logo -->
-            <img src="assets/img/logo-light.png"  width="100%" alt="">
-            {{--            <h1 class="sitename">Selecao</h1>--}}
+        <a href="/" class="logo d-flex align-items-center">
+            <img
+                srcset="
+                    assets/img/logo-light.png 300w,
+                    assets/img/logo-light.png 900w,
+                    assets/img/logo-light.png 1800w"
+                src="assets/img/logo-light.png"  width="100%" alt="eric_solutions">
         </a>
 
 

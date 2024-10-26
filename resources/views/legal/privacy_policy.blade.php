@@ -1,4 +1,4 @@
-<x-page_layout>
+<x-page_layout :meta="$meta">
     <main class="main">
         <!-- Page Title -->
         <div class="page-title dark-background">

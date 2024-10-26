@@ -1,4 +1,4 @@
-<x-layout>
+<x-layout :meta="$meta">
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 

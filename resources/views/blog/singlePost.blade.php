@@ -52,6 +52,39 @@
     * Author: BootstrapMade.com
     * License: https://bootstrapmade.com/license/
     ======================================================== -->
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.ericsolutions.com/posts/@yield($post->title)"
+          },
+          "headline": "@yield($post->title)",
+          "description": "@yield($post->meta_description)",
+          "datePublished": "@yield($post->published_at)",
+          "dateModified": "@yield($post->updated_at)",
+          "author": {
+            "@type": "Person",
+            "name": "@yield($post->author)",
+            "url": "https://www.ericsolutions.com/team"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Eric Solutions",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.ericsolutions.com/logo.png"
+            }
+          },
+          "articleBody": "As clinical trials continue to evolve, the way data is captured, managed, and analyzed is undergoing significant transformation...",
+          "image": "https://www.ericsolutions.com/images/clinical-trial-trends-2024.jpg",
+          "keywords": "clinical trial data management, AI in clinical trials, decentralized clinical trials, cloud-based CTMS, real-world data, data integration",
+          "articleSection": "Clinical Trial Data Management, Technology Trends"
+        }
+    </script>
+
 </head>
 <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
 <script>

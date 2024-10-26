@@ -22,22 +22,20 @@
 
     <!-- Start of HubSpot Embed Code -->
     <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/44950087.js"></script>
-    <!-- End of HubSpot Embed Code -->
+    <!-- End of HubSpot Embed Code-->
+
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    @section('title', $title)
-    @section('metaDescription', $metaDescription)
-{{--    <title>eRIC Solutions | {{ $title }}</title>--}}
-{{--    <meta name="description" content="{{ $metaDescription }}">--}}
-    <meta name="keywords" content="">
+    <title> {{ $meta['title'] ?? 'Default Title' }}</title>
+    <meta name="description" content="{{ $meta['description'] ?? 'Default description' }}">
+    <meta name="keywords" content="{{ $meta['keywords'] ?? 'Default keywords' }}">
 
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon">
     <link href="assets/img/favicon.png" rel="apple-touch-icon">
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-{{--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />--}}
-    <!-- Fonts -->
 
+    <!-- Fonts -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
     <link
@@ -80,13 +78,14 @@
 <header id="header" class="header d-flex align-items-center fixed-top dark-background">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-        <a href="#" class="logo d-flex align-items-center">
+        <a href="/" class="logo d-flex align-items-center">
             <!-- Uncomment the line below if you also wish to use an image logo -->
             <img srcset="
-    assets/img/logo-light.png 300w,
-    assets/img/logo-light.png 900w,
-    assets/img/logo-light.png 1800w"  src="assets/img/logo-light.png" height="200px" width="300px" alt="">
-            {{--            <h1 class="sitename">Selecao</h1>--}}
+                        assets/img/logo-light.png 300w,
+                        assets/img/logo-light.png 900w,
+                        assets/img/logo-light.png 1800w"
+                 src="assets/img/logo-light.png" width="100%" alt="eric_solutions">
+
         </a>
 
         <nav id="navmenu" class="navmenu">
