@@ -7,6 +7,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\TagController;
 use App\Http\Controllers\TechnologyController;
+use App\Http\Controllers\UserController;
 use App\Http\Controllers\VisitorController;
 use App\Http\Controllers\LikeController;
 use Illuminate\Http\Request;
@@ -45,6 +46,8 @@ Route::middleware('auth')->group(function () {
 
 require __DIR__.'/auth.php';
 
+
+
 Route::get('/clinical_operation',[ServiceController::class,'clinical_operation']);
 Route::get('/biostatistics',[ServiceController::class,'biostatistics']);
 Route::get('/clinical_data',[ServiceController::class,'clinical_data']);
@@ -67,19 +70,18 @@ Route::get('/irt',[TechnologyController::class,'irt']);
 
 //Post Routes
 
-route::get('/posts',[PostController::class,'index']);
-route::get('/posts/{id}',[PostController::class,'singlePost']);
+Route::get('/posts',[PostController::class,'index']);
+Route::get('/posts/{id}',[PostController::class,'singlePost']);
 Route::get('/social-share', [PostController::class, 'share']);
 
-route::post('/comments',[CommentController::class,'store']);
+Route::post('/comments',[CommentController::class,'store']);
 
-route::get('/protocol',[IndexController::class,'protocol']);
-route::get('/csr',[IndexController::class,'csr']);
+Route::get('/protocol',[IndexController::class,'protocol']);
+Route::get('/csr',[IndexController::class,'csr']);
 
-route::post('/visitor', [VisitorController::class, 'store']);
-route::get('/testing', [LikeController::class, 'index']);
+Route::post('/visitor', [VisitorController::class, 'store']);
 
-//route::get('/tags',[TagController::class,'index']);
+Route::get('/author/{id}', [UserController::class, 'getUserById']);
 
 // Coockeies Routes
 
@@ -95,3 +97,4 @@ Route::post('/set-cookie-preferences', function (Request $request) {
 
     return response()->json(['message' => 'Preferences saved successfully']);
 });
+

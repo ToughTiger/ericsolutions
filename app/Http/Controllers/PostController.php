@@ -23,9 +23,7 @@ class PostController extends Controller
 
     public function singlePost($id): \Illuminate\Contracts\View\View
     {
-        $share_buttons = \Share::page(
-            'How to Add Social Media Share Button in Laravel 10 App?'
-        )
+        $share_buttons = \Share::page('added social media')
             ->facebook()
             ->twitter()
             ->linkedin()

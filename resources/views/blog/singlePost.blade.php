@@ -19,9 +19,8 @@
     <link rel="canonical" href="{{url()->current()}}"/>
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
+    <link href="{{URL::asset('assets/img/favicon.png')}}" rel="icon">
+    <link href="{{URL::asset('assets/img/favicon.png')}}" rel="apple-touch-icon">
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -32,18 +31,19 @@
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-    <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="{{URL::asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/vendor/aos/aos.css" rel="stylesheet')}}">
+    <link href="{{URL::asset('assets/vendor/animate.css/animate.min.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
 
     <!-- Main CSS File -->
-    <link href="/assets/css/app.css" rel="stylesheet">
-    <link href="/assets/css/main.css" rel="stylesheet">
+    <link href="{{URL::asset('assets/css/app.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/css/main.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/css/normalize.css')}}" rel="stylesheet">
 
-    <link rel="stylesheet" href="http://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css">
 
     <!-- =======================================================
     * Template Name: Selecao
@@ -53,28 +53,29 @@
     * License: https://bootstrapmade.com/license/
     ======================================================== -->
     <?php
+//        dd($post->author->name);
     $structuredData = [
         "@context" => "https://schema.org",
         "@type"=> "BlogPosting",
         "mainEntityOfPage"=> [
             "@type"=> "WebPage",
-            "@id"=> "https://www.ericsolutions.com/posts/@yield($post->title)"
+            "@id"=> "https://www.ericsolutions.com/posts/$post->title"
         ],
-        "headline"=> "$post->title",
-        "description"=> "$post->meta_description",
-        "datePublished"=> "$post->published_at",
-        "dateModified"=> "$post->updated_at",
+        "headline"=> $post->title,
+        "description"=> $post->meta_description,
+        "datePublished"=> $post->created_at,
+        "dateModified"=> $post->updated_at,
         "author"=> [
             "@type"=> "Person",
-            "name"=> "$post->author->name",
-            "url"=> "https://www.ericsolutions.com/author/$post->author_id"
+            "name"=> $post->author->name,
+            "url"=> "https://www.ericsolutions.com/users/$post->author_id"
         ],
         "publisher"=> [
             "@type"=> "Organization",
             "name"=> "Eric Solutions",
             "logo"=> [
                 "@type"=> "ImageObject",
-                "url"=> "https://www.ericsolutions.com/logo.png"
+                "url"=> "https://www.ericsolutions.com/assets/img/logo-light.png"
             ]
         ],
         "articleBody"=> "As clinical trials continue to evolve, the way data is captured, managed, and analyzed is undergoing significant transformation...",
@@ -308,7 +309,7 @@
 
                             <div class="d-flex flex-column align-items-center">
                                 <img src="{{URL::asset('storage/'.$post->author->image_url)}}" class="rounded-circle flex-shrink-0" alt="">
-                                <h4>{{$post->author->name}}</h4>
+                                <h4><a href="{{'/author/'.$post->author_id}}">{{$post->author->name}}</a> </h4>
                                 <div class="social-links">
                                     <a href="https://x.com/{{$post->author->social}}"><i class="bi bi-twitter-x"></i></a>
                                     <a href="https://facebook.com/#"><i class="bi bi-facebook"></i></a>
@@ -450,17 +451,18 @@
     <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="fa-solid fa-arrow-up text-white"></i></a>
 </footer>
 <!-- Vendor JS Files -->
-<script src="/assets/js/jquery.min.js"></script>
+<script src="{{URL::asset('assets/js/jquery.min.js')}}"></script>
+<script src="{{URL::asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{URL::asset('assets/vendor/php-email-form/validate.js')}}"></script>
+<script src="{{URL::asset('assets/vendor/aos/aos.js')}}"></script>
+<script src="{{URL::asset('assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
+<script src="{{URL::asset('assets/vendor/imagesloaded/imagesloaded.pkgd.min.js')}}"></script>
+<script src="{{URL::asset('assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
+<script src="{{URL::asset('assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
+
+
+
 <script src="https://cdn.bootcss.com/toastr.js/latest/js/toastr.min.js"></script>
-<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="/assets/vendor/aos/aos.js"></script>
-<script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-<script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-
-<!-- Main JS File -->
 <script>
 
     @if(Session::has('message'))
@@ -475,6 +477,7 @@
 
 
 </script>
-<script src="/assets/js/main.js"></script>
+<!-- Main JS File -->
+<script src="{{URL::asset('assets/js/main.js')}}"></script>
 </body>
 </html>

@@ -6,7 +6,6 @@
         <div class="page-title dark-background">
             <div class="container position-relative">
                 <h1>Blog</h1>
-                <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
                 <nav class="breadcrumbs">
                     <ol>
                         <li><a href="/">Home</a></li>
@@ -36,11 +35,11 @@
                             </h2>
 
                             <div class="d-flex align-items-center">
-                                <img src="{{ $post->author->image }}" alt="" class="img-fluid post-author-img flex-shrink-0">
+                                <img src="{{URL::asset('storage/' .$post->author->image_url)}}" alt="{{$post->author->name}}" class="img-fluid post-author-img flex-shrink-0">
                                 <div class="post-meta">
                                     <p class="post-author">{{$post->author->name}}</p>
                                     <p class="post-date">
-                                        <time datetime="2022-01-01">{{$post->publish_at}}</time>
+                                        {{\Carbon\Carbon::parse($post->created_at)->format('j F, Y')}}
                                     </p>
                                 </div>
                             </div>
