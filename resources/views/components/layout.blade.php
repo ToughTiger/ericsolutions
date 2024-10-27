@@ -53,7 +53,7 @@
 
     <!-- Main CSS File -->
     <link href="{{URL::asset('assets/css/app.css')}}" rel="stylesheet">
-    <link href="{{URL::asset('assets/css/main.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/css/main.min.css')}}" rel="stylesheet">
     <link href="{{URL::asset('assets/css/normalize.css')}}" rel="stylesheet">
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -157,7 +157,7 @@
 
 
 <!-- Main JS File -->
-<script src="{{URL::asset('assets/js/main.js')}}"></script>
+<script src="{{URL::asset('assets/js/main.min.js')}}"></script>
 
 
 </body>
