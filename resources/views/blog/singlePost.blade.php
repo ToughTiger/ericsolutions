@@ -13,9 +13,9 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>@yield('title',$post->title) | Eric Solutions</title>
-    <meta name="keywords" content="@yield('meta_keywords',$post->keywords)">
-    <meta name="description" content="@yield('meta_description',$post->meta_description)">
+    <meta name="description" content="{{ $meta['description'] ?? 'Default description' }}">
+    <meta name="keywords" content="{{ $meta['keywords'] ?? 'Default keywords' }}">
+    <title> {{ $meta['title'] ?? 'Default Title' }}</title>
     <link rel="canonical" href="{{url()->current()}}"/>
 
     <!-- Favicons -->
