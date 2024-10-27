@@ -108,7 +108,8 @@ class PostResource extends Resource
                                     ->directory('form-attachments')
                                     ->preserveFilenames()
                                     ->image()
-                                    ->imageEditor(),
+                                    ->imageEditor()
+                                   ->visibility('public'),
                                 TextInput::make('alt'),
 
                             ])->collapsible(),
