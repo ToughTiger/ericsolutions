@@ -78,10 +78,10 @@
                 "url"=> "https://www.ericsolutions.com/assets/img/logo-light.png"
             ]
         ],
-        "articleBody"=> "As clinical trials continue to evolve, the way data is captured, managed, and analyzed is undergoing significant transformation...",
-        "image"=> "https://www.ericsolutions.com/images/clinical-trial-trends-2024.jpg",
-        "keywords"=> "clinical trial data management, AI in clinical trials, decentralized clinical trials, cloud-based CTMS, real-world data, data integration",
-        "articleSection"=> "Clinical Trial Data Management, Technology Trends"
+        "articleBody"=> $post->meta_description,
+        "image"=> "storage/" $post->image,
+        "keywords"=> $post->keywords,
+        "articleSection"=> $post->$category
 
     ];
 

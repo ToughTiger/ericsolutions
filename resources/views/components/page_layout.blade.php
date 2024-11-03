@@ -65,9 +65,45 @@
     * License: https://bootstrapmade.com/license/
     ======================================================== -->
 
-    <link rel="stylesheet" href="http://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css">
+
+    <?php
+
+    $structuredData = [
+        "@context" => "https://schema.org",
+        "@type"=> "Product Page",
+        "mainEntityOfPage"=> [
+            "@type"=> "WebPage",
+            "@id"=> "https://www.ericsolutions.com/".$meta['title']
+        ],
+        "headline"=> $meta['title'],
+        "description"=>$meta['description'],
+        "datePublished"=> "02/10/2024",
+        "dateModified"=> "",
+        "author"=> [
+            "@type"=> "Person",
+            "name"=> "Santosh Pandey",
+            "url"=> "https://www.ericsolutions.com",
+        ],
+        "publisher"=> [
+            "@type"=> "Organization",
+            "name"=> "Eric Solutions",
+            "logo"=> [
+                "@type"=> "ImageObject",
+                "url"=> "https://www.ericsolutions.com/assets/img/logo-light.png"
+            ]
+        ],
+    "articleBody"=> $meta['description'],
+    "keywords"=> $meta['keywords'],
+    "articleSection"=> $meta['title'],
+
+    ];
 
 
+    ?>
+    <script type="application/ld+json">
+        {!! json_encode($structuredData, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) !!}
+    </script>
 
 </head>
 

@@ -83,7 +83,7 @@ Route::post('/visitor', [VisitorController::class, 'store']);
 
 Route::get('/author/{id}', [UserController::class, 'getUserById']);
 
-// Coockeies Routes
+// Cookeies Routes
 
 Route::post('/set-cookie-preferences', function (Request $request) {
     // Get preferences from the request
