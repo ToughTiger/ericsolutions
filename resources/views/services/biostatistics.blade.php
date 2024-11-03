@@ -6,13 +6,7 @@
         <div class="page-title dark-background">
             <div class="container position-relative">
                 <h1>Biostatistics Service</h1>
-                {{--                <p>Our core competency, project management includes comprehensive and consistent processes, which conform to global regulatory requirements. From start-up to completion, performance is monitored and measured against contractual timelines and project costs are tracked to ensure adherence to agreed budgets</p>--}}
-                {{--                <nav class="breadcrumbs">--}}
-                {{--                    <ol>--}}
-                {{--                        <li><a href="index.html">Home</a></li>--}}
-                {{--                        <li class="current">Portfolio Details</li>--}}
-                {{--                    </ol>--}}
-                {{--                </nav>--}}
+
             </div>
         </div><!-- End Page Title -->
 

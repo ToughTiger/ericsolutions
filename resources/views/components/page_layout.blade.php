@@ -33,7 +33,7 @@
     <link href="{{URL::asset('assets/img/favicon.png')}}" rel="apple-touch-icon">
 
     <!-- Fonts -->
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="{{URL::asset('assets/css/fontawesome.min.css')}}">
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -116,12 +116,7 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
         <a href="/" class="logo d-flex align-items-center">
-            <img
-                srcset="
-                    assets/img/logo-light.png 300w,
-                    assets/img/logo-light.png 900w,
-                    assets/img/logo-light.png 1800w"
-                src="assets/img/logo-light.png"  width="100%" alt="eric_solutions">
+            <img src="{{URL::asset('assets/img/logo-light.png')}}"  width="100%" alt="eric_solutions">
         </a>
 
 

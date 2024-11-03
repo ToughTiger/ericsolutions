@@ -41,9 +41,20 @@ class PostController extends Controller
 //        dd($comments->count());
         $tags = Tag::orderBy('created_at')->limit(5)->get();
         $categories = Category::orderBy('created_at')->limit(5)->get();
+        $meta = [
+            'title' => $post->title,
+            'keywords' => $post->keywords,
+            'description' => $post->meta_description,
+            'created_at' => $post->created_at,
+            'updated_at' => $post->updated_at,
+            'author' => $post->author->name,
+            'author_id' => $post->author->id,
+            'image' => $post->image,
+            'categories' => $post->category,
 
+        ];
 
-        return view('blog.singlePost', ['post' => $post, 'tags' => $tags,  'categories' => $categories, 'posts' => $posts, 'comments' => $comments]);
+        return view('blog.singlePost', ['post' => $post, 'tags' => $tags, 'meta' =>$meta,  'categories' => $categories, 'posts' => $posts, 'comments' => $comments]);
     }
 
 

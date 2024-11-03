@@ -5,7 +5,7 @@
                 {{--    Address Div Start        --}}
                 <div class="address">
 
-                    <img class="logo" src="assets/img/logo-light.png" alt="eric_logo">
+                    <img class="logo" src="{{URL::asset('assets/img/logo-light.png')}}" alt="eric_logo">
 
                     <p>621 E Tropical Way Plantation FL 33317</p>
                     <p>Tel: +1-786-636-5556</p>
