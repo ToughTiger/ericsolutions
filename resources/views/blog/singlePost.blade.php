@@ -59,7 +59,7 @@
         "@type"=> "BlogPosting",
         "mainEntityOfPage"=> [
             "@type"=> "WebPage",
-            "@id"=> "https://www.ericsolutions.com/posts/$post->title"
+            "@id"=> "https://www.ericsolutions.com/posts/{{$post->title}}",
         ],
         "headline"=> $post->title,
         "description"=> $post->meta_description,

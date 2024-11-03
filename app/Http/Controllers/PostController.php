@@ -41,13 +41,9 @@ class PostController extends Controller
 //        dd($comments->count());
         $tags = Tag::orderBy('created_at')->limit(5)->get();
         $categories = Category::orderBy('created_at')->limit(5)->get();
-        $meta = [
-            'title' => 'Interactive Response Technology | Eric Solutions',
-            'keywords' => 'interactive response technology, patient engagement, clinical trials, technology solutions',
-            'description' => 'Streamline clinical trial operations with our innovative Interactive Response Technology for better patient engagement'
-        ];
 
-        return view('blog.singlePost', ['post' => $post, 'tags' => $tags, 'meta' => $meta, 'categories' => $categories, 'posts' => $posts, 'comments' => $comments]);
+
+        return view('blog.singlePost', ['post' => $post, 'tags' => $tags,  'categories' => $categories, 'posts' => $posts, 'comments' => $comments]);
     }
 
 
