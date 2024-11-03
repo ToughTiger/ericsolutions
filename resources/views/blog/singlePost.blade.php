@@ -75,7 +75,7 @@
             "name"=> "Eric Solutions",
             "logo"=> [
                 "@type"=> "ImageObject",
-                "url"=> "https://www.ericsolutions.com/assets/img/logo-light.png"
+                "url"=> "https://www.ericsolutions.com/assets/img/logo-light.png",
             ],
         ],
         "articleBody"=> $post->meta_description,
