@@ -76,7 +76,7 @@
             "logo"=> [
                 "@type"=> "ImageObject",
                 "url"=> "https://www.ericsolutions.com/assets/img/logo-light.png"
-            ]
+            ],
         ],
         "articleBody"=> $post->meta_description,
         "image"=> "storage/" $post->image,
