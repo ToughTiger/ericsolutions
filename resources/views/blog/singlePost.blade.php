@@ -68,7 +68,7 @@
         "author"=> [
             "@type"=> "Person",
             "name"=> $post->author->name,
-            "url"=> "https://www.ericsolutions.com/users/$post->author_id"
+            "url"=> "https://www.ericsolutions.com/users/{{$post->author_id}}"
         ],
         "publisher"=> [
             "@type"=> "Organization",
