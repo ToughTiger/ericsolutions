@@ -51,6 +51,7 @@ class HubSpotController extends Controller
 
     /**
      * @throws ApiException
+     * @throws \HubSpot\Client\Cms\Blogs\Tags\ApiException
      */
     public function singleBlog($id): \Illuminate\Contracts\View\Factory|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\View|\Illuminate\Contracts\Foundation\Application
     {
@@ -63,8 +64,8 @@ class HubSpotController extends Controller
             ->reddit();
         $post = $this->hubspotService->getBlogById($id);
         $tagIds = $post->getTagIds();
+//
         $tagNames = $this->hubspotService->getBlogPostTags($tagIds);
-        dd($post);
         return view('blog.singlePost', compact('post', 'share_buttons', 'tagNames'));
     }
     public function whitepapers()

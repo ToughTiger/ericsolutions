@@ -60,9 +60,18 @@
 
                                     <i class="bi bi-tags"></i>
                                     <ul class="tags">
-                                        @foreach($tagNames as $tag)
-                                            <li><a href="#">{{$tag}}</a></li>
-                                        @endforeach
+                                        @if($tagNames && $tagNames->isNotEmpty())
+                                            @foreach($tagNames as $tag)
+                                                <li>Debug: {{$tag->getName() ?? 'No name'}}</li>
+                                                @if(!empty($tag->getName()))
+                                                    <li><a href="#">{{$tag->getName()}}</a></li>
+                                                @else
+                                                    <li><a href="#">No Tag Found</a></li>
+                                                @endif
+                                            @endforeach
+                                        @else
+                                            <li><a href="#">No Tags Available</a></li>
+                                        @endif
                                     </ul>
                                 </div><!-- End meta bottom -->
                                 <div class="text-success social-container">

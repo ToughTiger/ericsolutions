@@ -41,6 +41,16 @@ class HubSpotService
         return $this->client->cms()->blogs()->blogPosts()->blogPostsApi()->getById($id);
     }
 
+    /**
+     * @throws \HubSpot\Client\Cms\Blogs\Tags\ApiException
+     */
+//    public function getBlogPostTags(): \HubSpot\Client\Cms\Blogs\Tags\Model\CollectionResponseWithTotalTagForwardPaging|\HubSpot\Client\Cms\Blogs\Tags\Model\Error
+//    {
+//
+//
+//                return $this->client->cms()->blogs()->tags()->blogTagsApi()->getPage();
+//
+//    }
     public function getBlogPostTags($tagIds): array
     {
         try {
@@ -48,11 +58,11 @@ class HubSpotService
 
             foreach ($tagIds as $tagId) {
                 // Fetch the tag by ID
-                $tag = $this->client->cms()->blogs()->tags()->getTagById();
-                $tagNames[] = $tag->getName();  // Store the tag name
+                $tags = $this->client->cms()->blogs()->tags()->blogTagsApi()->getById($tagId);
+                $tagNames[] = $tags;  // Store the tag name
             }
-
             return $tagNames;
+
         } catch (\Exception $e) {
             return ['error' => 'Failed to fetch tags'];
         }
