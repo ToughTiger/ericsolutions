@@ -29,7 +29,7 @@
     <title> {{ $meta['title'] ?? 'Default Title' }}</title>
     <meta name="description" content="{{ $meta['description'] ?? 'Default description' }}">
     <meta name="keywords" content="{{ $meta['keywords'] ?? 'Default keywords' }}">
-
+    <link rel="canonical" href="{{ url()->current() }}" />
     <!-- Favicons -->
     <link href="{{URL::asset('assets/img/favicon.png')}}" rel="icon">
     <link href="{{URL::asset('assets/img/favicon.png')}}" rel="apple-touch-icon">

@@ -26,7 +26,8 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <meta name="description" content="{{ $meta['description'] ?? 'Default description' }}">
-    <meta name="keywords" content="{{ $meta['keywords'] ?? 'Default keywords' }}">
+    <meta name="keywords" content="{{ !empty($meta['keywords']) ? $meta['keywords'] : 'Default keywords' }}">
+    <link rel="canonical" href="{{ url()->current() }}" />
     <title> {{ $meta['title'] ?? 'Default Title' }}</title>
     <!-- Favicons -->
     <link href="{{URL::asset('assets/img/favicon.png')}}" rel="icon">
@@ -94,7 +95,7 @@
             ]
         ],
     "articleBody"=> $meta['description'],
-    "keywords"=> $meta['keywords'],
+//    "keywords"=> !empty $meta['keywords'] ? $meta['keywords'] : nullOrEmptyString(),
     "articleSection"=> $meta['title'],
 
     ];

@@ -63,10 +63,21 @@ class HubSpotController extends Controller
             ->telegram()
             ->reddit();
         $post = $this->hubspotService->getBlogById($id);
+//        dd($post);
         $tagIds = $post->getTagIds();
+        $meta = [
+            'title' => $post->getHtmlTitle(),
+            'description' => $post->getMetaDescription(),
+            'created_at' => $post->getPublishDate(),
+            'updated_at' => $post->getUpdated(),
+            'author' => $post->getAuthorName(),
+            'author_id' => $post->getBlogAuthorId(),
+            'image' => $post->getFeaturedImage(),
+
+        ];
 //
         $tagNames = $this->hubspotService->getBlogPostTags($tagIds);
-        return view('blog.singlePost', compact('post', 'share_buttons', 'tagNames'));
+        return view('blog.singlePost', compact('post', 'share_buttons', 'tagNames', 'meta'));
     }
     public function whitepapers()
     {
