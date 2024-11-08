@@ -109,8 +109,9 @@ class PostResource extends Resource
                                     ->preserveFilenames()
                                     ->image()
                                     ->imageEditor()
-                                   ->visibility('public'),
-                                TextInput::make('alt'),
+                                   ->visibility('public')
+                                    ->acceptedFileTypes(['image/jpeg', 'image/png', 'image/gif']),
+                        TextInput::make('alt'),
 
                             ])->collapsible(),
 

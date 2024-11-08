@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CommentController;
+use App\Http\Controllers\HubSpotController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\ProfileController;
@@ -70,9 +71,9 @@ Route::get('/irt',[TechnologyController::class,'irt']);
 
 //Post Routes
 
-Route::get('/posts',[PostController::class,'index']);
-Route::get('/posts/{id}',[PostController::class,'singlePost']);
-Route::get('/social-share', [PostController::class, 'share']);
+Route::get('/posts',[HubSpotController::class,'blogs']);
+Route::get('/posts/{id}',[HubSpotController::class,'singleBlog']);
+Route::get('/social-share', [HubSpotController::class, 'share']);
 
 Route::post('/comments',[CommentController::class,'store']);
 
@@ -82,6 +83,9 @@ Route::get('/csr',[IndexController::class,'csr']);
 Route::post('/visitor', [VisitorController::class, 'store']);
 
 Route::get('/author/{id}', [UserController::class, 'getUserById']);
+
+
+
 
 // Cookeies Routes
 

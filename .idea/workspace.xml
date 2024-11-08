@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a68b87a-472b-4d42-a5c2-4607f8dca7d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/paginate.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Filament/Resources/PostResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Filament/Resources/PostResource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog/blogPost.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/blogPost.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/blog/singlePost.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/singlePost.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/page_layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/page_layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/services/biostatistics.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services/biostatistics.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -347,6 +351,8 @@
       <path value="$PROJECT_DIR$/vendor/spatie/browsershot" />
       <path value="$PROJECT_DIR$/vendor/spatie/robots-txt" />
       <path value="$PROJECT_DIR$/vendor/spatie/image-optimizer" />
+      <path value="$PROJECT_DIR$/vendor/hubspot/api-client" />
+      <path value="$PROJECT_DIR$/vendor/timwassenburg/laravel-service-generator" />
     </include_path>
   </component>
   <component name="ProblemsViewState">
@@ -386,9 +392,9 @@
       <recent name="C:\laragon\www\ericsolutions\resources\views\services" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\ericsolutions\resources\views" />
       <recent name="C:\laragon\www\ericsolutions\public\assets\css" />
       <recent name="C:\laragon\www\ericsolutions\resources\views\contacts" />
-      <recent name="C:\laragon\www\ericsolutions\resources\views" />
       <recent name="C:\laragon\www\ericsolutions\public" />
       <recent name="C:\laragon\www\ericsolutions\public\assets\img\team" />
     </key>
@@ -509,7 +515,11 @@
       <workItem from="1730290525721" duration="1086000" />
       <workItem from="1730475477135" duration="119000" />
       <workItem from="1730483271181" duration="604000" />
-      <workItem from="1730648308641" duration="8365000" />
+      <workItem from="1730648308641" duration="11381000" />
+      <workItem from="1730875740701" duration="4721000" />
+      <workItem from="1730881093764" duration="24479000" />
+      <workItem from="1730985662831" duration="2010000" />
+      <workItem from="1731061384029" duration="702000" />
     </task>
     <servers />
   </component>

@@ -31,4 +31,10 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+
+    'hubspot' => [
+            'access_token' => env('HUBSPOT_ACCESS_TOKEN'),
+        ],
+
+
 ];
