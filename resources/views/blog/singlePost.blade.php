@@ -57,12 +57,11 @@
 {{--                                        @endforeach--}}
 
                                     </ul>
-
+{{--                @dd($tagNames)--}}
                                     <i class="bi bi-tags"></i>
                                     <ul class="tags">
-                                        @if($tagNames && $tagNames->isNotEmpty())
+                                        @if(!empty($tagNames))
                                             @foreach($tagNames as $tag)
-                                                <li>Debug: {{$tag->getName() ?? 'No name'}}</li>
                                                 @if(!empty($tag->getName()))
                                                     <li><a href="#">{{$tag->getName()}}</a></li>
                                                 @else
