@@ -127,7 +127,7 @@
                         <li><a href="/#about"><span>About</span></a></li>
                         <li><a href="/#team"><span>Our Team</span></a></li>
                         <li><a href="/#location"><span>Locations</span></a></li>
-                        <li><a href="/#carrier"><span>Carrier</span></a></li>
+                        <li><a href="/#carrier"><span>Career</span></a></li>
 
 
                     </ul>
@@ -149,8 +149,8 @@
                             class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
                         <li><a href="/edc"><span>Electronic Data Capture</span></a></li>
-                        <li><a href="/ctms"><span>Clinical Trail Management Software</span></a></li>
-                        <li><a href="/etmf_tech"><span>Electronic Trail Master File</span></a></li>
+                        <li><a href="/ctms"><span>Clinical Trial Management Software</span></a></li>
+                        <li><a href="/etmf_tech"><span>Electronic Trial Master File</span></a></li>
                         <li><a href="/irt"><span>Interactive Response technology</span></a></li>
 
 
