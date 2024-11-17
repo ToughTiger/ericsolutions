@@ -84,7 +84,7 @@ Route::post('/visitor', [VisitorController::class, 'store']);
 
 Route::get('/author/{id}', [UserController::class, 'getUserById']);
 
-
+Route::get('/blog/search', [HubSpotController::class, 'search']);
 
 
 // Cookeies Routes

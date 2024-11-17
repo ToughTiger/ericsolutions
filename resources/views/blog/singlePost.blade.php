@@ -4,7 +4,7 @@
         <!-- Page Title -->
         <div class="page-title dark-background">
             <div class="container position-relative">
-
+{{--@dd($post)--}}
                 <h1>{{$post->getHtmlTitle()}}</h1>
 {{--                <p>{{$post->meta_description}}</p>--}}
 {{--                <nav class="breadcrumbs">--}}
@@ -157,7 +157,6 @@
                 <div class="col-lg-4 sidebar">
 
                     <div class="widgets-container">
-
                         <!-- Blog Author Widget -->
                         <div class="blog-author-widget widget-item">
 
@@ -182,9 +181,9 @@
                         <div class="search-widget widget-item">
 
                             <h3 class="widget-title">Search</h3>
-                            <form action="">
-                                <input type="text">
-                                <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+                            <form action="/blog/search">
+                                <input type="text" name="query" placeholder="Search by title or tags" >
+                                <button type="submit" id="search-button" title="Search"><i class="bi bi-search"></i></button>
                             </form>
 
                         </div><!--/Search Widget -->
@@ -193,13 +192,11 @@
                         <div class="categories-widget widget-item">
 
                             <h3 class="widget-title">Categories</h3>
-{{--                            <ul class="mt-3">--}}
-{{--                                @foreach($categories as $category)--}}
-{{--                                    <li><a href="#">{{$category->name}}</a></li>--}}
-{{--                                @endforeach--}}
-
-
-{{--                            </ul>--}}
+                            <ul class="mt-3">
+                                @foreach($tagNames as $tag)
+                                    <li class="font-bold"><a href="{{'/blog/search/?query=' .$tag->getName()}}">{{$tag->getName()}}</a></li>
+                                @endforeach
+                            </ul>
 
                         </div><!--/Categories Widget -->
 
@@ -208,12 +205,13 @@
 
                             <h3 class="widget-title">Recent Posts</h3>
 
-{{--                            @foreach($posts as $post)--}}
-{{--                                <div class="post-item">--}}
-{{--                                    <h4><a href="/posts/{{$post->id}}">{{$post->title}}</a></h4>--}}
-{{--                                    <time datetime="2020-01-01">{{\Carbon\Carbon::parse($post->published_at)->format('j F, Y')}}</time>--}}
-{{--                                </div><!-- End recent post item-->--}}
-{{--                            @endforeach--}}
+                            @foreach($limitedPosts as $post)
+                                <div class="post-item">
+                                    <h4><a href="/posts/{{$post->getId()}}">{{$post->getHTMLTitle()}}</a></h4>
+                                    <time datetime="2020-01-01">{{\Carbon\Carbon::parse($post->getPublishDate())->format('j F, Y')}}</time>
+                                </div><!-- End recent post item-->
+{{--                                @dd($post)--}}
+                            @endforeach
 
 
                         </div><!--/Recent Posts Widget -->
@@ -222,12 +220,12 @@
                         <div class="tags-widget widget-item">
 
                             <h3 class="widget-title">Tags</h3>
-{{--                            <ul>--}}
-{{--                                @foreach($tags as $tag)--}}
-{{--                                    <li><a href="#">{{$tag->name}}</a></li>--}}
-{{--                                @endforeach--}}
+                            <ul>
+                                @foreach($tagNames as $tag)
+                                    <li><a href="{{'/blog/search/?query=' .$tag->getName()}}">{{$tag->getName()}}</a></li>
+                                @endforeach
 
-{{--                            </ul>--}}
+                            </ul>
 
                         </div><!--/Tags Widget -->
 
@@ -255,8 +253,5 @@
     toastr.success("{{ session('message') }}");
     @endif
 
-
-
 </script>
-
 </x-page_layout>

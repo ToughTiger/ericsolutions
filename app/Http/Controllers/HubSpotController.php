@@ -32,7 +32,7 @@ class HubSpotController extends Controller
             $response  = $this->hubspotService->getBlogs();
 
             $blogs = $response->getResults();
-//            dd($blogs);
+
             $paginatedBlogs = new LengthAwarePaginator(
                 array_slice($blogs, ($currentPage - 1) * $perPage, $perPage),  // Slice array to get the items for the current page
                 count($blogs),  // Total number of items
@@ -55,15 +55,16 @@ class HubSpotController extends Controller
      */
     public function singleBlog($id): \Illuminate\Contracts\View\Factory|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\View|\Illuminate\Contracts\Foundation\Application
     {
-        $share_buttons = \Share::page('added social media')
-            ->facebook()
-            ->twitter()
-            ->linkedin()
-            ->whatsapp()
-            ->telegram()
-            ->reddit();
+        $response = $this->hubspotService->getLimitedBlogPosts();
+
+        $allPosts = $response->getResults();
+//        dd($allPosts);
+        usort($allPosts, function ($a, $b) {
+            return $b['publish_date']->getTimestamp() - $a['publish_date']->getTimestamp();
+        });
+        $limitedPosts = array_slice($allPosts, 0, 5);
         $post = $this->hubspotService->getBlogById($id);
-//        dd($post);
+        $author = $this->hubspotService->getAuthorById($post->getBlogAuthorId());
         $tagIds = $post->getTagIds();
         $meta = [
             'title' => $post->getHtmlTitle(),
@@ -75,10 +76,41 @@ class HubSpotController extends Controller
             'image' => $post->getFeaturedImage(),
 
         ];
-//
+
+        $share_buttons = \Share::page('http://ericsolutions.test/posts/'.$id, $post->getHtmlTitle(),[
+            'description' => $post->getMetaDescription(),
+            'image' => $post->getFeaturedImage(),
+        ])
+            ->facebook()
+            ->twitter()
+            ->linkedin()
+            ->whatsapp()
+            ->telegram()
+            ->reddit();
+//        dd($limitedPosts);
         $tagNames = $this->hubspotService->getBlogPostTags($tagIds);
-        return view('blog.singlePost', compact('post', 'share_buttons', 'tagNames', 'meta'));
+        return view('blog.singlePost', compact('post', 'share_buttons', 'tagNames', 'meta', 'author', 'limitedPosts'));
     }
+
+    public function search(Request $request,): \Illuminate\Contracts\View\Factory|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\View|\Illuminate\Contracts\Foundation\Application
+    {
+        $currentPage = $request->input('page', 1);  // Current page from query string
+        $perPage = 6; // Number of items per page
+        $query = $request->input('query', ''); // Get the search query
+        $blogs = $this->hubspotService->searchBlogPosts($query);
+////        dd($response);
+//        $blogs = $response->getResults();
+//        dd($blogs);
+        $paginatedBlogs = new LengthAwarePaginator(
+            array_slice($blogs, ($currentPage - 1) * $perPage, $perPage),  // Slice array to get the items for the current page
+            count($blogs),  // Total number of items
+            $perPage,  // Items per page
+            $currentPage,  // Current page
+            ['path' => $request->url(), 'query' => $request->query()]  // Preserve URL query parameters
+        );
+        return view('blog.search', compact('paginatedBlogs'));
+    }
+
     public function whitepapers()
     {
         $whitepapers = $this->hubspotService->getWhitepapers();

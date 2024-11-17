@@ -141,3 +141,21 @@ and (-webkit-device-pixel-ratio: 3) {
     }
 }
 
+#search-results .blog-post {
+    margin-bottom: 20px;
+}
+
+#search-results h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+#search-results p {
+    font-size: 14px;
+    color: #555;
+}
+
+#search-results a {
+    color: #007bff;
+    text-decoration: none;
+}
