@@ -45,10 +45,17 @@ class HubSpotService
     /**
      * @throws ApiException
      */
-    public function getBlogById($id): \HubSpot\Client\Cms\Blogs\BlogPosts\Model\BlogPost|\HubSpot\Client\Cms\Blogs\BlogPosts\Model\Error
+    public function getBlogBySlug($slug)
     {
         // Fetch a single blog post by ID
-        return $this->client->cms()->blogs()->blogPosts()->blogPostsApi()->getById($id);
+        $response =  $this->client->cms()->blogs()->blogPosts()->blogPostsApi()->getPage();
+        $posts = $response->getResults();
+        foreach ($posts as $post) {
+            if ($post->getSlug() === $slug) {
+                return $post;
+            }
+        }
+       return null;
     }
 
     /**

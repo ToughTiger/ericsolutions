@@ -61,25 +61,25 @@
                             <div class="tab-content">
                                 <div id="iwrs" class="container tab-pane active">
                                     <h2>IWRS-Interactive Web Response System</h2>
-                                    <p>Simple and intutive. The IWRS will allow subjects to be enrolled in your clinical trail 24/7 at an affordable price.</p>
+                                    <p>Simple and intutive. The IWRS will allow subjects to be enrolled in your clinical trial 24/7 at an affordable price.</p>
 
                                     <p>The IWRS can also communicate with other systems automatically including our ETC system , allow you to use ITClinical's IWRS tool independently
                                     while maintaining a communication with an external vendor's tool</p>
 
                                     <h2>Features</h2>
                                     <ul class="services_offer">
-                                        <li><i class="bi bi-check-circle "></i> <span>Enroll Patients in the clinical Trail</span></li>
+                                        <li><i class="bi bi-check-circle "></i> <span>Enroll Patients in the clinical trial</span></li>
                                         <li><i class="bi bi-check-circle "></i> <span>Export PDF/Spreadsheet reports </span></li>
                                         <li><i class="bi bi-check-circle "></i> <span>Multi-language support </span></li>
-                                        <li><i class="bi bi-check-circle "></i> <span>Real time trail and site enrolment progress</span></li>
+                                        <li><i class="bi bi-check-circle "></i> <span>Real time trial and site enrolment progress</span></li>
                                         <li><i class="bi bi-check-circle "></i> <span>Email notification on randomisation</span></li>
 
                                     </ul>
                                 </div>
                                 <div id="stock_management" class="container tab-pane">
                                     <h2>Stock management</h2>
-                                    <p>The stock management is an optional module that allows you to register and track the trail stock by registering movement
-                                    (Shipments and returns) and see movement history in the locations involved in the clinical trail( Global and regional depots and investigational sites. </p>
+                                    <p>The stock management is an optional module that allows you to register and track the trial stock by registering movement
+                                    (Shipments and returns) and see movement history in the locations involved in the clinical trial( Global and regional depots and investigational sites. </p>
                                     <p>Optional features within this module include the registration of orders to manufactures, shipments/return PDF forms and location re-supply triggers.</p>
                                     <h2>Features</h2>
                                     <ul class="services_offer">
@@ -91,7 +91,7 @@
                                     <h2>Regulatory Compliance</h2>
                                     <p>
                                         By complying with regulatory requirements of electronic systems, it replaces paper based records
-                                        which greatly assists you to access the product information and records a long time after the trail is closed
+                                        which greatly assists you to access the product information and records a long time after the trial is closed
                                         while avoiding manual searches.
                                     </p>
                                     <p>
@@ -102,7 +102,7 @@
                                     <h2>Features</h2>
                                     <ul class="services_offer">
                                         <li><i class="bi bi-check-circle "></i> <span>21 CFR para compliant</span></li>
-                                        <li><i class="bi bi-check-circle "></i> <span>Exportable audit trail </span></li>
+                                        <li><i class="bi bi-check-circle "></i> <span>Exportable audit trial </span></li>
                                         <li><i class="bi bi-check-circle "></i> <span>Several user access levels </span></li>
                                     </ul>
                                 </div>
@@ -118,8 +118,8 @@
                             <h4>Technologies</h4>
                             <div class="services-list">
                                 <a href="/edc"><i class="bi bi-arrow-right-circle"></i><span>Electronic Data Capture</span></a>
-                                <a href="/ctms"><i class="bi bi-arrow-right-circle"></i><span>Clinical Trail Management Software</span></a>
-                                <a href="/etmf_tech"><i class="bi bi-arrow-right-circle"></i><span>Electronic Trail Master File</span></a>
+                                <a href="/ctms"><i class="bi bi-arrow-right-circle"></i><span>Clinical trial Management Software</span></a>
+                                <a href="/etmf_tech"><i class="bi bi-arrow-right-circle"></i><span>Electronic trial Master File</span></a>
                                 <a href="/irt"><i class="bi bi-arrow-right-circle"></i><span>Interactive Response Technology</span></a>
                             </div>
                         </div><!-- End Services List -->

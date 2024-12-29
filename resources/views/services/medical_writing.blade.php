@@ -5,7 +5,7 @@
         <!-- Page Title -->
         <div class="page-title dark-background">
             <div class="container position-relative">
-                <h1>Medical Writing Service</h1>
+                <h1>Medical Writing Services</h1>
                 {{--                <p>Our core competency, project management includes comprehensive and consistent processes, which conform to global regulatory requirements. From start-up to completion, performance is monitored and measured against contractual timelines and project costs are tracked to ensure adherence to agreed budgets</p>--}}
                 {{--                <nav class="breadcrumbs">--}}
                 {{--                    <ol>--}}
@@ -26,13 +26,13 @@
                         <div class="portfolio-description">
                             {{--                            <h2>Clinical Operation Services</h2>--}}
                             <p>
-                                <strong>Clinical</strong> study reports are produced by the medical writers in collaboration with medical team and project statisticians, ensuring a complete and accurate representation of all aspects of the study and its results, while respecting tight timelines.
+                            Clinical study reports are produced by medical writers in collaboration with the medical team and project statisticians, ensuring a complete and accurate representation of all aspects of the study and its results, while adhering to tight timelines.
                             </p>
                             <p>
-                                Integrated clinical reports are prepared according to ICH E3 guidelines and format, or according to sponsor’s specific format.
+                            Integrated clinical reports are prepared according to ICH E3 guidelines and format, or according to the sponsor’s specific format.
                             </p>
                             <p>
-                                The final documents can be published compliant to the requirements for an eCTD submission. We also provide support for preparing abstracts, posters and manuscripts.
+                            The final documents can be published in compliance with the requirements for an eCTD submission. We also provide support for preparing abstracts, posters, and manuscripts..
                             </p>
 
 
@@ -41,7 +41,7 @@
                         <ul class="service_offer">
                             <li ><i class="bi bi-check-circle "></i> <span>Protocol Writing</span></li>
                             <li><i class="bi bi-check-circle"></i> <span>Manuscripts</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Clinical Study Report</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>Clinical Study Reports</span></li>
                             <li><i class="bi bi-check-circle"></i> <span>Publications</span></li>
 
                         </ul>

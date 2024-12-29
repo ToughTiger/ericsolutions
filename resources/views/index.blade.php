@@ -19,7 +19,7 @@
             <div class="carousel-item">
                 <div class="carousel-container">
                     <h2 class="animate__animated animate__fadeInDown">Cost Optimization</h2>
-                    <p class="animate__animated animate__fadeInUp">As Eric offers proprietary technologies, Eric Solution can be highly cost optimized.</p>
+                    <p class="animate__animated animate__fadeInUp">As Eric offers proprietary technologies, Eric Solutions can be highly cost optimized.</p>
                 </div>
             </div>
 
@@ -27,7 +27,7 @@
             <div class="carousel-item">
                 <div class="carousel-container">
                     <h2 class="animate__animated animate__fadeInDown">Quality Optimization</h2>
-                    <p class="animate__animated animate__fadeInUp">Highly qualified team offers dedicated services to each project. Regulatory Compliant Technologies enhanced by GenAI capabilities
+                    <p class="animate__animated animate__fadeInUp">Highly qualified team offers dedicated services to each project. Regulatory Compliant Technologies enhanced by GenAI capabilities.
                         .</p>
 
                 </div>
@@ -48,8 +48,8 @@
                 <div class="carousel-container">
                     <h2 class="animate__animated animate__fadeInDown">Regulatory Compliance</h2>
                     <p class="animate__animated animate__fadeInUp">
-                        Regulatory Compliant Technologies enhanced by GenAI capabilities
-                        .</p>
+                        Regulatory Compliant Technologies enhanced by GenAI capabilities.
+                        </p>
 
                 </div>
             </div>
@@ -97,7 +97,7 @@
 
                 <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
 
-                        <strong>Eric Solutions</strong> offers advantage of one stop solution by offering Management systems such as Clinical Trial Management Software. Since services and systems are offered by Eric Solutions, we provide solution with shorter timeline and better costing.
+                        <strong>Eric Solutions</strong> offers the advantage of a one stop solution by offering Management systems such as Clinical Trial Management Software. Since services and systems are offered by Eric Solutions, we provide solutions with shorter timelines and better costing.
 
 
                     <ul>
@@ -109,7 +109,7 @@
                 </div>
 
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                    <p>At eRIC Solutions, we are Committed to regulatory compliance, we also integrate GenAI technology, providing cutting-edge tools for data analysis and automation. Our dedicated, highly qualified team ensures each project is handled with precision and care, delivering exceptional results tailored to your specific needs. Trust Eric Solutions for innovative, efficient, and compliant healthcare technology solutions.. </p>
+                    <p>At eRIC Solutions, we are committed to regulatory compliance and we also integrate GenAI technology, providing cutting-edge tools for data analysis and automation. Our dedicated, highly qualified team ensures each project is handled with precision and care, delivering exceptional results tailored to your specific needs. Trust Eric Solutions for innovative, efficient, and compliant healthcare technology solutions.. </p>
 
                 </div>
 
@@ -140,7 +140,7 @@
                         </a>
 
                         <p>
-                            Eric Solutions offers advantage of one stop solution by offering Management systems such as Clinical Trial Management Software. Since services and systems are offered by Eric Solutions, we provide solution with shorter timeline and better costing.
+                            Eric Solutions offers the advantage of one stop solution by offering Management systems such as Clinical Trial Management Software. Since services and systems are offered by Eric Solutions, we provide solutions with shorter timelines and better costing.
                         </p>
 
 
@@ -153,7 +153,7 @@
                         <a href="/biostatistics" class="stretched-link">
                             <h3>BIOSTATISTICS</h3>
                         </a>
-                        <p>ERIC is involved in the analysis of data from all clinical stages of clinical development with variety of designs
+                        <p>ERIC is involved in the analysis of data from all clinical stages of clinical development with a variety of designs
                             and statistical hypotheses, including interim analysis,
                             using adaptive, sequential and sample size adjustment designs.</p>
                         <a href="/biostatistics" class="read-more_gen">Read More</a>
@@ -176,8 +176,8 @@
                         <a href="/clinical_data" class="stretched-link">
                             <h3>CLINICAL DATA STANDARDS</h3>
                         </a>
-                        <p>We believe, the upfront implementation of the data standards in a sponsor’s data management and statistical environment enables
-                            sponsors to mapped data specifications to their clients and agencies in a smooth way. </p>
+                        <p>We believe that the upfront implementation of the data standards in a sponsor’s data management and statistical environment enable
+                            sponsors to map data specifications to their clients and agencies in a smooth manner. </p>
                         <a href="/clinical_data" class="read-more_gen">Read More</a>
                     </div>
                 </div><!-- End Service Item -->
@@ -198,7 +198,7 @@
                         <a href="/medical_writing" class="stretched-link">
                             <h3>MEDICAL WRITING</h3>
                         </a>
-                        <p>Clinical study reports are produced by the medical writers in collaboration with medical team and project statisticians,
+                        <p>Clinical study reports are produced by medical writers in collaboration with the medical team and project statisticians,
                             ensuring a complete and accurate representation of all aspects of the study and its results, while respecting tight timelines.</p>
                         <a href="/medical_writing" class="read-more_gen">Read More</a>
                     </div>
@@ -211,8 +211,8 @@
                         <a href="/etmf" class="stretched-link">
                             <h3>eTMF SERVICES</h3>
                         </a>
-                        <p>ERIC eTMF System / Services offer user-friendly, connected and flexible solutions that ensure holistic clinical
-                            documentation and compliance with real-time data lineage and audit history. .</p>
+                        <p>ERIC's eTMF System / Services offer user-friendly, connected and flexible solutions that ensure holistic clinical
+                            documentation and compliance with real-time data lineage and audit history.</p>
                         <a href="/etmf" class="read-more_gen">Read More</a>
 
                     </div>
@@ -224,7 +224,7 @@
                         <a href="/edc" class="stretched-link">
                             <h3>TECHNOLOGIES</h3>
                         </a>
-                        <p>Eric Solutions offers Regulatory and GDPR compliant technologies with GenAI enhancements. </p>
+                        <p>Eric Solutions offers Regulatory and GDPR compliant Technology with GenAI enhancements. </p>
                         <a href="/edc" class="read-more_gen">Read More</a>
                     </div>
 

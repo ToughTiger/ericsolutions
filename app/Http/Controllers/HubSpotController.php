@@ -53,17 +53,17 @@ class HubSpotController extends Controller
      * @throws ApiException
      * @throws \HubSpot\Client\Cms\Blogs\Tags\ApiException
      */
-    public function singleBlog($id): \Illuminate\Contracts\View\Factory|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\View|\Illuminate\Contracts\Foundation\Application
+    public function singleBlog($slug): \Illuminate\Contracts\View\Factory|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\View|\Illuminate\Contracts\Foundation\Application
     {
         $response = $this->hubspotService->getLimitedBlogPosts();
 
         $allPosts = $response->getResults();
-//        dd($allPosts);
+//        dd($id);
         usort($allPosts, function ($a, $b) {
             return $b['publish_date']->getTimestamp() - $a['publish_date']->getTimestamp();
         });
         $limitedPosts = array_slice($allPosts, 0, 5);
-        $post = $this->hubspotService->getBlogById($id);
+        $post = $this->hubspotService->getBlogBySlug($slug);
         $author = $this->hubspotService->getAuthorById($post->getBlogAuthorId());
         $tagIds = $post->getTagIds();
         $meta = [
@@ -77,7 +77,7 @@ class HubSpotController extends Controller
 
         ];
 
-        $share_buttons = \Share::page('http://ericsolutions.test/posts/'.$id, $post->getHtmlTitle(),[
+        $share_buttons = \Share::page('http://ericsolutions.test/posts/'.$slug, $post->getHtmlTitle(),[
             'description' => $post->getMetaDescription(),
             'image' => $post->getFeaturedImage(),
         ])
@@ -87,7 +87,6 @@ class HubSpotController extends Controller
             ->whatsapp()
             ->telegram()
             ->reddit();
-//        dd($limitedPosts);
         $tagNames = $this->hubspotService->getBlogPostTags($tagIds);
         return view('blog.singlePost', compact('post', 'share_buttons', 'tagNames', 'meta', 'author', 'limitedPosts'));
     }

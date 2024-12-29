@@ -5,7 +5,7 @@
         <!-- Page Title -->
         <div class="page-title dark-background">
             <div class="container position-relative">
-                <h1>Pharamacovigilance</h1>
+                <h1>Pharmacovigilance</h1>
                 {{--                <p>Our core competency, project management includes comprehensive and consistent processes, which conform to global regulatory requirements. From start-up to completion, performance is monitored and measured against contractual timelines and project costs are tracked to ensure adherence to agreed budgets</p>--}}
                 {{--                <nav class="breadcrumbs">--}}
                 {{--                    <ol>--}}
@@ -26,18 +26,18 @@
                         <div class="portfolio-description">
                             {{--                            <h2>Clinical Operation Services</h2>--}}
                             <p>
-                                <strong>ERIC</strong> caters to your changing pharmacovigilance / drug safety needs through our well defined processes originating across sources. We deliver this through the right mix of our proven technology and skilled resources, bringing in efficiency & compliance to meet the stringent regulatory needs.
+                            ERIC addresses your evolving pharmacovigilance and drug safety needs through our well-defined processes, integrating data from various sources.We achieve this by combining our proven technology with skilled resources, enhancing efficiency and ensuring compliance with stringent regulatory requirements.
                             </p>
 
                         </div>
-                        <h3>The Pharmacovigilance Services Offered by ERIC</h3>
+                        <h3>Pharmacovigilance Services Offered by ERIC</h3>
                         <ul class="service_offer">
-                            <li ><i class="bi bi-check-circle "></i> <span>Case Processing & Reporting</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Serious Adverse Event Management</span></li>
+                            <li ><i class="bi bi-check-circle "></i> <span>Case Processing and Reporting</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>erious Adverse Event (SAE) Management</span></li>
                             <li><i class="bi bi-check-circle"></i> <span>Signal Management</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Input into Safety sections of Clinical study Reports</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Preparation and Submission of Drug Safety Update Reports</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Risk Management</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>Contributions to Safety Sections of Clinical Study Reports</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>Preparation and Submission of Drug Safety Update Reports (DSURs)</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>Risk Management Planning and Implementation</span></li>
                         </ul>
 
                     </div>

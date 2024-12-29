@@ -119,8 +119,8 @@
                                 <div class="services-list">
 
                                     <a href="/edc""><i class="bi bi-arrow-right-circle"></i><span>Electronic Data Capture</span></a>
-                                    <a href="/ctms"><i class="bi bi-arrow-right-circle"></i><span>Clinical Trail Management Software</span></a>
-                                    <a href="/etmf_tech"><i class="bi bi-arrow-right-circle"></i><span>Electronic Trail Master File</span></a>
+                                    <a href="/ctms"><i class="bi bi-arrow-right-circle"></i><span>Clinical trial Management Software</span></a>
+                                    <a href="/etmf_tech"><i class="bi bi-arrow-right-circle"></i><span>Electronic trial Master File</span></a>
                                     <a href="/irt"><i class="bi bi-arrow-right-circle"></i><span>Interactive Response Technology</span></a>
                                 </div>
                             </div><!-- End Services List -->

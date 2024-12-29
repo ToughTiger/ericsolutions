@@ -26,7 +26,8 @@
                         <div class="portfolio-description">
                             {{--                            <h2>Clinical Operation Services</h2>--}}
                             <p>
-                                <strong>S</strong>ponsors often struggle with massive amounts of paperwork when trials are carried out across multiple sites, generating semi-structured and unstructured documents with varied templates and information. With several authors and multiple versions, maintaining audit and inspection readiness can prove to be challenging.
+                            Sponsors often struggle with large amounts of paperwork when trials are conducted across multiple sites, generating semi-structured and unstructured documents with varied templates and information.. 
+                            With multiple authors and versions, maintaining audit and inspection readiness can be challenging.
                             </p>
                             <p>
                                 ERIC eTMF System / Services offer user-friendly, connected and flexible solutions that ensure holistic clinical documentation and compliance with real-time data lineage and audit history.
@@ -36,11 +37,11 @@
                         </div>
                         <h3>eTMF Services offered by ERIC:</h3>
                         <ul class="service_offer">
-                            <li ><i class="bi bi-check-circle "></i> <span>Ensuring Audit Ready</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Efficient Indexing and workflow</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Analytics to give powerful and Actionable Insight</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Smart study start-up – Optimized site Onboarding and Regulatory Approvals</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Ensuring Seamless integration of various Systems(CDMS/CTMS etc.)</span></li>
+                            <li ><i class="bi bi-check-circle "></i> <span>Ensuring Audit Readiness</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>Efficient Indexing and Workflow</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>Analytics to Provide Powerful and Actionable Insights</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>Smart Study Start-Up – Optimized Site Onboarding and Regulatory Approvals</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>Ensuring Seamless Integration of Various Systems (CDMS/CTMS, etc.)</span></li>
                         </ul>
 
                     </div>

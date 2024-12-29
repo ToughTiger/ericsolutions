@@ -5,7 +5,7 @@
         <!-- Page Title -->
         <div class="page-title dark-background">
             <div class="container position-relative">
-                <h1>Clinical Data Standerd</h1>
+                <h1>Clinical Data Standards</h1>
                 {{--                <p>Our core competency, project management includes comprehensive and consistent processes, which conform to global regulatory requirements. From start-up to completion, performance is monitored and measured against contractual timelines and project costs are tracked to ensure adherence to agreed budgets</p>--}}
                 {{--                <nav class="breadcrumbs">--}}
                 {{--                    <ol>--}}
@@ -27,41 +27,26 @@
                             {{--                            <h2>Clinical Operation Services</h2>--}}
                             <h4>Why Do we need Data Standardization?</h4>
                             <p>
-                                <strong>In 2013</strong>, FDA released Statement on the importance of standardized study
-                                data and its positive impact on a “reviewer’s ability to more fully understand and
-                                characterize the efficacy and safety of a medical product”. Following which towards
-                                2014, the FDA finalized Binding Guidance documents that make submission of electronic
-                                data mandatory, and also require the data to be in a standard format that the FDA can
-                                process, review and archive.
+                            In 2013, the FDA released a statement on the importance of standardized study data and its positive impact on a 'reviewer’s ability to more fully understand and characterize the efficacy and safety of a medical product'. Subsequently, in 2014, the FDA finalized binding guidance documents that make the submission of electronic data mandatory and require the data to be in a standard format that the FDA can process, review, and archive.
                             </p>
                             <p>
-                                By the end of 2016, both the FDA and PMDA require CDISC standards for all submissions.
-                                Eventually submissions that do not comply with the CDISC requirements after the
-                                stipulated timeframe could potentially receive a Refusal to File (RTF) from the agency.
-                                Thus, all studies that start in 2017 or later will be required to submit their data to
-                                the FDA in an electronic format that uses CDISC data standards.
+                            By the end of 2016, both the FDA and PMDA required CDISC standards for all submissions.
+                            Submissions that do not comply with the CDISC requirements after the stipulated timeframe could potentially receive a Refusal to File (RTF) from the agency.
+                            Therefore, all studies that started in 2017 or later are required to submit their data to the FDA in an electronic format that uses CDISC data standards.
                             </p>
 
 
                         </div>
                         <h3>Clinical Data Standard Services Offered by ERIC</h3>
                         <ul class="service_offer">
-                            <li><i class="bi bi-check-circle "></i> <span>Data Standerd Library</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Data Migration Projects to CDIS.</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Standerd Mapping</span></li>
+                            <li><i class="bi bi-check-circle "></i> <span>Data Standards Library</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>Data Migration Projects to CDISC</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>Standard Mapping</span></li>
                             <li><i class="bi bi-check-circle"></i> <span>Programming Services</span></li>
                         </ul>
                         <h3>ERIC’s CDISC Expertise</h3>
-                        <p>We believe, the upfront implementation of the data standards in a sponsor’s data management
-                            and statistical environment enables sponsors to mapped data specifications to their clients
-                            and agencies in a smooth way. ERIC Provides its Healthcare Partners, Clinical Data
-                            Standardization Services since inception. Our team of expert programmers understands
-                            clinical trial data generation in all aspects of clinical research.</p>
-                        <p>We ensure there is an accurate interpretation of the Study Data Tabulation Model (SDTM) and
-                            Analysis Data Model (ADaM) that is identified, documented, managed, implemented
-                            consistently, and most importantly, communicated to the Sponsor. We are well positioned to
-                            execute CDISC – SDTM & ADaM conversion projects smoothly. We deliver all this through proper
-                            quality embedded procedures which also brings in cost efficiency.</p>
+                        <p>We believe that the upfront implementation of data standards in a sponsor’s data management and statistical environment enables sponsors to map data specifications to their clients and agencies smoothly. ERIC has provided its healthcare partners with clinical data standardization services since its inception. Our team of expert programmers understands all aspects of clinical trial data generation in clinical research.</p>
+                        <p>"We ensure accurate interpretation of the Study Data Tabulation Model (SDTM) and Analysis Data Model (ADaM), which are identified, documented, managed, implemented consistently, and, most importantly, communicated to the sponsor. We are well-positioned to execute CDISC – SDTM & ADaM conversion projects smoothly. We deliver all this through properly embedded quality procedures, which also bring cost efficiency.</p>
 
 
                     </div>

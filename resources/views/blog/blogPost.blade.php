@@ -57,15 +57,16 @@
                     <div class="col-lg-4">
 
                         <article>
-{{--    @dd($posts);--}}
+
                             <div class="post-img">
                                 <img src="{{$blogPost['featured_image']}}" alt="{{ $blogPost['name'] }}" class="img-fluid">
                             </div>
+{{--                            @dd($blogPost['slug'] )--}}
 {{--                                @foreach($post->categories as $category)--}}
 {{--                            <p class="post-category">{{$category->name}}</p>--}}
 {{--                            @endforeach--}}
                             <h2 class="title">
-                                <a href="/posts/{{ $blogPost['id'] }}">{{ $blogPost['name'] }}</a>
+                                <a href="/{{ $blogPost['slug'] }}">{{ $blogPost['name'] }}</a>
                             </h2>
 
                             <div class="d-flex align-items-center">

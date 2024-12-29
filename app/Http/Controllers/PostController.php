@@ -21,7 +21,7 @@ class PostController extends Controller
         return view('blog.blogPost', ['posts' => $posts, ]);
     }
 
-    public function singlePost($id): \Illuminate\Contracts\View\View
+    public function singlePost($slug): \Illuminate\Contracts\View\View
     {
         $share_buttons = \Share::page('added social media')
             ->facebook()
@@ -31,7 +31,7 @@ class PostController extends Controller
             ->telegram()
             ->reddit();
 
-        $post = Post::where('id', $id)
+        $post = Post::where('slug', $slug)
             ->with(['categories', 'tags', 'comments', 'comments.replies'])->first();
 
         $post['share_buttons'] = $share_buttons;
@@ -53,7 +53,7 @@ class PostController extends Controller
             'categories' => $post->category,
 
         ];
-
+//        dd($post);
         return view('blog.singlePost', ['post' => $post, 'tags' => $tags, 'meta' =>$meta,  'categories' => $categories, 'posts' => $posts, 'comments' => $comments]);
     }
 

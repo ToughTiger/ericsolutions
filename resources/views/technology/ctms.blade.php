@@ -27,13 +27,9 @@
 
                             <h2 >Scalable and Cost Effective Clinical Study Solutions</h2>
                             <p>
-                                ERIC CTMS was designed and developed to offer the benefits of a CTMS (Clinical Trial
-                                Management System) without the extensive upfront financial and resource commitments
-                                associated with traditional enterprise systems or the inherent inefficiencies of
-                                worksheet trackers.
+                            ERIC CTMS is designed to provide the benefits of a Clinical Trial Management System (CTMS) without the substantial upfront financial and resource commitments typical of traditional enterprise systems or the inefficiencies inherent in spreadsheet trackers..
                             </p>
-                            <p>ERIC CTMS provides drug developers a scalable and cost effective solution to improve the
-                                management, performance and study startup costs associated with clinical trials.</p>
+                            <p>ERIC CTMS offers drug developers a scalable and cost-effective solution to enhance management, performance, and reduce study startup costs in clinical trials.</p>
 {{--Accordian--}}
                             <div class="accordion" id="cookieAccordion">
                                 <div class="accordion-item">
@@ -57,7 +53,7 @@
                                                 <tr>
                                                     <td>Easy to use, flexible, customizable</td>
                                                     <td>Supports 21 Part 11</td>
-                                                    <td>A dedicated client manager provides pro-active support and guidance</td>
+                                                    <td>A dedicated client manager provides proactive support and guidance</td>
 
                                                 </tr>
                                                 <tr>
@@ -91,7 +87,7 @@
 
                                                 </tr>
                                                 <tr>
-                                                    <td>One system for both blinded and un-blinded user types</td>
+                                                    <td>One system for both blinded and unblinded user types</td>
                                                     <td></td>
                                                     <td></td>
 
@@ -124,16 +120,10 @@
                                         <div class="accordion-body">
 
                                             <p class="service_offer">
-                                                A Clinical Trial Management System (CTMS) is a software solution targeted for the Life
-                                                Science industry. CTMS is commonly used to manage processes and
-                                                large amounts of data involved with clinical trial management and clinical study management
+                                            A Clinical Trial Management System (CTMS) is a software solution designed for the life sciences industry, commonly used to manage processes and large volumes of data associated with clinical trial and study management.
                                             </p>
-                                            <p class="service_offer">A typical CTMS maintains and manages the planning, preparation,
-                                                performance, and reporting of clinical trials, with an emphasis on keeping up-to-date
-                                                contact information for participants and tracking deadlines and milestones such as those for
-                                                regulatory approval or the issue of progress reports. </p>
-                                            <p class="service_offer">In some cases, a CTMS may also provide data to a business intelligence
-                                                system, which acts as a digital dashboard for trial managers. </p>
+                                            <p class="service_offer">A typical CTMS oversees the planning, preparation, execution, and reporting of clinical trials, emphasizing up-to-date contact information for participants and tracking deadlines and milestones, such as regulatory approvals and progress reports. </p>
+                                            <p class="service_offer">In some instances, a CTMS may integrate with business intelligence systems, serving as a digital dashboard for trial managers. </p>
 
                                             <h2 class="tech-feature_heading">
                                                 Product Overview
@@ -149,7 +139,7 @@
                                                 <li><i class="bi bi-check-circle "></i> <span>Information available 24/7</span></li>
                                                 <li><i class="bi bi-check-circle "></i> <span>Well defined user groups - includes internal and external users, multiple departments and external vendorsInformation available 24/7</span>
                                                 </li>
-                                                <li><i class="bi bi-check-circle "></i> <span>One system for both blinded and un-blinded user types</span>
+                                                <li><i class="bi bi-check-circle "></i> <span>One system for both blinded and unblinded user types</span>
                                                 </li>
                                                 <li><i class="bi bi-check-circle "></i> <span>Multi-study and portfolio management within one system</span>
                                                 </li>
@@ -167,32 +157,24 @@
 
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingPortfolio">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProduct" aria-expanded="true" aria-controls="collapseProduct">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProduct" aria-expanded="false" aria-controls="collapseProduct">
                                                 <h6>Portfolio and Study Management</h6>
                                             </button>
                                         </h2>
                                         <div id="collapseProduct" class="accordion-collapse collapse " aria-labelledby="headingPortfolio" data-bs-parent="#productAccordion">
                                             <div class="accordion-body">
                                                 <ul class="tech_feature_table_list">
-                                                    <li>Consolidated views across studies with data import support for investigators,
-                                                        sites, and contacts
+                                                    <li>Provides consolidated views across studies with data import support for investigators, sites, and contacts.
                                                     </li>
-                                                    <li>Calendar visibility for events scheduled within each study and by team member
+                                                    <li>Offers calendar visibility for events scheduled within each study and by team members.
                                                     </li>
-                                                    <li>Dashboards show portfolio and summary data points and visualizations by study,
-                                                        region, country and monitor with download capability
+                                                    <li>Dashboards display portfolio and summary data points, with visualizations by study, region, country, and monitor, including download capabilities.
                                                     </li>
-                                                    <li>Critical information such as subject visit schedule, CRA monitoring frequency,
-                                                        study milestones, protocol violations and study documents defined at the study
-                                                        level.
+                                                    <li>Defines critical information at the study level, including subject visit schedules, CRA monitoring frequency, study milestones, protocol violations, and study documents.
                                                     </li>
-                                                    <li>Outsourcing tab provides a simplistic yet comprehensive overview of study
-                                                        components and identifies external vendors by task, country and primary point of
-                                                        contact.
+                                                    <li>The outsourcing tab offers a straightforward yet comprehensive overview of study components, identifying external vendors by task, country, and primary point of contact.
                                                     </li>
-                                                    <li>Milestone management allows complete customization of the key dates for your
-                                                        study and country with visibility into at risk items, trending progress and date
-                                                        revisions.
+                                                    <li>Milestone management allows complete customization of key dates for study progress and events..
                                                     </li>
                                                 </ul>
                                             </div>
@@ -201,7 +183,7 @@
 
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingCountries">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCountries" aria-expanded="true" aria-controls="collapseCountries">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCountries" aria-expanded="false" aria-controls="collapseCountries">
                                                 <h6>Countries Planning and Management</h6>
                                             </button>
                                         </h2>
@@ -229,7 +211,7 @@
 
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingInvestigator">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInvestigator" aria-expanded="true" aria-controls="collapseInvestigator">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInvestigator" aria-expanded="false" aria-controls="collapseInvestigator">
                                                 <h6>Site and Investigator Management</h6>
                                             </button>
                                         </h2>
@@ -254,7 +236,7 @@
 
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingSubject">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSubject" aria-expanded="true" aria-controls="collapseSubject">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSubject" aria-expanded="false" aria-controls="collapseSubject">
                                                 <h6>Subject Management</h6>
                                             </button>
                                         </h2>
@@ -281,7 +263,7 @@
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingTeam">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTeam" aria-expanded="true" aria-controls="collapseTeam">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTeam" aria-expanded="false" aria-controls="collapseTeam">
                                                 <h6>Study Team Management</h6>
                                             </button>
                                         </h2>
@@ -305,7 +287,7 @@
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingWorkspace">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWorkspace" aria-expanded="true" aria-controls="collapseWorkspace">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWorkspace" aria-expanded="false" aria-controls="collapseWorkspace">
                                                 <h6>CRA Workspace</h6>
                                             </button>
                                         </h2>
@@ -330,7 +312,7 @@
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingSafety">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSafety" aria-expanded="true" aria-controls="collapseSafety">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSafety" aria-expanded="false" aria-controls="collapseSafety">
                                                 <h6>Regulatory Affairs and Safety</h6>
                                             </button>
                                         </h2>
@@ -354,7 +336,7 @@
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingAdditional">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAdditional" aria-expanded="true" aria-controls="collapseAdditional">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAdditional" aria-expanded="false" aria-controls="collapseAdditional">
                                                 <h6>Additional Details</h6>
                                             </button>
                                         </h2>
@@ -395,8 +377,8 @@
                             <h4>Technologies</h4>
                             <div class="services-list">
                                 <a href="/edc"><i class="bi bi-arrow-right-circle"></i><span>Electronic Data Capture</span></a>
-                                <a href="/ctms"><i class="bi bi-arrow-right-circle"></i><span>Clinical Trail Management Software</span></a>
-                                <a href="/etmf_tech"><i class="bi bi-arrow-right-circle"></i><span>Electronic Trail Master File</span></a>
+                                <a href="/ctms"><i class="bi bi-arrow-right-circle"></i><span>Clinical Trial Management Software</span></a>
+                                <a href="/etmf_tech"><i class="bi bi-arrow-right-circle"></i><span>Electronic Trial Master File</span></a>
                                 <a href="/irt"><i class="bi bi-arrow-right-circle"></i><span>Interactive Response Technology</span></a>
                             </div>
                         </div><!-- End Services List -->

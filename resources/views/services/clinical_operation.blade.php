@@ -26,10 +26,9 @@
                         <div class="portfolio-description">
 {{--                            <h2>Clinical Operation Services</h2>--}}
                             <p>
-                                <strong ">O</strong>ur core competency, project management includes comprehensive and consistent processes, which conform to global regulatory requirements. From start-up to completion, performance is monitored and measured against contractual timelines and project costs are tracked to ensure adherence to agreed budgets
-                            </p>
+                                Our core competency, project management, includes comprehensive and consistent processes that conform to global regulatory requirements.                            </p>
                             <p>
-                                Eric Solutions offers advantage of one stop solution by offering Management systems such as Clinical Trial Management Software. Since services and systems are offered by Eric Solutions, we provide solution with shorter timeline and better costing.
+                            Since both services and systems are offered by Eric Solutions, we provide solutions with shorter timelines and better costing.
                             </p>
 
 
@@ -37,10 +36,10 @@
                         <h3>Services on offer</h3>
                         <ul class="service_offer">
                             <li ><i class="bi bi-check-circle "></i> <span>Project management of clinical development programs</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Quality clinical monitoring - on-site, remote and centralized monitoring: Eric Solutions offers Remote Monitoring platform as part of Decentralized Clinical Trial.</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>Quality clinical monitoring—on-site, remote, and centralized: Eric Solutions offers a remote monitoring platform as part of decentralized clinical trials.</span></li>
                             <li><i class="bi bi-check-circle"></i> <span>Optimized resourcing</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Smart study start-up – Optimized site Onboarding and Regulatory Approvals</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Site and patient solutions - recruiting and engaging patients. Eric Solutions has partnership with leading site network</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>Smart study start-up—optimized site onboarding and regulatory approvals</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>Site and patient solutions—recruiting and engaging patients. Eric Solutions has partnerships with leading site networks</span></li>
                         </ul>
 
                         <p>
@@ -61,11 +60,11 @@
                             </thead>
                             <tbody>
                             <tr>
-                                <td>Accurate, complete, and consistent data collection, minimizing errors and discrepancies</td>
-                                <td>Assessing participant safety and well-being and promptly addressing adverse events and safety concerns</td>
-                                <td>Ensuring your trial is conducted in alignment with the study protocol and in accordance with defined procedures and eligibility criteria</td>
-                                <td>Ensuring compliance with regulatory requirements and guidelines, including GCP standards</td>
-                                <td>Facilitating timely and accurate reporting of trial progress, data, and safety information. Eric offers option to use In-house Eric Solutions Systems</td>
+                                <td>Accurate, complete and consistent data collection, minimizing errors and discrepancies.</td>
+                                <td>Assessing participant safety and well-being, promptly addressing adverse events and safety concerns.</td>
+                                <td>Ensuring your trial is conducted in alignment with the study protocol and defined procedures.</td>
+                                <td>Ensuring compliance with regulatory requirements and guidelines, including GCP standards.</td>
+                                <td>Facilitating timely and accurate reporting of trial progress, data, and safety information.</td>
                             </tr>
                             </tbody>
                         </table>

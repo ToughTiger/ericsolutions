@@ -130,7 +130,7 @@
                         <li><a href="/#about"><span>About</span></a></li>
                         <li><a href="/#team"><span>Our Team</span></a></li>
                         <li><a href="/#location"><span>Locations</span></a></li>
-                        <li><a href="/#carrier"><span>Career</span></a></li>
+                        <li><a href="/#career"><span>Career</span></a></li>
 
 
                     </ul>

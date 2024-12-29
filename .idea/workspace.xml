@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a68b87a-472b-4d42-a5c2-4607f8dca7d3" name="Changes" comment="" />
+    <list default="true" id="3a68b87a-472b-4d42-a5c2-4607f8dca7d3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HubSpotController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HubSpotController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/HubSpotService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/HubSpotService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog/blogPost.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/blogPost.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog/singlePost.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/singlePost.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -514,6 +522,11 @@
       <workItem from="1731383759105" duration="1962000" />
       <workItem from="1731812969370" duration="14365000" />
       <workItem from="1731836737433" duration="2145000" />
+      <workItem from="1731840449645" duration="286000" />
+      <workItem from="1732551256438" duration="3346000" />
+      <workItem from="1732897780464" duration="8494000" />
+      <workItem from="1733055700073" duration="55000" />
+      <workItem from="1734528074402" duration="2690000" />
     </task>
     <servers />
   </component>

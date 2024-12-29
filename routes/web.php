@@ -72,7 +72,7 @@ Route::get('/irt',[TechnologyController::class,'irt']);
 //Post Routes
 
 Route::get('/posts',[HubSpotController::class,'blogs']);
-Route::get('/posts/{id}',[HubSpotController::class,'singleBlog']);
+Route::get('/{slug}',[HubSpotController::class,'singleBlog'])->where('slug', '.*');
 Route::get('/social-share', [HubSpotController::class, 'share']);
 
 Route::post('/comments',[CommentController::class,'store']);

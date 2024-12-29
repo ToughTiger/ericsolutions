@@ -17,7 +17,7 @@
 {{--                </nav>--}}
             </div>
         </div><!-- End Page Title -->
-
+{{--        @dd($post)--}}
         <div class="container">
             <div class="row">
 
@@ -186,9 +186,7 @@
                                 <button type="submit" id="search-button" title="Search"><i class="bi bi-search"></i></button>
                             </form>
 
-                        </div><!--/Search Widget -->
-
-                        <!-- Categories Widget -->
+                        </div>
                         <div class="categories-widget widget-item">
 
                             <h3 class="widget-title">Categories</h3>

@@ -20,13 +20,10 @@
                         <div class="portfolio-description">
                             {{--                            <h2>Clinical Operation Services</h2>--}}
                             <p>
-                                <strong>ERIC</strong> is involved in the analysis of data from all clinical stages of
-                                clinical development with variety of designs and statistical hypotheses, including
-                                interim analysis, using adaptive, sequential and sample size adjustment designs.
+                            ERIC is involved in the analysis of data from all stages of clinical development, utilizing various designs and statistical hypotheses, including interim analyses, and employing adaptive, sequential, and sample size adjustment designs.
                             </p>
                             <p>
-                                We have been involved in Independent Data Monitoring Committees to assist in decision
-                                making process or to offer statistical support independent from sponsor.
+                            We have participated in Independent Data Monitoring Committees to assist in the decision-making process and to provide statistical support independent of the sponsor.
                             </p>
 
 
@@ -34,11 +31,11 @@
                         <h3>The Statistical Services offered by ERIC</h3>
                         <ul class="service_offer">
                             <li><i class="bi bi-check-circle "></i> <span>Sample Size Calculation</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Statistical input in the Protocol.</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Statistical analysis Plan</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Interim analysis</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Tables, Listings, Figure</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Statistical report</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>Statistical Input in the Protocol</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>Statistical Analysis Plan</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>Interim Analysis</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>Tables, Listings, Figures</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>Statistical Report</span></li>
                             <li><i class="bi bi-check-circle"></i> <span>CDISC Data Submission for USFDA</span></li>
                         </ul>
                     </div>

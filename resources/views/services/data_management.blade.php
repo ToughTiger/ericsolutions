@@ -5,7 +5,7 @@
         <!-- Page Title -->
         <div class="page-title dark-background">
             <div class="container position-relative">
-                <h1>Data Management Service</h1>
+                <h1>Data Management Services</h1>
                 {{--                <p>Our core competency, project management includes comprehensive and consistent processes, which conform to global regulatory requirements. From start-up to completion, performance is monitored and measured against contractual timelines and project costs are tracked to ensure adherence to agreed budgets</p>--}}
                 {{--                <nav class="breadcrumbs">--}}
                 {{--                    <ol>--}}
@@ -24,12 +24,14 @@
 
                     <div class="col-lg-8" data-aos="fade-up">
                         <div class="portfolio-description">
-                            {{--                            <h2>Clinical Operation Services</h2>--}}
+                        
                             <p>
-                                <strong>The</strong> Clinical Data Management (CDM) team is involved in all aspects of Clinical Trial Process, from CRF/EDC development till DB Lock. At ERIC we have implemented Industry Recognized and accepted data management systems, which enable us to deliver high quality outputs with confidence
+                            Our Clinical Data Management (CDM) team is involved in all aspects of the clinical trial process, from Case Report Form (CRF) and Electronic Data Capture (EDC) development to database lock.At ERIC, we have implemented industry-recognized and accepted data management systems, enabling us to deliver high-quality outputs with confidence.
                             </p>
                             <p>
-                                THE CDM team has extensive Data Management experience across a broad range of Therapeutic areas, using both EDC and paper systems. The CDM group applies quality norms and procedures to complete complex clinical programs successfully. Experienced and Trained resources at ERIC ensure that each study is accomplished using most efficient technologies available
+                            Our CDM team has extensive data management experience across a broad range of therapeutic areas, utilizing both EDC and paper-based systems. 
+                            The CDM group adheres to stringent quality standards and procedures to successfully complete complex clinical programs. 
+                            Our experienced and trained professionals at ERIC ensure that each study is conducted using the most efficient technologies available.
                             </p>
 
 
@@ -37,17 +39,17 @@
                         <h3>Data Management Services Offered by ERIC</h3>
                         <ul class="service_offer">
                             <li ><i class="bi bi-check-circle "></i> <span>CRF Design</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Database Design(eCRF/Paper.</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>Database Design (eCRF/Paper).</span></li>
                             <li><i class="bi bi-check-circle"></i> <span>DM/SAS Programming</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Data Entry(Blinded)</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>Data Entry (Blinded)</span></li>
                             <li><i class="bi bi-check-circle"></i> <span>Data Validation</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Clinical Data Codingng</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>External Data Handling(i.e. Central Lab etc.)</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>SAE Reconcillation</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>Clinical Data Coding</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>External Data Handling (i.e. Central Lab etc.)</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>SAE Reconciliation</span></li>
                             <li><i class="bi bi-check-circle"></i> <span>Medical Review</span></li>
                             <li><i class="bi bi-check-circle"></i> <span>Protocol Validation</span></li>
                             <li><i class="bi bi-check-circle"></i> <span>Database Closure</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Data Mapping(CDISC)</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>Data Mapping (CDISC)</span></li>
                         </ul>
 
                     </div>

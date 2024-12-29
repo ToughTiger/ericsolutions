@@ -29,7 +29,7 @@
                                 <strong>Eric</strong> Solutions offers Regulatory and GDPR compliant technologies with GenAI enhancements.
                             </p>
                             <p>
-                                ERIC’s Electronic Data Capture (EDC) makes it easier to capture your trial data and integrate it seamlessly with other data in your clinical trial ecosystem. ERIC EDC has one of the shortest build time, with more than 90% of our studies being deployed within the first 3 weeks.
+                            ERIC’s Electronic Data Capture (EDC) simplifies the process of capturing your trial data and integrating it seamlessly with other data in your clinical trial ecosystem. ERIC EDC offers one of the shortest build times, with more than 90% of our studies deployed within the first three weeks.
                             </p>
 
 
@@ -38,7 +38,7 @@
                         <h4 class="my-lg-3">Capture and Re-use Research Data from anywhere and anytime</h4>
 {{--                        <br>--}}
                         <p class="service_offer">
-                            Explore ERIC EDC, our most robust module, and how it can help you capture and manage all your study data in one centralized hub. And if your needs go beyond, easily layer in ERIC eConsent and ePRO to build a full ecosystem of research tools.
+                        Explore ERIC EDC, our most robust module, to see how it can help you capture and manage all your study data in one centralized hub. If your needs extend further, easily incorporate ERIC eConsent and ePRO to build a comprehensive ecosystem of research tools.
                         </p>
 
                         <div class="accordion" id="cookieAccordion">
@@ -51,13 +51,13 @@
                                 </h2>
                                 <div id="collapseDeploy" class="accordion-collapse collapse show" aria-labelledby="deployheading" data-bs-parent="#cookieAccordion">
                                     <div class="accordion-body">
-                                        <p>ERIC EDC is designed with usability in-mind for all, regardless of technical expertise.</p>
+                                        <p>ERIC EDC is designed with usability in mind for all users, regardless of technical expertise.</p>
                                         <div class="accordion-body">
 
                                             <ul class="services_offer">
-                                                <li><i class="bi bi-check-circle "></i><span>Build advanced eCRFs in minutes.</span></li>
+                                                <li><i class="bi bi-check-circle "></i><span>Create advanced eCRFs in minutes.</span></li>
                                                 <li><i class="bi bi-check-circle "></i><span>Deploy your study in as little as 3 weeks.</span></li>
-                                                <li><i class="bi bi-check-circle "></i> <span>Navigate study complexities with best-in-class support.</span></li>
+                                                <li><i class="bi bi-check-circle "></i> <span>Manage study complexities with best-in-class support.</span></li>
 
                                             </ul>
                                         </div>
@@ -73,11 +73,11 @@
                                 </h2>
                                 <div id="collapseDecentralise" class="accordion-collapse collapse" aria-labelledby="decentraliseHeading" data-bs-parent="#cookieAccordion">
                                     <div class="accordion-body">
-                                        <p>Connect and manage all trial components and integrations, in one place.</p>
+                                        <p>Connect and manage all trial components and integrations in one place.</p>
                                         <div class="accordion-body">
                                             <ul class="services_offer">
                                                 <li><i class="bi bi-check-circle "></i> <span>Integrate data from EHR, eCRF, ePRO/eCOA, laboratory, wearables, and other devices.</span></li>
-                                                <li><i class="bi bi-check-circle "></i><span>Work with any software or database in your clinical trial ecosystem with ERIC’s open API</span></li>
+                                                <li><i class="bi bi-check-circle "></i><span>Integrate with any software or database in your clinical trial ecosystem using ERIC’s open API.</span></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -92,13 +92,13 @@
                                 </h2>
                                 <div id="collapseVisibility" class="accordion-collapse collapse" aria-labelledby="collapseVisibility" data-bs-parent="#cookieAccordion">
                                     <div class="accordion-body">
-                                        <p>Monitor study progress and outcomes in real-time with ERIC’s study health dashboard and Customized Reports</p>
+                                        <p>Monitor study progress and outcomes in real-time with ERIC’s study health dashboard and customized reports.</p>
                                         <div class="accordion-body">
                                             <ul class="services_offer">
                                                 <li><i class="bi bi-check-circle "></i><span>Get an overview of study statistics as your studies are ongoing.</span></li>
-                                                <li><i class="bi bi-check-circle "></i><span>Track record data entry progress and outstanding queries.</span></li>
-                                                <li><i class="bi bi-check-circle "></i><span>View Verification Status (SDV) for Steps</span></li>
-                                                <li><i class="bi bi-check-circle "></i><span>Eric introduces enhanced analytical dashboards</span></li>
+                                                <li><i class="bi bi-check-circle "></i><span>Track data entry progress and outstanding queries.</span></li>
+                                                <li><i class="bi bi-check-circle "></i><span>View verification status (SDV) for steps.</span></li>
+                                                <li><i class="bi bi-check-circle "></i><span>ERIC introduces enhanced analytical dashboards.</span></li>
 
                                             </ul>
                                         </div>
@@ -124,9 +124,9 @@
                                             <div class="accordion-body">
 
                                                 <ul class="services_offer">
-                                                    <li><i class="bi bi-check-circle "></i><span>Start with one of our pre-built eCRF templates.</span></li>
+                                                    <li><i class="bi bi-check-circle "></i><span>Begin with one of our pre-built eCRF templates.</span></li>
                                                     <li><i class="bi bi-check-circle "></i><span>Customize your form with 21 different field types.</span></li>
-                                                    <li><i class="bi bi-check-circle "></i><span>Clone and re-use forms as you build more studies.</span></li>
+                                                    <li><i class="bi bi-check-circle "></i><span>Clone and reuse forms as you develop additional studies.</span></li>
 
                                                 </ul>
                                             </div>
@@ -144,9 +144,9 @@
 
                                             <div class="accordion-body">
                                                 <ul class="services_offer">
-                                                    <li><i class="bi bi-check-circle "></i><span>Save study data in real-time.</span></li>
+                                                    <li><i class="bi bi-check-circle "></i><span>Store study data in real-time.</span></li>
                                                     <li><i class="bi bi-check-circle "></i><span>Store it automatically on certified, compliant servers in any country.</span></li>
-                                                    <li><i class="bi bi-check-circle "></i><span>Protect your data with 25-year data retention, field-level encryption, and two-factor authentication.</span></li>
+                                                    <li><i class="bi bi-check-circle "></i><span>Safeguard your data with 25-year retention, field-level encryption, and two-factor authentication.</span></li>
 
                                                 </ul>
                                             </div>
@@ -165,8 +165,8 @@
 
                                             <div class="accordion-body">
                                                 <ul class="services_offer">
-                                                    <li><i class="bi bi-check-circle "></i><span>Simplify protocol amendments by using a tool that’s secure, trackable, and easy-to-validate.</span></li>
-                                                    <li><i class="bi bi-check-circle "></i><span>Easily create test environments for each of your subsequent studies.</span></li>
+                                                    <li><i class="bi bi-check-circle "></i><span>Simplify protocol amendments with a tool that’s secure, trackable, and easy to validate.</span></li>
+                                                    <li><i class="bi bi-check-circle "></i><span>Easily create test environments for your subsequent studies.</span></li>
 
                                                 </ul>
                                             </div>
@@ -185,9 +185,9 @@
 
                                             <div class="accordion-body">
                                                 <ul class="services_offer">
-                                                    <li><i class="bi bi-check-circle "></i><span>Meet compliance requirements worldwide such as FDA CFR Part 11, GDPR (EU), ICH GCP (HIPAA, US), ISO 27001, and ISO 9001.</span></li>
+                                                    <li><i class="bi bi-check-circle "></i><span>Comply with global standards such as FDA CFR Part 11, GDPR (EU), ICH GCP, HIPAA (US), ISO 27001, and ISO 9001.</span></li>
                                                     <li><i class="bi bi-check-circle "></i><span>Align with GCP, HL7 FHIR, and other regulatory guidelines</span></li>
-                                                    <li><i class="bi bi-check-circle "></i><span> class="text-bold">Align with GCP, HL7 FHIR, and other regulatory guidelines</span></li>
+                                                    <li><i class="bi bi-check-circle "></i><span>Adhere to GCP, HL7 FHIR, and other regulatory guidelines.</span></li>
 
                                                 </ul>
                                             </div>
@@ -205,8 +205,8 @@
                             <h4>Technologies</h4>
                             <div class="services-list">
                                 <a href="/edc" ><i class="bi bi-arrow-right-circle"></i><span>Electronic Data Capture</span></a>
-                                <a href="/ctms"><i class="bi bi-arrow-right-circle"></i><span>Clinical Trail Management Software</span></a>
-                                <a href="/etmf_tech"><i class="bi bi-arrow-right-circle"></i><span>Electronic Trail Master File</span></a>
+                                <a href="/ctms"><i class="bi bi-arrow-right-circle"></i><span>Clinical Trial Management Software</span></a>
+                                <a href="/etmf_tech"><i class="bi bi-arrow-right-circle"></i><span>Electronic Trial Master File</span></a>
                                 <a href="/irt"><i class="bi bi-arrow-right-circle"></i><span>Interactive Response Technology</span></a>
 
                             </div>
