@@ -160,8 +160,8 @@
                 <li class="dropdown"><a href="/#technology"><span>A I Technology</span> <i
                             class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
-                        <li><a href="/protocol"><span>Protocol Writer</span></a></li>
-                        <li><a href="/csr"><span>CSR Writer</span></a></li>
+                        <li><a href="#"><span>Protocol Writer</span></a></li>
+                        <li><a href="#"><span>CSR Writer</span></a></li>
                     </ul>
                 </li>
 
